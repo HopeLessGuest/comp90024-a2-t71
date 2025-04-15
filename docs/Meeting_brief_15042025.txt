@@ -1,0 +1,23 @@
+Meeting brief 15/04/2025
+
+Interesting topics:
+
+- views on Trump and tariff
+- inflation
+- OA and doping behaviours of tennis winners
+- Australian election 2025
+- transportation, metro tunnel
+
+To-do:
+
+- Create a key pair on Kubernetes Cluster
+- Perform a preliminary data fetch from either source based on a topic
+
+To-install (Windows):
+
+As described in the link below:
+https://gitlab.unimelb.edu.au/feit-comp90024/comp90024
+- OpenStack client
+- JQ
+- kubectl
+- Helm

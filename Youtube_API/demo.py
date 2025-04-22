@@ -29,8 +29,7 @@ video_statistics = youtube.videos().list(
     id=','.join(video_ids)
 ).execute()
 
-
-
+# save data to files
 with open('youtube_video_search_data.json', 'w', encoding='utf-8') as f:
     json.dump(search_response, f, ensure_ascii=False, indent=2)
 

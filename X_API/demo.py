@@ -2,7 +2,7 @@ import tweepy
 import json
 import os
 
-BEARER_TOKEN = os.getenv("TWITTER_BEARER_TOKEN", "AAAAAAAAAAAAAAAAAAAAAEQZ0wEAAAAAjde%2B77vHE41voFObAtA0v%2FPzHpI%3DzJfGbeQmPsrJMvooz61WWm3RENVjCxf5KMfqfLqXCFpmc6Zrjb")
+BEARER_TOKEN = os.getenv("TWITTER_BEARER_TOKEN", "AAAAAAAAAAAAAAAAAAAAAEQZ0wEAAAAAGCYQlufJzfJGEVOWdYsR%2BvJxkFw%3DiRkWJ4Bn7USKzYTu7mb95YSnx5AqJEuK43ELHshioVpGN60Sel")
 
 # Initialize Twitter client using Tweepy
 client = tweepy.Client(bearer_token=BEARER_TOKEN)

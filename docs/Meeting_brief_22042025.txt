@@ -1,0 +1,40 @@
+Meeting brief on 22/04/2025
+
+To-do:
+- Create data harvester on fission
+
+Next meeting:
+29/04/2025 5-6pm
+
+Fission:
+- Possible bug, problem related to use commands with "curl", jq error
+
+Xinhe:
+- Youtube API
+	- one page: 50 max
+	- 10000 per day
+- X API
+	- 100 per month
+	- not feasible
+
+Yifu:
+- Mastodon
+	- not enough data
+- reddit
+	- plenty data
+
+Kexing:
+- not enough data for inflation
+
+Anqi
+- Mastodon
+	- 100 posts per page, 30 pages, only one post about tennis
+- Reddit
+	- 200 posts per subreddit, 4 subreddits, 44 posts about tennis
+- Bluesky
+	- need to specify users to get their posts
+
+Jiejun:
+- Guide through fission
+	Deleting order:
+	http trigger, function, package, environment

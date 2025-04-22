@@ -7,13 +7,17 @@ youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 search_response = youtube.search().list(
     part='snippet',
-    q='Melbourne',
+    q='Trump',
     type='video',
-    maxResults=5
+    regionCode='AU',
+    maxResults=50
 ).execute()
 
-video_ids = [item['id']['videoId'] for item in search_response['items']]
-
+video_ids = [
+    item['id']['videoId']
+    for item in search_response['items']
+    if item.get('id', {}).get('kind') == 'youtube#video' and 'videoId' in item['id']
+]
 
 video_response = youtube.videos().list(
     part='snippet,statistics,contentDetails',
@@ -27,7 +31,7 @@ video_statistics = youtube.videos().list(
 
 
 
-with open('youtube_video_data.json', 'w', encoding='utf-8') as f:
+with open('youtube_video_search_data.json', 'w', encoding='utf-8') as f:
     json.dump(search_response, f, ensure_ascii=False, indent=2)
 
 with open('youtube_video_detail.json', 'w', encoding='utf-8') as f:

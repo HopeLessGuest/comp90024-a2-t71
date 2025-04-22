@@ -1,0 +1,1706 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "abAvZe_aI0fhN0s8f2L2No3bdzQ",
+  "nextPageToken": "CDIQAA",
+  "regionCode": "AU",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8YvtqGtS4jRN0vXiXkzolUqv0g4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "odcD7A63TaM"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T04:32:20Z",
+        "channelId": "UCO0akufu9MOzyz3nvGIXAAw",
+        "title": "Donald Trump unleashes in hilariously savage Easter message",
+        "description": "Donald Trump has unleashed this Easter, using his Easter message on Truth Social to slam all of his detractors whilst still ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/odcD7A63TaM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/odcD7A63TaM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/odcD7A63TaM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sky News Australia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T04:32:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SHQfcjAGt2xAt_EafDhAGDsCjtE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3EqlqUO6hzU"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T14:45:01Z",
+        "channelId": "UCXIJgqnII2ZOINSWNOGFThA",
+        "title": "Trump threatens to abandon Russia-Ukraine peace talks",
+        "description": "Fox News senior strategic analyst Jack Keane joins 'America's Newsroom' to discuss the latest on the Trump administration's ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3EqlqUO6hzU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3EqlqUO6hzU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3EqlqUO6hzU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fox News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T14:45:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "q_ZzpYv_tK3NHomM4oee_MC1A7A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qF1kkvYvrA8"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T20:02:34Z",
+        "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+        "title": "US stocks tumble as Trump again rips Federal Reserve chair",
+        "description": "US stocks and the dollar tumbled Monday as investors assessed continued tariff uncertainty and the implications of President ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qF1kkvYvrA8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qF1kkvYvrA8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qF1kkvYvrA8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CNN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T20:02:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "EMMc61vSxfWUhwv_MDfBv87KgFk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pYBhd6PTJvA"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T20:00:41Z",
+        "channelId": "UChirEOpgFCupRAk5etXqPaA",
+        "title": "Trump Says Powell Will Be Out Fast If He Wants It",
+        "description": "President Donald Trump said he could force out Federal Reserve Chair Jerome Powell, rebuking the notion that the US central ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pYBhd6PTJvA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pYBhd6PTJvA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pYBhd6PTJvA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Bloomberg News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T20:00:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hvwl5CxwTRX_x1KeJWDQ246JWPw",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCAql2DyGU2un1Ei2nMYsqOA"
+      },
+      "snippet": {
+        "publishedAt": "2015-03-17T01:02:06Z",
+        "channelId": "UCAql2DyGU2un1Ei2nMYsqOA",
+        "title": "Donald J Trump",
+        "description": "This is the official YouTube Channel for President Donald J. Trump.",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AIdro_lPLrJsdqWjnyzy434CTykZGViJljniLNPJwKhNu4WcTjk=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AIdro_lPLrJsdqWjnyzy434CTykZGViJljniLNPJwKhNu4WcTjk=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AIdro_lPLrJsdqWjnyzy434CTykZGViJljniLNPJwKhNu4WcTjk=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "Donald J Trump",
+        "liveBroadcastContent": "none",
+        "publishTime": "2015-03-17T01:02:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Qy9zor9VanPKNKLHS9eT8E3BbMM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "afcfj8zCaEo"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T04:15:10Z",
+        "channelId": "UCef1-8eOpJgud7szVPlZQAQ",
+        "title": "US Congress LIVE |&#39;Countdown To Impeachment&#39;: Rep. Green Bombshell On Trump Over  &quot;Art of the Steal&quot;",
+        "description": "Rep. Al Green launches a fiery rebuke against President Trump's aggressive tariff policies, slamming them as the \"Art of the Steal\" ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/afcfj8zCaEo/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/afcfj8zCaEo/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/afcfj8zCaEo/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CNN-News18",
+        "liveBroadcastContent": "live",
+        "publishTime": "2025-04-21T04:15:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Rpt6iUt4OUzJjFHPQ1SCR4BBy74",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rZ4GMUEGne8"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-22T01:15:07Z",
+        "channelId": "UCT4Jg8h03dD0iN3Pb5L0PMA",
+        "title": "Los ataques de Trump a Powell hunden al dólar",
+        "description": "El dólar estadounidense cae a su nivel más bajo en tres años. La incertidumbre generada por los ataques a la Fed y los anuncios ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rZ4GMUEGne8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rZ4GMUEGne8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rZ4GMUEGne8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "DW Español",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-22T01:15:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Rf0cAhwaIjvVcsY-qAd8yPl5CJg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CczZFid-zzM"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-20T22:00:10Z",
+        "channelId": "UCVFyE93TCjUg19FbltaCPrw",
+        "title": "Trump y su Pérdida de Apoyo: La Verdad Detrás de las Encuestas",
+        "description": "Las encuestas de CNN muestran cómo el presidente Trump ha perdido simpatías entre los independientes debido a sus guerras ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CczZFid-zzM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CczZFid-zzM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CczZFid-zzM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MegaTV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-20T22:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "P-OHIss_b8P33aKmQ7_anfxV6ro",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Ir4Ogc3hK_M"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T16:30:03Z",
+        "channelId": "UCDRIjKy6eZOvKtOELtTdeUA",
+        "title": "Japan STANDS UP To Trump On Trade",
+        "description": "Ryan and Saagar discuss Japan standing up to Trump on trade. Sign up for a PREMIUM Breaking Points subscriptions for full ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ir4Ogc3hK_M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ir4Ogc3hK_M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ir4Ogc3hK_M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Breaking Points",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T16:30:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VqSw2IwbLEowUcmN_CXfwqTeDhI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GPb-1puaDO0"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-20T14:00:31Z",
+        "channelId": "UC3jeOyNmord1wahN3sFYO9Q",
+        "title": "PRAWDZIWIE ZMARTWYCHWSTAŁ! Donald Trump o ofierze Jezusa",
+        "description": "Prezydent USA Donald Trump z okazji Świąt Wielkanocy zorganizował specjalne spotkanie religijne w Białym Domu. Podczas ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GPb-1puaDO0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GPb-1puaDO0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GPb-1puaDO0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Biały Kruk",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-20T14:00:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "jLVAC8QmcDetyE_dJi_kMtldoBA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Ptk9dwT-euo"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T18:30:34Z",
+        "channelId": "UCZMsvbAhhRblVGXmEXW8TSA",
+        "title": "UKRAINE-KRIEG: &quot;Einigung noch diese Woche?&quot;! Trump-Satz lässt aufhorchen! Gespräche mit Moskau fix",
+        "description": "UKRAINE-KRIEG: \"Einigung noch diese Woche?\"! Trump-Satz lässt aufhorchen! Gespräche mit Moskau fix In den Bemühungen ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ptk9dwT-euo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ptk9dwT-euo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ptk9dwT-euo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WELT Nachrichtensender",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T18:30:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "heYGGg5LSE1CKZ596L5smtFZvhs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9BtHbifLs8c"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T15:15:01Z",
+        "channelId": "UCwd8Byi93KbnsYmCcKLExvQ",
+        "title": "ÚLTIMA HORA | Lunes negro en Wall Street: el enfrentamiento Trump-Powell tumba a los mercados",
+        "description": "ÚLTIMA HORA | Lunes negro en Wall Street: el enfrentamiento Trump-Powell tumba a los mercados Wall Street arranca la ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9BtHbifLs8c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9BtHbifLs8c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9BtHbifLs8c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Negocios TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T15:15:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "M384I-4Lmdo-SlOhsdNbAaBCco0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-gGHQQ4jUHI"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T15:00:01Z",
+        "channelId": "UCCXoCcu9Rp7NPbTzIvogpZg",
+        "title": "Trump ally defends tariffs: US holds &#39;a lot of cards against China&#39;",
+        "description": "Fox News contributor Gerry Baker discusses whether President Donald Trump's tariffs get in the way of tax reform on 'Varney & Co ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-gGHQQ4jUHI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-gGHQQ4jUHI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-gGHQQ4jUHI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fox Business",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T15:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NKBT3tYDLbNx9-UELT0oLoi7QKY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0VgdbEBw2sA"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T16:40:58Z",
+        "channelId": "UCwd8Byi93KbnsYmCcKLExvQ",
+        "title": "ÚLTIMA HORA | Trump ante el &quot;caos total en el Pentágono&quot;: &quot;son noticias falsas&quot;",
+        "description": "ÚLTIMA HORA | Trump ante el \"caos total en el Pentágono\": \"son noticias falsas\" El presidente de Estados Unidos, Donald Trump ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0VgdbEBw2sA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0VgdbEBw2sA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0VgdbEBw2sA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Negocios TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T16:40:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "M0dtm7kDNbeE4Xj_7wO_pDklhhQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YWtBCWCMOdE"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T11:01:02Z",
+        "channelId": "UC9r9HYFxEQOBXSopFS61ZWg",
+        "title": "Trump CRUMBLES from AWFUL NEWS…PANIC POSTS!",
+        "description": "MeidasTouch host Ben Meiselas reports on Donald Trump lashing out all day after he was hit with more bad news about his ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YWtBCWCMOdE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YWtBCWCMOdE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YWtBCWCMOdE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MeidasTouch",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T11:01:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "X2bvO6z-z1xcvwQa11htDsxpCYU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9XG8qMIan04"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T10:00:25Z",
+        "channelId": "UCewhc0fvja891XkpIPGRMxQ",
+        "title": "Ukraine : Donald Trump espère un accord &quot;dans la semaine&quot;｜LCI",
+        "description": "Donald Trump a dit espérer dimanche un accord \"dans la semaine\" entre la Russie et l'Ukraine, dans un bref message diffusé sur ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9XG8qMIan04/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9XG8qMIan04/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9XG8qMIan04/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "LCI",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T10:00:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2G3anCG51S806Df5YNg01aqJiJg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6ZJkslZlJa4"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T13:00:17Z",
+        "channelId": "UCFxHplbcoJK9m70c4VyTIxg",
+        "title": "Trump vs China: posible golpe económico con aranceles récord | Mercados en Perspectiva",
+        "description": "Las nuevas propuestas de Donald Trump para imponer aranceles sin precedentes a productos chinos podrían desatar un fuerte ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6ZJkslZlJa4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6ZJkslZlJa4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6ZJkslZlJa4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MILENIO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T13:00:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9HH-ZUwedl4b3by4JzgFAgJ3JMU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "faFOdjErSeg"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T20:00:34Z",
+        "channelId": "UC9r9HYFxEQOBXSopFS61ZWg",
+        "title": "Trump gets Quickly OUTPLAYED in LOSING TRADE WAR",
+        "description": "MeidasTouch host Ben Meiselas reports on Donald Trump getting crushed by our foreign adversaries as he continues to fail in his ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/faFOdjErSeg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/faFOdjErSeg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/faFOdjErSeg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MeidasTouch",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T20:00:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GGOawAcOzfIx0QWHNq9LSsOKh3M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zsDCsftefVc"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T11:30:49Z",
+        "channelId": "UCwd8Byi93KbnsYmCcKLExvQ",
+        "title": "LAS NOTICIAS: Trump enfrenta un nuevo escándalo en EEUU, muere el Papa Francisco y China advierte",
+        "description": "LAS NOTICIAS: Trump enfrenta un nuevo escándalo en EEUU, muere el Papa Francisco y China advierte El secretario de ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zsDCsftefVc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zsDCsftefVc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zsDCsftefVc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Negocios TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T11:30:49Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hSoB-JFht7cfh5wH2HthAO7a7HM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OZbCyBMfy2c"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-15T03:00:16Z",
+        "channelId": "UCwWhs_6x42TyRM4Wstoq8HA",
+        "title": "Jon Stewart on Kilmar Abrego Garcia’s Deportation and How Trump Fails to Deliver | The Daily Show",
+        "description": "Jon Stewart measures Trump's weight on the authoritarian scale. Between the president's refusal to correct the wrongful ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OZbCyBMfy2c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OZbCyBMfy2c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OZbCyBMfy2c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Daily Show",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-15T03:00:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ci3MpyjOv1cWnCzxGnEG52DVlOk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JJR7Q2kQgI0"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T19:17:43Z",
+        "channelId": "UCXIJgqnII2ZOINSWNOGFThA",
+        "title": "Trump trolls Biden for letting Easter Bunny lead him away from the media #foxnews #trump #shorts",
+        "description": "President Trump took a trip down memory lane to recall the time the Easter Bunny stopped President Biden from answering the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JJR7Q2kQgI0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JJR7Q2kQgI0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JJR7Q2kQgI0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fox News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T19:17:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "CoFa_M-r7Mb_ezPZyLC5fnDw5es",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "O3QiXZmQBrE"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-15T03:45:06Z",
+        "channelId": "UCa6vGFO9ty8v5KZJXQxdhaw",
+        "title": "Trump Brags About His “Excellent Health,” Celebrities Launch into Space &amp; More Tariff Confusion",
+        "description": "A 5.2 earthquake hit right outside San Diego this morning, a group of celebrity women launched into space on Jeff Bezos' Blue ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/O3QiXZmQBrE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/O3QiXZmQBrE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/O3QiXZmQBrE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Jimmy Kimmel Live",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-15T03:45:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BOieCqmUyROlEgG53Uc4KTsWnMs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2U2FL7ClH3M"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T09:24:23Z",
+        "channelId": "UCb1Ti1WKPauPpXkYKVHNpsw",
+        "title": "&#39;He deserves a break&#39;: Trump &#39;admirer&#39; vs Ben Kentish | LBC",
+        "description": "Self-confessed Trump 'admirer' Anastasia tries to justify to Ben Kentish why she thinks he 'deserves a break'. #lbc #benkentish ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2U2FL7ClH3M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2U2FL7ClH3M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2U2FL7ClH3M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "LBC",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T09:24:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xTrQBJyqQkvwGSoGADGSxeqkX6s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "O2c1eK8uebw"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T16:00:37Z",
+        "channelId": "UCvixJtaXuNdMPUGdOPcY8Ag",
+        "title": "Trump adviser has mental breakdown on live TV #shorts",
+        "description": "Become a Member: https://www.davidpakman.com/membership Become a Patron: https://www.patreon.com/davidpakmanshow ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/O2c1eK8uebw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/O2c1eK8uebw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/O2c1eK8uebw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "David Pakman Show",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T16:00:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "EhZWzmmfYXcj3r3xuXWvTLX_BsE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "U7sSOBZTVzM"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-20T21:44:55Z",
+        "channelId": "UCvdwhh_fDyWccR42-rReZLw",
+        "title": "Milhares de pessoas protestam contra Trump nos EUA | AGORA CNN",
+        "description": "Milhares de pessoas se reuniram em diversas cidades dos Estados Unidos para protestar contra o governo de Donald Trump.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/U7sSOBZTVzM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/U7sSOBZTVzM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/U7sSOBZTVzM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CNN Brasil",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-20T21:44:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "EnDwYoW8cSA6UfhBWWx3S5CFgg8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mSYMPM3F4d0"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T09:01:07Z",
+        "channelId": "UCGN9JsnkvK05v2lnTI_-uGA",
+        "title": "Tarif Trump Ancam QRIS &amp; GPN, Kok Bisa?",
+        "description": "Sistem pembayaran digital Indonesia, seperti QRIS dan Gerbang Pembayaran Nasional atau GPN menjadi sorotan dalam ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mSYMPM3F4d0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mSYMPM3F4d0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mSYMPM3F4d0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CNBC Indonesia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T09:01:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lAll8k3CaRlPSDXm3tLHtFtDwXA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jnmDlymFOpE"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-20T14:00:54Z",
+        "channelId": "UCZMsvbAhhRblVGXmEXW8TSA",
+        "title": "USA: Luft für Trump wird dünner! Flächenbrand? Proteste gegen US-Präsidenten gehen weiter",
+        "description": "USA: Luft für Trump wird dünner! Flächenbrand? Proteste gegen US-Präsidenten gehen weiter In den USA sind am Karsamstag ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jnmDlymFOpE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jnmDlymFOpE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jnmDlymFOpE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WELT Nachrichtensender",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-20T14:00:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "F8Zf95mi8iExfMF5w8dw1tEMtIQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "z7537Sij7Rw"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-20T16:08:34Z",
+        "channelId": "UC7QZIf0dta-XPXsp9Hv4dTw",
+        "title": "EE.UU.: TRUMP CUMPLE TRES MESES de su SEGUNDO MANDATO entre PROTESTAS | RTVE Noticias",
+        "description": "Se cumplen los primeros tres meses desde que el presidente estadounidense Donald Trump volvió a la Casa Blanca. En tan solo ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/z7537Sij7Rw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/z7537Sij7Rw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/z7537Sij7Rw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "RTVE Noticias",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-20T16:08:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kZtr7kYtgG7nvvxW0gpsyVfAqVU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BR7O-TSmVOQ"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T13:53:43Z",
+        "channelId": "UC4OqEJz6oABzz_7nu29zF3A",
+        "title": "Trump tariffs: China accuses U.S. of &#39;economic bullying&#39;; returning Boeing orders",
+        "description": "China is now warning other countries not to strike trade deals with the U.S. that would impact Chinese interests. China is accusing ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BR7O-TSmVOQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BR7O-TSmVOQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BR7O-TSmVOQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "FOX 26 Houston",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T13:53:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9wylP3lvbYIpPulJmRBau3iEF3Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DfWhJDwzkbU"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T07:45:00Z",
+        "channelId": "UCtc-a9ZUIg0_5HpsPxEO7Qg",
+        "title": "Ticaret Savaşında Çin&#39;den ABD&#39;ye Gözdağı! Trump&#39;ın Hamlesi Altını Uçurdu!",
+        "description": "Henüz Abone Değilseniz, Türkiye ve Dünya'dan En Güncel Haberler İçin Haber Global'e Abone Olun: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DfWhJDwzkbU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DfWhJDwzkbU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DfWhJDwzkbU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Haber Global",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T07:45:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "A83PpmB4IdBeq27tKa5NpOb56xU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "J9GiXOHYsqw"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T03:00:30Z",
+        "channelId": "UCGN9JsnkvK05v2lnTI_-uGA",
+        "title": "Trump Mulai Komunikasi Dengan China, Perang Dagang Segera Berakhir?",
+        "description": "Presiden Amerika Serikat, Donald Trump, mengatakan negaranya, sedang menjalin komunikasi dengan China, untuk mencapai ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J9GiXOHYsqw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J9GiXOHYsqw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J9GiXOHYsqw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CNBC Indonesia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T03:00:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HtssvAEnjTT3qhkGIB3U5WIHkb0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7tkPeOswPBs"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-20T14:00:11Z",
+        "channelId": "UCvixJtaXuNdMPUGdOPcY8Ag",
+        "title": "Trump FULLY turning on Ukrainian President Zelensky #shorts",
+        "description": "Become a Member: https://www.davidpakman.com/membership Become a Patron: https://www.patreon.com/davidpakmanshow ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7tkPeOswPBs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7tkPeOswPBs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7tkPeOswPBs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "David Pakman Show",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-20T14:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NIXRYr1rLzlU4n5RR9g7F13Phj8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TyknZpJfcSc"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-20T06:30:14Z",
+        "channelId": "UC9GGzAhhvhJO1hL10-BcgNA",
+        "title": "Trois mois après son investiture, Trump est-il déjà lâché par ses électeurs ?",
+        "description": "Sur TikTok, des Américains se disant MAGA, le slogan des supporters de Trump, mais désormais repentis se multiplient.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TyknZpJfcSc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TyknZpJfcSc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TyknZpJfcSc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "LeHuffPost",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-20T06:30:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZSV1ybWf5E4OzyR_zdAn62yjX5w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BtUDrpOX7oM"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T13:00:29Z",
+        "channelId": "UCqboxXgo9yQ0oVO5anr_jtQ",
+        "title": "Donald Trump - Osterbotschaft sorgt für Entsetzen",
+        "description": "Unterstuetzt mich direkt als Member: https://www.youtube.com/channel/UCqboxXgo9yQ0oVO5anr_jtQ/join Support via Paypal ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BtUDrpOX7oM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BtUDrpOX7oM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BtUDrpOX7oM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sascha Pallenberg",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T13:00:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oPm_dRQ4_g5VKs-ZT4fLBLzaFZ4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NkVDKT0FGrE"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-15T02:36:21Z",
+        "channelId": "UCaXkIU1QidjPwiAYu6GcHjg",
+        "title": "‘Cracks are showing everywhere’: New polling devastating for Trump on handling of economy",
+        "description": "\"Aspiring dictators who threaten to deport their own citizens are not strong, they are actually quite weak. And the cracks are ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NkVDKT0FGrE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NkVDKT0FGrE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NkVDKT0FGrE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MSNBC",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-15T02:36:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gFtjASgM9l0BBBKXX53fpoGFwrc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_KqJ17Av_Ys"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-17T20:14:53Z",
+        "channelId": "UCvAnclelY8eSq8GyPE19KTw",
+        "title": "President Trump &#39;not happy&#39; with Fed chair Powell&#39;s predictions on tariffs, inflation",
+        "description": "President Trump is not happy with Federal Reserve Chair Jerome Powell, telling the press if he wants Powell gone, “he'll be out of ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_KqJ17Av_Ys/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_KqJ17Av_Ys/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_KqJ17Av_Ys/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The National Desk",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-17T20:14:53Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "syJQyNIZT_AqN9W7D81TAiJYzN8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZQ-bj8ZVNjE"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-20T21:00:35Z",
+        "channelId": "UCoZgBjCPsHE8Qds1kEPLDgQ",
+        "title": "TRUMP se enfrenta a la RESERVA FEDERAL ¿Quién controla realmente la economía en EE.UU?",
+        "description": "La relación entre la Casa Blanca y la FED, el banco central de Estados Unidos, pasa por uno de sus momentos más tensos.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZQ-bj8ZVNjE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZQ-bj8ZVNjE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZQ-bj8ZVNjE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Economia y Desarrollo",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-20T21:00:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "d88mIDVN9go_g6IvPevdkyoxpSg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1wtTMer8jj0"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-20T11:06:51Z",
+        "channelId": "UClYUCB6tyZl50_7OcbgUHCA",
+        "title": "Điểm nóng Thế giới: Ông Trump rơi vào thế &#39;gậy ông đập lưng ông’; Ứng phó thuế với Trung Quốc?",
+        "description": "Chính trường Mỹ | Điểm nóng Thế giới: Ông Trump rơi vào thế 'gậy ông đập lưng ông'; Ứng phó thuế với Trung Quốc? - Biểu tình ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1wtTMer8jj0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1wtTMer8jj0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1wtTMer8jj0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "VẤN ĐỀ HÔM NAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-20T11:06:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gkHV04R7aMEMGWO3GDZe1y1RGHM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kY4bZU4-L-k"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-19T22:37:59Z",
+        "channelId": "UCUsm-fannqOY02PNN67C0KA",
+        "title": "Se desatan protestas masivas contra Donald Trump en varias ciudades de EE. UU. - Las Noticias",
+        "description": "Decenas de personas protestaron contra el presidente Donald Trump este sábado en Nueva York, coincidiendo con el 250 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kY4bZU4-L-k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kY4bZU4-L-k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kY4bZU4-L-k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NMás",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-19T22:37:59Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2IyK-ejQrXCSi33LxNH3AUYSBfg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WZ1LH1kAGo8"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-14T13:18:23Z",
+        "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+        "title": "&#39;Americans are not buying what Trump is selling them&#39;: Harry Enten breaks down new poll",
+        "description": "CNN chief data analyst Harry Enten breaks down the latest polls on how Americans feel about the economy and President Donald ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WZ1LH1kAGo8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WZ1LH1kAGo8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WZ1LH1kAGo8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CNN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-14T13:18:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OxmEXT78s4sOyURhQz4dm5ajcmQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xkSiaDFy2xg"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-22T01:48:14Z",
+        "channelId": "UC6GlScvpT6ivBytmu2HsunQ",
+        "title": "No wonder no one dares to gross Kai trump.#shortvideo #shorts #fyp #news #kaitrump #trump",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xkSiaDFy2xg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xkSiaDFy2xg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xkSiaDFy2xg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "DevonnaCarella",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-22T01:48:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "048xihrDK43CMSYc3X2Q2A2qrL8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SHm5zn8nIa0"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-20T08:15:41Z",
+        "channelId": "UCOEvEldWBMOHNdlzcofFa9w",
+        "title": "NÓNG: Biểu tình phản đối Tổng thống Trump bùng nổ rầm rộ khắp nước Mỹ | Báo VietNamNet",
+        "description": "Người biểu tình đã đổ xuống các đường phố trên khắp nước Mỹ trong làn sóng biểu tình thứ 2 vào tháng này để phản đối chương ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SHm5zn8nIa0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SHm5zn8nIa0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SHm5zn8nIa0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Báo VietNamNet",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-20T08:15:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ml6jBAPFh1mqW3qRmHx3GIJ32NU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rEBBFc_M6v8"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T15:34:44Z",
+        "channelId": "UCHLyP4MuA-JAFBCwxXOEDdA",
+        "title": "President Donald Trump remarks on Pope Francis&#39; death at White House Easter Egg Roll",
+        "description": "President Donald Trump spoke at the White House Easter Egg Roll on Monday, following the death of Pope Francis.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rEBBFc_M6v8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rEBBFc_M6v8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rEBBFc_M6v8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "FOX 5 Washington DC",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T15:34:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tU8wFI61xnRzMmzDc58MvJCjd04",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "sr8xlXh25hE"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-20T22:30:10Z",
+        "channelId": "UC9r9HYFxEQOBXSopFS61ZWg",
+        "title": "Trump HUMILIATED at TOWN HALL in DEEP RED District",
+        "description": "Francis Maxwell reports on the latest GOP town halls where voters showed their rage at Trump's disastrous presidency.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sr8xlXh25hE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sr8xlXh25hE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sr8xlXh25hE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MeidasTouch",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-20T22:30:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pzeI8B7qLQyKj0KTHq_B7vQCwWE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SW0A-8isB38"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-17T10:20:30Z",
+        "channelId": "UCWCEYVwSqr7Epo6sSCfUgiw",
+        "title": "Trump LIVE: US Govt&#39;s Gold Stolen? Trump&#39;s Huge Announcement After Elon Musk&#39;s Fort Knox Doubt| CPAC",
+        "description": "Trump LIVE: US Govt's Gold Stolen? Trump's Huge Announcement After Elon Musk's Fort Knox Doubt| CPAC Elon Musk | DOGE ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SW0A-8isB38/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SW0A-8isB38/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SW0A-8isB38/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MIRROR NOW",
+        "liveBroadcastContent": "live",
+        "publishTime": "2025-04-17T10:20:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XbU9tZolBRkUDVxLxnD7Z-ttOW8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nSUxFSlZQHo"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T00:00:50Z",
+        "channelId": "UCXIJgqnII2ZOINSWNOGFThA",
+        "title": "President Trump: We have a record number of car factories coming back",
+        "description": "President Donald Trump speaks to Fox Noticias about his financial agenda and about the control of the Panama Canal. #trump ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nSUxFSlZQHo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nSUxFSlZQHo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nSUxFSlZQHo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fox News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T00:00:50Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "jRB19bQqOA7Uua3bOqeGphe7FA8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "k0PhviW_vek"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-15T06:13:53Z",
+        "channelId": "UCaXkIU1QidjPwiAYu6GcHjg",
+        "title": "Trump exposed in hot mic moment planning further abuse of power",
+        "description": "Rachel Maddow shares video of Donald Trump talking with El Salvadoran President Nayib Bukele about his intention to deport ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/k0PhviW_vek/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/k0PhviW_vek/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/k0PhviW_vek/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MSNBC",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-15T06:13:53Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Pc_KYpN2eqavtvc66Etfa0L8J38",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xULIu0piNLQ"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-19T12:15:11Z",
+        "channelId": "UCuMo0RRtnNDuMB8DV5stEag",
+        "title": "Trump Press Sec. HUMILIATED After Fox DEMANDS Real Answers",
+        "description": "Trump's deportation machine just vanished a U.S. resident into a Salvadoran gulag—and now even Fox News is panicking as ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xULIu0piNLQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xULIu0piNLQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xULIu0piNLQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Rebel HQ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-19T12:15:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "EsdcFwGX2KDChQ2jNvr0USnnKTk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SMigNBNMi9A"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T17:56:58Z",
+        "channelId": "UCz8QaiQxApLq8sLNcszYyJw",
+        "title": "Trump Targets Made-In-China iPhones | Firstpost America | N18G",
+        "description": "Trump Targets Made-In-China iPhones | Firstpost America | N18G Apple's sleek iPhones may be Designed in California, but ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SMigNBNMi9A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SMigNBNMi9A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SMigNBNMi9A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Firstpost",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T17:56:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "etjzs8-Cps028ypYejsPpnxzzuk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3PISLcc7lD8"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-17T18:34:29Z",
+        "channelId": "UCYj2t05uU65UrlI1f0OGhlg",
+        "title": "#Meloni parla in italiano e incanta Donald #Trump: “It was beautiful”",
+        "description": "\"It was so beautiful\". Donald #Trump ascolta incantato la premier Giorgia #Meloni che risponde in italiano alla domanda di un ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3PISLcc7lD8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3PISLcc7lD8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3PISLcc7lD8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "TG La7",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-17T18:34:29Z"
+      }
+    }
+  ]
+}

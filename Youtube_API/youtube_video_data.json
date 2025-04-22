@@ -1,0 +1,182 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "HECTE559FDbfoQdriHxkVxJGm38",
+  "nextPageToken": "CAUQAA",
+  "regionCode": "AU",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "QrG2lQO6VTAe5XdKuOHBEA5rHlY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZniPk5jVjQQ"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-20T08:52:17Z",
+        "channelId": "UC64A-bbH15b5kN5A32CErOA",
+        "title": "Manhunt Underway After Father of Six Fatally Stabbed Outside Melbourne Nightclub | 10 News First",
+        "description": "A major manhunt is happening right now in Melbourne after a young father of six was stabbed to death outside a popular ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZniPk5jVjQQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZniPk5jVjQQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZniPk5jVjQQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "10 News First",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-20T08:52:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pVySj0xssylJ0k7Brpx2eHRkjYg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fnTMgeLshGo"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-20T08:41:56Z",
+        "channelId": "UCIYLOcEUX6TbBo7HQVF2PKA",
+        "title": "Father with suspected bikie links stabbed to death in Melbourne | 9 News Australia",
+        "description": "A father-of-six with suspected bikie links has been stabbed to death on Melbourne's popular Chapel Street. | *Subscribe and ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fnTMgeLshGo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fnTMgeLshGo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fnTMgeLshGo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "9 News Australia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-20T08:41:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "J8ZxgDaJX1MGJ5fiYRQxYDMgYoA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lhMi8bkbeO4"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T09:56:12Z",
+        "channelId": "UCDQZcZZwv-RhxHxJpHCdmbQ",
+        "title": "Vitality vs FlyQuest - HIGHLIGHTS - IEM Melbourne 2025 | CS2",
+        "description": "All about IEM Melbourne 2025 https://pro.eslgaming.com/tour/cs/melbourne/ Join in the discussion: https://www.twitter.com/eslcs ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lhMi8bkbeO4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lhMi8bkbeO4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lhMi8bkbeO4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ESL Counter-Strike Highlights",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T09:56:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sqR4zqXqB5WnzGnxtoHi8ddtWmI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KDRt1WHK-JI"
+      },
+      "snippet": {
+        "publishedAt": "2025-01-26T14:00:19Z",
+        "channelId": "UClDHklFpCTrQ6p6EJFHIl4g",
+        "title": "How to Spend 4 Days in MELBOURNE Australia |Travel Guide &amp; Tips!",
+        "description": "In this video, I'm sharing my perfect 4-day itinerary for Melbourne, Australia—complete with all the must-see landmarks, hidden ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KDRt1WHK-JI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KDRt1WHK-JI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KDRt1WHK-JI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Exotic Vacation",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-01-26T14:00:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HU3tZv3WOPtuTvbwFLOzi2sgQ8I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "n3tKXGNwoAE"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-19T08:38:33Z",
+        "channelId": "UC5T7D-Dh1eDGtsAFCuwv_Sw",
+        "title": "Melbourne&#39;s newest train station plans to honour two unsung war heroes | 7NEWS",
+        "description": "When the Metro Tunnel opens later this year, a unique war memorial will be unveiled at ANZAC Station. It will honour two unlikely ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/n3tKXGNwoAE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/n3tKXGNwoAE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/n3tKXGNwoAE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "7NEWS Australia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-19T08:38:33Z"
+      }
+    }
+  ]
+}

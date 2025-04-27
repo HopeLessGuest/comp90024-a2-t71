@@ -1,16 +1,19 @@
 from googleapiclient.discovery import build
+from datetime import datetime
 import json
 
 API_KEY = 'AIzaSyBbDw8fz5hE2bIQSZY-vlhSz2bTGoiwGTg'
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
+# Get today's date in YYYYMMDD format
+date_str = datetime.now().strftime('%Y%m%d_%H%M')
 
 search_response = youtube.search().list(
     part='snippet',
-    q='Trump',
+    q='Trump tariff',
     type='video',
     regionCode='AU',
-    maxResults=50
+    maxResults=100
 ).execute()
 
 video_ids = [
@@ -30,8 +33,8 @@ video_statistics = youtube.videos().list(
 ).execute()
 
 # save data to files
-with open('youtube_video_search_data.json', 'w', encoding='utf-8') as f:
+with open(f'youtube_video_search_data_{date_str}.json', 'w', encoding='utf-8') as f:
     json.dump(search_response, f, ensure_ascii=False, indent=2)
 
-with open('youtube_video_detail.json', 'w', encoding='utf-8') as f:
+with open(f'youtube_video_detail_{date_str}.json', 'w', encoding='utf-8') as f:
     json.dump(video_statistics, f, ensure_ascii=False, indent=2)

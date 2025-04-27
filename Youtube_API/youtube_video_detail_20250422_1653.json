@@ -1,158 +1,98 @@
-{
+    {
   "kind": "youtube#videoListResponse",
-  "etag": "E-8jBZI7OiG1rymP9XxTUW837sM",
+  "etag": "O_392KHCWYZMd6OEiNd6I-HdUtk",
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "YCDY2RGkVY0ScnXIYDQuSLr6rq8",
-      "id": "54HVgd9oitw",
+      "etag": "IncXvtyamdojTjRNC1QP5nPthcA",
+      "id": "CygrmYdJOXg",
       "snippet": {
-        "publishedAt": "2025-04-20T05:30:06Z",
-        "channelId": "UCXIJgqnII2ZOINSWNOGFThA",
-        "title": "Expert sounds alarm on Trump’s tariffs: ‘Too high, too fast’",
-        "description": "Former International Trade Commission Chief Peter Morici provides analysis of President Donald Trump’s tariff strategy on ‘Fox News Live.’ #foxnews #trump #tariffs #trumptariffs #trumpadministration #politics \n\nSubscribe to Fox News! https://bit.ly/2vBUvAS\nWatch more Fox News Video: http://video.foxnews.com\nWatch Fox News Channel Live: http://www.foxnewsgo.com/\n\nFOX News Channel (FNC) is a 24-hour all-encompassing news service delivering breaking news as \nwell as political and business news. The number one network in cable, FNC has been the most-watched television news channel for 18 consecutive years. According to a 2020 Brand Keys Consumer Loyalty Engagement Index report, FOX News is the top brand in the country for morning and evening news coverage. A 2019 Suffolk University poll named FOX News as the most trusted source for television news or commentary, while a 2019 Brand Keys Emotion Engagement Analysis survey found that FOX News was the most trusted cable news brand. A 2017 Gallup/Knight Foundation survey also found that among Americans who could name an objective news source, FOX News was the top-cited outlet. Owned by FOX Corporation, FNC is available in nearly 90 million homes and dominates the cable news landscape, routinely notching the top ten programs in the genre.\n\nWatch full episodes of your favorite shows\nThe Five: https://www.foxnews.com/video/shows/the-five\nSpecial Report with Bret Baier: https://www.foxnews.com/video/shows/special-report\nJesse Watters Primetime: https://www.foxnews.com/video/shows/jesse-watters-primetime\nHannity: https://www.foxnews.com/video/shows/hannity\nThe Ingraham Angle: https://www.foxnews.com/video/shows/ingraham-angle\nGutfeld!: https://www.foxnews.com/video/shows/gutfeld\nFox News @ Night: https://www.foxnews.com/video/shows/fox-news-night\n\nFollow Fox News on Facebook: https://www.facebook.com/FoxNews/\nFollow Fox News on Twitter: https://twitter.com/FoxNews/\nFollow Fox News on Instagram: https://www.instagram.com/foxnews/",
+        "publishedAt": "2025-04-21T14:45:03Z",
+        "channelId": "UCK7tptUDHh-RYDsdxO1-5QQ",
+        "title": "Trump Tariffs Are Attacking the U.S. Trade Deficit—Does It Need Fixing? | WSJ",
+        "description": "President Trump’s broad tariff rollout takes aim at the U.S. trade deficit, which he calls a policy of “economic surrender.” As Trump’s global trade war carries on, it raises the question: is a trade deficit necessarily a bad thing for the economy?\n\nWSJ explores how the trade deficit works, why economists say it can be good and how tariffs affect it. \n\nChapters:\n0:00 U.S. trade deficit\n0:30 Trade with foreign countries, explained\n1:56 The deficit\n2:24 Is the trade deficit bad?\n4:21 Tariffs impact on trade deficit\n\nNews Explainers\nSome days the high-speed news cycle can bring more questions than answers. WSJ’s news explainers break down the day's biggest stories into bite-size pieces to help you make sense of the news.\n\n#Trump #Trade #WSJ",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/54HVgd9oitw/default.jpg",
+            "url": "https://i.ytimg.com/vi/CygrmYdJOXg/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/54HVgd9oitw/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/CygrmYdJOXg/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/54HVgd9oitw/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/CygrmYdJOXg/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/54HVgd9oitw/sddefault.jpg",
+            "url": "https://i.ytimg.com/vi/CygrmYdJOXg/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/54HVgd9oitw/maxresdefault.jpg",
+            "url": "https://i.ytimg.com/vi/CygrmYdJOXg/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
         },
-        "channelTitle": "Fox News",
+        "channelTitle": "The Wall Street Journal",
         "tags": [
-          "trump tariffs",
-          "china tariffs",
-          "trade war",
-          "stock market",
-          "us economy",
-          "msnbc latest",
-          "trump tariffs canada",
-          "trump tariffs china",
-          "trump tariffs news",
-          "donald trump",
-          "trump tariffs fox news",
-          "trump tariffs live",
-          "trade war explained",
-          "trade war china vs usa",
-          "trump tariffs update",
-          "trump tariffs stock market",
-          "trump tariffs economist",
-          "trade war tariffs",
-          "stock market news",
-          "stock market today live"
-        ],
-        "categoryId": "25",
-        "liveBroadcastContent": "none",
-        "localized": {
-          "title": "Expert sounds alarm on Trump’s tariffs: ‘Too high, too fast’",
-          "description": "Former International Trade Commission Chief Peter Morici provides analysis of President Donald Trump’s tariff strategy on ‘Fox News Live.’ #foxnews #trump #tariffs #trumptariffs #trumpadministration #politics \n\nSubscribe to Fox News! https://bit.ly/2vBUvAS\nWatch more Fox News Video: http://video.foxnews.com\nWatch Fox News Channel Live: http://www.foxnewsgo.com/\n\nFOX News Channel (FNC) is a 24-hour all-encompassing news service delivering breaking news as \nwell as political and business news. The number one network in cable, FNC has been the most-watched television news channel for 18 consecutive years. According to a 2020 Brand Keys Consumer Loyalty Engagement Index report, FOX News is the top brand in the country for morning and evening news coverage. A 2019 Suffolk University poll named FOX News as the most trusted source for television news or commentary, while a 2019 Brand Keys Emotion Engagement Analysis survey found that FOX News was the most trusted cable news brand. A 2017 Gallup/Knight Foundation survey also found that among Americans who could name an objective news source, FOX News was the top-cited outlet. Owned by FOX Corporation, FNC is available in nearly 90 million homes and dominates the cable news landscape, routinely notching the top ten programs in the genre.\n\nWatch full episodes of your favorite shows\nThe Five: https://www.foxnews.com/video/shows/the-five\nSpecial Report with Bret Baier: https://www.foxnews.com/video/shows/special-report\nJesse Watters Primetime: https://www.foxnews.com/video/shows/jesse-watters-primetime\nHannity: https://www.foxnews.com/video/shows/hannity\nThe Ingraham Angle: https://www.foxnews.com/video/shows/ingraham-angle\nGutfeld!: https://www.foxnews.com/video/shows/gutfeld\nFox News @ Night: https://www.foxnews.com/video/shows/fox-news-night\n\nFollow Fox News on Facebook: https://www.facebook.com/FoxNews/\nFollow Fox News on Twitter: https://twitter.com/FoxNews/\nFollow Fox News on Instagram: https://www.instagram.com/foxnews/"
-        }
-      },
-      "statistics": {
-        "viewCount": "135928",
-        "likeCount": "1450",
-        "favoriteCount": "0",
-        "commentCount": "2750"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "GK-1nkF6MdUhxm_OS8UciyX51pg",
-      "id": "jYlZoFZprBw",
-      "snippet": {
-        "publishedAt": "2025-04-20T17:27:22Z",
-        "channelId": "UCuFFtHWoLl5fauMMD5Ww2jA",
-        "title": "Will the U.S. profit from Trump’s tariff strategy?",
-        "description": "Chief political correspondent Rosemary Barton speaks with former U.S. trade representative Katherine Tai about President Donald Trump’s tariff strategy and what could come next in Canada-U.S. trade negotiations.\n\n»»» Subscribe to CBC News to watch more videos: http://bit.ly/1RreYWS\n\nConnect with CBC News Online:\n\nFor breaking news, video, audio and in-depth coverage: http://bit.ly/1Z0m6iX\nFollow CBC News on TikTok: https://bit.ly/3TnHioe\nFollow CBC News on Twitter: http://bit.ly/1sA5P9H\nSubscribe to CBC News on Snapchat: https://bit.ly/3leaWsr\n\nDownload the CBC News app for iOS: http://apple.co/25mpsUz\nDownload the CBC News app for Android: http://bit.ly/1XxuozZ\n\n»»»»»»»»»»»»»»»»»»\nFor more than 80 years, CBC News has been the source Canadians turn to, to keep them informed about their communities, their country and their world. Through regional and national programming on multiple platforms, including CBC Television, CBC News Network, CBC Radio, CBCNews.ca, mobile and on-demand, CBC News and its internationally recognized team of award-winning journalists deliver the breaking stories, the issues, the analyses and the personalities that matter to Canadians.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/jYlZoFZprBw/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/jYlZoFZprBw/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/jYlZoFZprBw/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/jYlZoFZprBw/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/jYlZoFZprBw/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "CBC News",
-        "tags": [
-          "CBC News",
-          "CBC",
-          "News",
-          "cbc",
-          "cbc news",
-          "Canada",
-          "U.S.",
-          "America",
-          "trade",
-          "trade war",
-          "tension",
-          "reaction",
-          "retaliatory",
-          "Canada election",
-          "Canada election 2025",
-          "trump",
-          "World news",
-          "money",
-          "business",
-          "economy",
-          "inequality"
+          "trade deficit",
+          "us trade deficit",
+          "trade deficit explained",
+          "trade surplus",
+          "global trade",
+          "trump trade war",
+          "tariffs",
+          "tariffs and trade barriers",
+          "president trump",
+          "trump news",
+          "imports",
+          "exports",
+          "how trade works",
+          "ports",
+          "economics",
+          "bilateral trade",
+          "trade deficits",
+          "goods and services",
+          "economists",
+          "trump trade policy",
+          "trump trade deficit",
+          "trump policies",
+          "recession",
+          "recession fears",
+          "us securities",
+          "imports vs domestics",
+          "exports and imports",
+          "equity shares",
+          "investment",
+          "shareholders",
+          "gdp",
+          "bonds",
+          "usnews"
         ],
         "categoryId": "25",
         "liveBroadcastContent": "none",
         "defaultLanguage": "en",
         "localized": {
-          "title": "Will the U.S. profit from Trump’s tariff strategy?",
-          "description": "Chief political correspondent Rosemary Barton speaks with former U.S. trade representative Katherine Tai about President Donald Trump’s tariff strategy and what could come next in Canada-U.S. trade negotiations.\n\n»»» Subscribe to CBC News to watch more videos: http://bit.ly/1RreYWS\n\nConnect with CBC News Online:\n\nFor breaking news, video, audio and in-depth coverage: http://bit.ly/1Z0m6iX\nFollow CBC News on TikTok: https://bit.ly/3TnHioe\nFollow CBC News on Twitter: http://bit.ly/1sA5P9H\nSubscribe to CBC News on Snapchat: https://bit.ly/3leaWsr\n\nDownload the CBC News app for iOS: http://apple.co/25mpsUz\nDownload the CBC News app for Android: http://bit.ly/1XxuozZ\n\n»»»»»»»»»»»»»»»»»»\nFor more than 80 years, CBC News has been the source Canadians turn to, to keep them informed about their communities, their country and their world. Through regional and national programming on multiple platforms, including CBC Television, CBC News Network, CBC Radio, CBCNews.ca, mobile and on-demand, CBC News and its internationally recognized team of award-winning journalists deliver the breaking stories, the issues, the analyses and the personalities that matter to Canadians."
+          "title": "Trump Tariffs Are Attacking the U.S. Trade Deficit—Does It Need Fixing? | WSJ",
+          "description": "President Trump’s broad tariff rollout takes aim at the U.S. trade deficit, which he calls a policy of “economic surrender.” As Trump’s global trade war carries on, it raises the question: is a trade deficit necessarily a bad thing for the economy?\n\nWSJ explores how the trade deficit works, why economists say it can be good and how tariffs affect it. \n\nChapters:\n0:00 U.S. trade deficit\n0:30 Trade with foreign countries, explained\n1:56 The deficit\n2:24 Is the trade deficit bad?\n4:21 Tariffs impact on trade deficit\n\nNews Explainers\nSome days the high-speed news cycle can bring more questions than answers. WSJ’s news explainers break down the day's biggest stories into bite-size pieces to help you make sense of the news.\n\n#Trump #Trade #WSJ"
         },
-        "defaultAudioLanguage": "en-CA"
+        "defaultAudioLanguage": "en"
       },
       "statistics": {
-        "viewCount": "44871",
-        "likeCount": "304",
-        "favoriteCount": "0"
+        "viewCount": "318771",
+        "likeCount": "4262",
+        "favoriteCount": "0",
+        "commentCount": "923"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "iuHQWXyyztclFuATtyu-cWcV2cM",
+      "etag": "b3Dj4WVae2Cj5SxfthMywvaiwKY",
       "id": "PKFKCxgClU4",
       "snippet": {
         "publishedAt": "2025-04-21T13:17:53Z",
@@ -216,15 +156,15 @@
         "defaultAudioLanguage": "en"
       },
       "statistics": {
-        "viewCount": "19475",
-        "likeCount": "156",
+        "viewCount": "19515",
+        "likeCount": "157",
         "favoriteCount": "0",
         "commentCount": "129"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "ZB1CJB4piu4tV8d3YLJnlDZMZl0",
+      "etag": "i6iPzsUT9dIYGweyLlRtrM6IWw8",
       "id": "k4VfaYi_vJY",
       "snippet": {
         "publishedAt": "2025-04-20T17:57:31Z",
@@ -269,15 +209,15 @@
         "defaultAudioLanguage": "en"
       },
       "statistics": {
-        "viewCount": "781225",
-        "likeCount": "13942",
+        "viewCount": "781618",
+        "likeCount": "13947",
         "favoriteCount": "0",
-        "commentCount": "3210"
+        "commentCount": "3211"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "00yy6nbpxicAGhyAx8RghKqtbU8",
+      "etag": "hD-wcwguTYNOjGqg47HL79upAKw",
       "id": "-yIC3AWpnQM",
       "snippet": {
         "publishedAt": "2025-04-20T19:14:58Z",
@@ -326,15 +266,15 @@
         "defaultAudioLanguage": "en"
       },
       "statistics": {
-        "viewCount": "162443",
-        "likeCount": "2134",
+        "viewCount": "162467",
+        "likeCount": "2136",
         "favoriteCount": "0",
         "commentCount": "730"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "m88qAS28IlOI6BG7cPOMBAQPN5w",
+      "etag": "IISJh7g6jaFB_3RHuC_GGbjVDU8",
       "id": "-oyYLZIsaVU",
       "snippet": {
         "publishedAt": "2025-04-22T00:30:01Z",
@@ -405,15 +345,84 @@
         }
       },
       "statistics": {
-        "viewCount": "144380",
-        "likeCount": "2938",
+        "viewCount": "145608",
+        "likeCount": "2946",
         "favoriteCount": "0",
-        "commentCount": "1427"
+        "commentCount": "1428"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "jjIK9JOQ-QCzLRqxCEQKFpQpOqk",
+      "etag": "mQ-qjxNhbs4zm-2oOQZTG1X1-lg",
+      "id": "9QtLeVpm53s",
+      "snippet": {
+        "publishedAt": "2025-04-21T19:37:24Z",
+        "channelId": "UCzJXNzqz6VMHSNInQt_7q6w",
+        "title": "Kevin O'Leary on the Reality of Trump Tariffs and Americans Doing Business with China",
+        "description": "Megyn Kelly is joined by Kevin O’Leary, chairman of O’Leary Ventures & Beanstox, to discuss the reality of Donald Trump’s tariff policies, why China is taking advantage of American businesses and stealing IP, the effects tariffs could have on the Canadian election, why there has been a record number of early votes, and more.\n\nBirch Gold: Text MK to 989898 and get your free info kit on gold\n\nLIKE & SUBSCRIBE for new videos everyday: https://bit.ly/3Aw93yw\n\nWatch full clips of The Megyn Kelly Show here: https://bit.ly/3xFXNxI\n\nSign up for my 'American News Minute' weekly email: https://www.megynkelly.com\n\nTune in live on SiriusXM at 12-2pmET: SiriusXM.us/TheMegynKellyShow\n\nFind the full audio show wherever you get your podcasts:\nApple — https://podcasts.apple.com/us/podcast/the-megyn-kelly-show/id1532976305\nSpotify — https://open.spotify.com/show/0awxEJH88Xur0GHXuteBLw?si=0EcxxHSLQhO2uYmpUN13KQ&dl_branch=1\n\nFollow The Megyn Kelly Show on all social platforms:\nTwitter — https://twitter.com/MegynKellyShow\nInstagram — https://www.instagram.com/megynkellyshow/\nFacebook — https://www.facebook.com/MegynKellyShow\n\nConnect with me on social media:\nTwitter — https://twitter.com/megynkelly\nInstagram — https://www.instagram.com/megynkelly/\nFacebook — https://www.facebook.com/MegynKelly",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9QtLeVpm53s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9QtLeVpm53s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9QtLeVpm53s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/9QtLeVpm53s/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/9QtLeVpm53s/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Megyn Kelly",
+        "tags": [
+          "Megyn Kelly",
+          "Megyn",
+          "Megyn Kelly Show",
+          "The Megyn Kelly Show",
+          "megyn kelly",
+          "megyn kelly show",
+          "megyn kelly on",
+          "megyn kelly vs",
+          "megyn kelly reacts",
+          "megyn kelly interviews",
+          "megyn kelly full show",
+          "megyn kelly full podcast",
+          "megyn kelly full episode",
+          "the megyn kelly show",
+          "megyn kelly news",
+          "full megyn kelly"
+        ],
+        "categoryId": "25",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Kevin O'Leary on the Reality of Trump Tariffs and Americans Doing Business with China",
+          "description": "Megyn Kelly is joined by Kevin O’Leary, chairman of O’Leary Ventures & Beanstox, to discuss the reality of Donald Trump’s tariff policies, why China is taking advantage of American businesses and stealing IP, the effects tariffs could have on the Canadian election, why there has been a record number of early votes, and more.\n\nBirch Gold: Text MK to 989898 and get your free info kit on gold\n\nLIKE & SUBSCRIBE for new videos everyday: https://bit.ly/3Aw93yw\n\nWatch full clips of The Megyn Kelly Show here: https://bit.ly/3xFXNxI\n\nSign up for my 'American News Minute' weekly email: https://www.megynkelly.com\n\nTune in live on SiriusXM at 12-2pmET: SiriusXM.us/TheMegynKellyShow\n\nFind the full audio show wherever you get your podcasts:\nApple — https://podcasts.apple.com/us/podcast/the-megyn-kelly-show/id1532976305\nSpotify — https://open.spotify.com/show/0awxEJH88Xur0GHXuteBLw?si=0EcxxHSLQhO2uYmpUN13KQ&dl_branch=1\n\nFollow The Megyn Kelly Show on all social platforms:\nTwitter — https://twitter.com/MegynKellyShow\nInstagram — https://www.instagram.com/megynkellyshow/\nFacebook — https://www.facebook.com/MegynKellyShow\n\nConnect with me on social media:\nTwitter — https://twitter.com/megynkelly\nInstagram — https://www.instagram.com/megynkelly/\nFacebook — https://www.facebook.com/MegynKelly"
+        }
+      },
+      "statistics": {
+        "viewCount": "526770",
+        "likeCount": "16352",
+        "favoriteCount": "0",
+        "commentCount": "2133"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "aA4idL0FF3Eq-tMQdguBa-MZNrg",
       "id": "PC5_6RHwc-U",
       "snippet": {
         "publishedAt": "2025-04-20T14:00:37Z",
@@ -469,7 +478,7 @@
         "defaultAudioLanguage": "en"
       },
       "statistics": {
-        "viewCount": "25825",
+        "viewCount": "25833",
         "likeCount": "285",
         "favoriteCount": "0",
         "commentCount": "167"
@@ -477,7 +486,7 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "4LTwU38PoURyeygnasVEuA1zkfs",
+      "etag": "U9RpxqprvbYliy5Q5MxpR37wrKk",
       "id": "je8LOBnNWjo",
       "snippet": {
         "publishedAt": "2025-04-19T15:01:11Z",
@@ -545,15 +554,15 @@
         "defaultAudioLanguage": "en"
       },
       "statistics": {
-        "viewCount": "97158",
-        "likeCount": "1372",
+        "viewCount": "97214",
+        "likeCount": "1373",
         "favoriteCount": "0",
         "commentCount": "182"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "wJWnWj8BpTA-Ii7mRUcJW3taUQ8",
+      "etag": "JudVG_WGUJOvnbn1G4Zd8X5T8JA",
       "id": "PQooLNCz4yU",
       "snippet": {
         "publishedAt": "2025-04-21T09:12:01Z",
@@ -625,15 +634,15 @@
         "defaultAudioLanguage": "en"
       },
       "statistics": {
-        "viewCount": "97314",
-        "likeCount": "895",
+        "viewCount": "97608",
+        "likeCount": "897",
         "favoriteCount": "0",
         "commentCount": "855"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "hzloyfcsHmBhwk8tZ63A-7sbrD8",
+      "etag": "mvim925hfnx5Ncer73tGCTwMs_k",
       "id": "5eIOpZniFWM",
       "snippet": {
         "publishedAt": "2025-04-21T14:15:00Z",
@@ -710,7 +719,7 @@
         }
       },
       "statistics": {
-        "viewCount": "75554",
+        "viewCount": "75582",
         "likeCount": "1388",
         "favoriteCount": "0",
         "commentCount": "1083"
@@ -718,7 +727,7 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "LBVlBSE_PLeMi9BxWsPd55vPiDg",
+      "etag": "8MGZ9uaGm46_JE7wUrv8D4dwwQg",
       "id": "pKjjrbTj2Zg",
       "snippet": {
         "publishedAt": "2025-04-21T03:39:39Z",
@@ -797,7 +806,7 @@
         "defaultAudioLanguage": "en-CA"
       },
       "statistics": {
-        "viewCount": "50258",
+        "viewCount": "50294",
         "likeCount": "279",
         "favoriteCount": "0",
         "commentCount": "47"
@@ -805,7 +814,7 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "OQYuqn4f-v8oX950u2h-GeynxSY",
+      "etag": "OK1DEaKPwUzXFkJeGWjHnRgqRQ8",
       "id": "4S0ceOFeRdk",
       "snippet": {
         "publishedAt": "2025-04-22T04:54:27Z",
@@ -870,7 +879,7 @@
         }
       },
       "statistics": {
-        "viewCount": "123623",
+        "viewCount": "123766",
         "likeCount": "440",
         "favoriteCount": "0",
         "commentCount": "3"
@@ -878,7 +887,88 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "o-ylOyLHKOynTkGEmcGB9FHOkc8",
+      "etag": "G0EpkAnaBo17WHuGyFLh7FW4vQo",
+      "id": "9n5CVUVMQU8",
+      "snippet": {
+        "publishedAt": "2025-04-21T17:31:15Z",
+        "channelId": "UCef1-8eOpJgud7szVPlZQAQ",
+        "title": "LIVE: PM Modi Hosts JD Vance Amid Trump's Tariff Threats | Vantage with Palki Sharma | N18G",
+        "description": "U.S. Vice-President JD Vance is on a three-day visit to India as President Donald Trump's tariffs loom. As per reports, India is expected to discuss a possible bilateral trade deal with the US to avoid the trade tariffs. JD Vance had a bilateral meeting with Indian Prime Minister Narendra Modi where the two discussed topics of bilateral interests to both countries. This is Vance's maiden visit to Asia after he took over the Vice-Presidential office in January. Vance's visit follows a visit by Trump's intelligence chief Tulsi Gabbard. Further, Pentagon chief Pete Hegseth is expected to visit the sub-continent as well. All these high-profile visits are expected to culminate in a much-awaited visit by Trump who is expected to attend the QUAD summit hosted by New Delhi later this year. Vance is scheduled to deliver a speech on trade and other bilateral policies in Rajasthan. Palki Sharma tells you more.\n\n#jdvance #pmmodi #ushavance #news18live #news18 \n\nn18oc_world\nn18oc_india\nn18oc_live\n\nNews18 Mobile App - https://onelink.to/desc-youtube",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9n5CVUVMQU8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9n5CVUVMQU8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9n5CVUVMQU8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/9n5CVUVMQU8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/9n5CVUVMQU8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "CNN-News18",
+        "tags": [
+          "news18",
+          "cnn news18",
+          "jd vance",
+          "modi jd vance dinner",
+          "usha vance",
+          "pm modi to host dinner",
+          "jd vance to visit india",
+          "jd vance to visit india and italy",
+          "jd vance india visit",
+          "jd vance france",
+          "jd vance vp",
+          "jd vance wife",
+          "jd vance trump",
+          "jd vance india",
+          "jd vance indian wife",
+          "jd vance wife indian",
+          "jd vance news",
+          "us vp jd vance visits india for engagements",
+          "jd vance indian america wife",
+          "jd vance indian american wife",
+          "waqf",
+          "rainfall in J&K",
+          "pm modi",
+          "bjp",
+          "congress",
+          "rahul gandhi"
+        ],
+        "categoryId": "25",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en-IN",
+        "localized": {
+          "title": "LIVE: PM Modi Hosts JD Vance Amid Trump's Tariff Threats | Vantage with Palki Sharma | N18G",
+          "description": "U.S. Vice-President JD Vance is on a three-day visit to India as President Donald Trump's tariffs loom. As per reports, India is expected to discuss a possible bilateral trade deal with the US to avoid the trade tariffs. JD Vance had a bilateral meeting with Indian Prime Minister Narendra Modi where the two discussed topics of bilateral interests to both countries. This is Vance's maiden visit to Asia after he took over the Vice-Presidential office in January. Vance's visit follows a visit by Trump's intelligence chief Tulsi Gabbard. Further, Pentagon chief Pete Hegseth is expected to visit the sub-continent as well. All these high-profile visits are expected to culminate in a much-awaited visit by Trump who is expected to attend the QUAD summit hosted by New Delhi later this year. Vance is scheduled to deliver a speech on trade and other bilateral policies in Rajasthan. Palki Sharma tells you more.\n\n#jdvance #pmmodi #ushavance #news18live #news18 \n\nn18oc_world\nn18oc_india\nn18oc_live\n\nNews18 Mobile App - https://onelink.to/desc-youtube"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "statistics": {
+        "viewCount": "3644",
+        "likeCount": "31",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "7x46O8tPpzxIFOO2flXX2eOQpdg",
       "id": "aU_nrHmOJhA",
       "snippet": {
         "publishedAt": "2025-04-21T08:38:55Z",
@@ -948,7 +1038,7 @@
         "defaultAudioLanguage": "en-US"
       },
       "statistics": {
-        "viewCount": "8261",
+        "viewCount": "8293",
         "likeCount": "29",
         "favoriteCount": "0",
         "commentCount": "18"
@@ -956,65 +1046,7 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "C7VMIxYszTzzuNRW8T-QCwQ_nwo",
-      "id": "afcfj8zCaEo",
-      "snippet": {
-        "publishedAt": "2025-04-21T04:15:10Z",
-        "channelId": "UCef1-8eOpJgud7szVPlZQAQ",
-        "title": "US Congress LIVE |'Countdown To Impeachment': Rep. Green Bombshell On Trump Over  \"Art of the Steal\"",
-        "description": "Rep. Al Green launches a fiery rebuke against President Trump’s aggressive tariff policies, slamming them as the \"Art of the Steal\" and accusing Trump of economic deception. In a dramatic turn, Green called for Trump's impeachment, citing abuse of power and betrayal of public trust.\n\n#algreenspeechlive #ushouseofrepresentatives #trumptariffwar #trumplatestnews #usnewsliveNews18  #latestnews #worldnews \n\nn18oc_live\n Mobile App - https://onelink.to/desc-youtube",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/afcfj8zCaEo/default_live.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/afcfj8zCaEo/mqdefault_live.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/afcfj8zCaEo/hqdefault_live.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/afcfj8zCaEo/sddefault_live.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/afcfj8zCaEo/maxresdefault_live.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "CNN-News18",
-        "tags": [
-          "news18",
-          "cnn news18",
-          "latest news"
-        ],
-        "categoryId": "25",
-        "liveBroadcastContent": "live",
-        "defaultLanguage": "en-IN",
-        "localized": {
-          "title": "US Congress LIVE |'Countdown To Impeachment': Rep. Green Bombshell On Trump Over  \"Art of the Steal\"",
-          "description": "Rep. Al Green launches a fiery rebuke against President Trump’s aggressive tariff policies, slamming them as the \"Art of the Steal\" and accusing Trump of economic deception. In a dramatic turn, Green called for Trump's impeachment, citing abuse of power and betrayal of public trust.\n\n#algreenspeechlive #ushouseofrepresentatives #trumptariffwar #trumplatestnews #usnewsliveNews18  #latestnews #worldnews \n\nn18oc_live\n Mobile App - https://onelink.to/desc-youtube"
-        },
-        "defaultAudioLanguage": "en"
-      },
-      "statistics": {
-        "viewCount": "508452",
-        "likeCount": "13134",
-        "favoriteCount": "0",
-        "commentCount": "0"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "YQP1eyGOcLF_oMgDm1X91WyQk_4",
+      "etag": "NGMvgdrST4C8nS_zeK3ZXpkxqSQ",
       "id": "BR7O-TSmVOQ",
       "snippet": {
         "publishedAt": "2025-04-21T13:53:43Z",
@@ -1069,10 +1101,88 @@
         "defaultAudioLanguage": "en"
       },
       "statistics": {
-        "viewCount": "44371",
+        "viewCount": "44433",
         "likeCount": "357",
         "favoriteCount": "0",
         "commentCount": "257"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "VyVfOZocaSJEsh6e4Uqmk90iM_o",
+      "id": "UFTMqHWVYMc",
+      "snippet": {
+        "publishedAt": "2025-04-19T10:00:46Z",
+        "channelId": "UCJg9wBPyKMNA5sRDnvzmkdg",
+        "title": "U.S. and China continue tariff fight",
+        "description": "Oklahoma State University professor Sunderesh Heragu joins LiveNOW's Austin Westfall to discuss the evolving economic landscape after President Trump implemented tariffs on some of the biggest trade partners to the United States. Most tariffs have been halted for now -- but not with China. Beijing and the White House have levied steep tariffs on each other. Trump announced that tariffs on China would reach 145 percent. In response, China imposed 125 percent tariffs on U.S.-imported goods.\n\n\nSubscribe to LiveNOW from FOX! https://www.youtube.com/livenowfox?sub_confirmation=1\nWhere to watch LiveNOW from FOX: https://www.livenowfox.com/\nFollow us @LiveNOWFOX on Twitter: https://twitter.com/livenowfox\n\nRaw and unfiltered. Watch a non-stop stream of breaking news, live events and stories across the nation. Limited commentary. No opinion. Experience LiveNOW from FOX.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UFTMqHWVYMc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UFTMqHWVYMc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UFTMqHWVYMc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/UFTMqHWVYMc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/UFTMqHWVYMc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "LiveNOW from FOX",
+        "tags": [
+          "news",
+          "united states",
+          "politics",
+          "trump tariffs",
+          "trump canada",
+          "trump mexico",
+          "fox tariffs",
+          "fox news tariffs",
+          "canada response to trump",
+          "trump on canada",
+          "canada tariffs",
+          "mexico tariffs",
+          "china tariffs",
+          "chinese tariffs",
+          "trump tariffs explained",
+          "canadian tariffs",
+          "tarrifs",
+          "terifs",
+          "tarrif",
+          "tariff news",
+          "news today",
+          "what are tariffs",
+          "china response to tariffs"
+        ],
+        "categoryId": "25",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "U.S. and China continue tariff fight",
+          "description": "Oklahoma State University professor Sunderesh Heragu joins LiveNOW's Austin Westfall to discuss the evolving economic landscape after President Trump implemented tariffs on some of the biggest trade partners to the United States. Most tariffs have been halted for now -- but not with China. Beijing and the White House have levied steep tariffs on each other. Trump announced that tariffs on China would reach 145 percent. In response, China imposed 125 percent tariffs on U.S.-imported goods.\n\n\nSubscribe to LiveNOW from FOX! https://www.youtube.com/livenowfox?sub_confirmation=1\nWhere to watch LiveNOW from FOX: https://www.livenowfox.com/\nFollow us @LiveNOWFOX on Twitter: https://twitter.com/livenowfox\n\nRaw and unfiltered. Watch a non-stop stream of breaking news, live events and stories across the nation. Limited commentary. No opinion. Experience LiveNOW from FOX."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "statistics": {
+        "viewCount": "59312",
+        "likeCount": "703",
+        "favoriteCount": "0",
+        "commentCount": "419"
       }
     },
     {
@@ -1168,76 +1278,7 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "EcgBW3LS7wJxnNNg2fF3DYQ2B0Q",
-      "id": "9QtLeVpm53s",
-      "snippet": {
-        "publishedAt": "2025-04-21T19:37:24Z",
-        "channelId": "UCzJXNzqz6VMHSNInQt_7q6w",
-        "title": "Kevin O'Leary on the Reality of Trump Tariffs and Americans Doing Business with China",
-        "description": "Megyn Kelly is joined by Kevin O’Leary, chairman of O’Leary Ventures & Beanstox, to discuss the reality of Donald Trump’s tariff policies, why China is taking advantage of American businesses and stealing IP, the effects tariffs could have on the Canadian election, why there has been a record number of early votes, and more.\n\nBirch Gold: Text MK to 989898 and get your free info kit on gold\n\nLIKE & SUBSCRIBE for new videos everyday: https://bit.ly/3Aw93yw\n\nWatch full clips of The Megyn Kelly Show here: https://bit.ly/3xFXNxI\n\nSign up for my 'American News Minute' weekly email: https://www.megynkelly.com\n\nTune in live on SiriusXM at 12-2pmET: SiriusXM.us/TheMegynKellyShow\n\nFind the full audio show wherever you get your podcasts:\nApple — https://podcasts.apple.com/us/podcast/the-megyn-kelly-show/id1532976305\nSpotify — https://open.spotify.com/show/0awxEJH88Xur0GHXuteBLw?si=0EcxxHSLQhO2uYmpUN13KQ&dl_branch=1\n\nFollow The Megyn Kelly Show on all social platforms:\nTwitter — https://twitter.com/MegynKellyShow\nInstagram — https://www.instagram.com/megynkellyshow/\nFacebook — https://www.facebook.com/MegynKellyShow\n\nConnect with me on social media:\nTwitter — https://twitter.com/megynkelly\nInstagram — https://www.instagram.com/megynkelly/\nFacebook — https://www.facebook.com/MegynKelly",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/9QtLeVpm53s/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/9QtLeVpm53s/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/9QtLeVpm53s/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/9QtLeVpm53s/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/9QtLeVpm53s/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "Megyn Kelly",
-        "tags": [
-          "Megyn Kelly",
-          "Megyn",
-          "Megyn Kelly Show",
-          "The Megyn Kelly Show",
-          "megyn kelly",
-          "megyn kelly show",
-          "megyn kelly on",
-          "megyn kelly vs",
-          "megyn kelly reacts",
-          "megyn kelly interviews",
-          "megyn kelly full show",
-          "megyn kelly full podcast",
-          "megyn kelly full episode",
-          "the megyn kelly show",
-          "megyn kelly news",
-          "full megyn kelly"
-        ],
-        "categoryId": "25",
-        "liveBroadcastContent": "none",
-        "localized": {
-          "title": "Kevin O'Leary on the Reality of Trump Tariffs and Americans Doing Business with China",
-          "description": "Megyn Kelly is joined by Kevin O’Leary, chairman of O’Leary Ventures & Beanstox, to discuss the reality of Donald Trump’s tariff policies, why China is taking advantage of American businesses and stealing IP, the effects tariffs could have on the Canadian election, why there has been a record number of early votes, and more.\n\nBirch Gold: Text MK to 989898 and get your free info kit on gold\n\nLIKE & SUBSCRIBE for new videos everyday: https://bit.ly/3Aw93yw\n\nWatch full clips of The Megyn Kelly Show here: https://bit.ly/3xFXNxI\n\nSign up for my 'American News Minute' weekly email: https://www.megynkelly.com\n\nTune in live on SiriusXM at 12-2pmET: SiriusXM.us/TheMegynKellyShow\n\nFind the full audio show wherever you get your podcasts:\nApple — https://podcasts.apple.com/us/podcast/the-megyn-kelly-show/id1532976305\nSpotify — https://open.spotify.com/show/0awxEJH88Xur0GHXuteBLw?si=0EcxxHSLQhO2uYmpUN13KQ&dl_branch=1\n\nFollow The Megyn Kelly Show on all social platforms:\nTwitter — https://twitter.com/MegynKellyShow\nInstagram — https://www.instagram.com/megynkellyshow/\nFacebook — https://www.facebook.com/MegynKellyShow\n\nConnect with me on social media:\nTwitter — https://twitter.com/megynkelly\nInstagram — https://www.instagram.com/megynkelly/\nFacebook — https://www.facebook.com/MegynKelly"
-        }
-      },
-      "statistics": {
-        "viewCount": "525004",
-        "likeCount": "16327",
-        "favoriteCount": "0",
-        "commentCount": "2129"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "x_xqA-I8QbwnwwSQnj48xtqHCmI",
+      "etag": "xeTIfzaYqnxjPvFONCeI1kEp9nM",
       "id": "othWe_iWrzA",
       "snippet": {
         "publishedAt": "2025-04-19T14:57:12Z",
@@ -1309,93 +1350,15 @@
         "defaultAudioLanguage": "en-GB"
       },
       "statistics": {
-        "viewCount": "9351",
-        "likeCount": "137",
+        "viewCount": "9376",
+        "likeCount": "139",
         "favoriteCount": "0",
-        "commentCount": "89"
+        "commentCount": "92"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "bgBXfo3GSMV0T5v98ACekLXRTY0",
-      "id": "UFTMqHWVYMc",
-      "snippet": {
-        "publishedAt": "2025-04-19T10:00:46Z",
-        "channelId": "UCJg9wBPyKMNA5sRDnvzmkdg",
-        "title": "U.S. and China continue tariff fight",
-        "description": "Oklahoma State University professor Sunderesh Heragu joins LiveNOW's Austin Westfall to discuss the evolving economic landscape after President Trump implemented tariffs on some of the biggest trade partners to the United States. Most tariffs have been halted for now -- but not with China. Beijing and the White House have levied steep tariffs on each other. Trump announced that tariffs on China would reach 145 percent. In response, China imposed 125 percent tariffs on U.S.-imported goods.\n\n\nSubscribe to LiveNOW from FOX! https://www.youtube.com/livenowfox?sub_confirmation=1\nWhere to watch LiveNOW from FOX: https://www.livenowfox.com/\nFollow us @LiveNOWFOX on Twitter: https://twitter.com/livenowfox\n\nRaw and unfiltered. Watch a non-stop stream of breaking news, live events and stories across the nation. Limited commentary. No opinion. Experience LiveNOW from FOX.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/UFTMqHWVYMc/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/UFTMqHWVYMc/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/UFTMqHWVYMc/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/UFTMqHWVYMc/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/UFTMqHWVYMc/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "LiveNOW from FOX",
-        "tags": [
-          "news",
-          "united states",
-          "politics",
-          "trump tariffs",
-          "trump canada",
-          "trump mexico",
-          "fox tariffs",
-          "fox news tariffs",
-          "canada response to trump",
-          "trump on canada",
-          "canada tariffs",
-          "mexico tariffs",
-          "china tariffs",
-          "chinese tariffs",
-          "trump tariffs explained",
-          "canadian tariffs",
-          "tarrifs",
-          "terifs",
-          "tarrif",
-          "tariff news",
-          "news today",
-          "what are tariffs",
-          "china response to tariffs"
-        ],
-        "categoryId": "25",
-        "liveBroadcastContent": "none",
-        "defaultLanguage": "en",
-        "localized": {
-          "title": "U.S. and China continue tariff fight",
-          "description": "Oklahoma State University professor Sunderesh Heragu joins LiveNOW's Austin Westfall to discuss the evolving economic landscape after President Trump implemented tariffs on some of the biggest trade partners to the United States. Most tariffs have been halted for now -- but not with China. Beijing and the White House have levied steep tariffs on each other. Trump announced that tariffs on China would reach 145 percent. In response, China imposed 125 percent tariffs on U.S.-imported goods.\n\n\nSubscribe to LiveNOW from FOX! https://www.youtube.com/livenowfox?sub_confirmation=1\nWhere to watch LiveNOW from FOX: https://www.livenowfox.com/\nFollow us @LiveNOWFOX on Twitter: https://twitter.com/livenowfox\n\nRaw and unfiltered. Watch a non-stop stream of breaking news, live events and stories across the nation. Limited commentary. No opinion. Experience LiveNOW from FOX."
-        },
-        "defaultAudioLanguage": "en"
-      },
-      "statistics": {
-        "viewCount": "59303",
-        "likeCount": "703",
-        "favoriteCount": "0",
-        "commentCount": "419"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "hEIoPdZ-hdN-LD_bvFSf8NmOed8",
+      "etag": "N3kRNKXMP9oaQAhP8SEiuuSXP_4",
       "id": "qgfZceP5SV0",
       "snippet": {
         "publishedAt": "2025-04-18T15:47:16Z",
@@ -1450,7 +1413,7 @@
         }
       },
       "statistics": {
-        "viewCount": "58115",
+        "viewCount": "58119",
         "likeCount": "237",
         "favoriteCount": "0",
         "commentCount": "416"
@@ -1458,58 +1421,7 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "lg6U2H70B7DnEyr7N6BH1yy84DQ",
-      "id": "xY-i-tSqRBw",
-      "snippet": {
-        "publishedAt": "2025-04-18T16:15:58Z",
-        "channelId": "UCVxBA3Cbu3pm8w8gEIoMEog",
-        "title": "U.S. in talks with China on tariff deal, Trump says",
-        "description": "President Trump says the U.S. is in talks with China on a tariff deal that could be reached in the next few weeks. It comes after he met with Italian Prime Minister Giorgia Meloni amid a tariff standoff with the European Union.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/xY-i-tSqRBw/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/xY-i-tSqRBw/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/xY-i-tSqRBw/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/xY-i-tSqRBw/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/xY-i-tSqRBw/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "ABC7",
-        "categoryId": "22",
-        "liveBroadcastContent": "none",
-        "localized": {
-          "title": "U.S. in talks with China on tariff deal, Trump says",
-          "description": "President Trump says the U.S. is in talks with China on a tariff deal that could be reached in the next few weeks. It comes after he met with Italian Prime Minister Giorgia Meloni amid a tariff standoff with the European Union."
-        }
-      },
-      "statistics": {
-        "viewCount": "15429",
-        "likeCount": "46",
-        "favoriteCount": "0",
-        "commentCount": "62"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "pKRSV97oIHITQgNtwXS4ejqcIEY",
+      "etag": "3U38v0iA9F9oTkuct9umtl9ZeP8",
       "id": "7uPhOUizzRA",
       "snippet": {
         "publishedAt": "2025-04-17T15:00:10Z",
@@ -1573,7 +1485,7 @@
         "defaultAudioLanguage": "en"
       },
       "statistics": {
-        "viewCount": "20165",
+        "viewCount": "20173",
         "likeCount": "232",
         "favoriteCount": "0",
         "commentCount": "39"
@@ -1581,7 +1493,58 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "FnTHbapQhKbANyC_J2ks2XwQaTQ",
+      "etag": "lg6U2H70B7DnEyr7N6BH1yy84DQ",
+      "id": "xY-i-tSqRBw",
+      "snippet": {
+        "publishedAt": "2025-04-18T16:15:58Z",
+        "channelId": "UCVxBA3Cbu3pm8w8gEIoMEog",
+        "title": "U.S. in talks with China on tariff deal, Trump says",
+        "description": "President Trump says the U.S. is in talks with China on a tariff deal that could be reached in the next few weeks. It comes after he met with Italian Prime Minister Giorgia Meloni amid a tariff standoff with the European Union.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xY-i-tSqRBw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xY-i-tSqRBw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xY-i-tSqRBw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/xY-i-tSqRBw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/xY-i-tSqRBw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "ABC7",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "U.S. in talks with China on tariff deal, Trump says",
+          "description": "President Trump says the U.S. is in talks with China on a tariff deal that could be reached in the next few weeks. It comes after he met with Italian Prime Minister Giorgia Meloni amid a tariff standoff with the European Union."
+        }
+      },
+      "statistics": {
+        "viewCount": "15429",
+        "likeCount": "46",
+        "favoriteCount": "0",
+        "commentCount": "62"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "Wf0DpsX0-6D9T3YPy38rXt-AekQ",
       "id": "gcgyEMRp66M",
       "snippet": {
         "publishedAt": "2025-04-18T01:31:36Z",
@@ -1640,7 +1603,7 @@
         }
       },
       "statistics": {
-        "viewCount": "128026",
+        "viewCount": "128029",
         "likeCount": "548",
         "favoriteCount": "0",
         "commentCount": "796"
@@ -1648,67 +1611,77 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "X22ov1FWciLgA9ZkVZ3OvA-PvoI",
-      "id": "vlos6Uk5hUg",
+      "etag": "lBL1xljpbOC6NTh8YOTSTBPhWQM",
+      "id": "4r_LryXuzV4",
       "snippet": {
-        "publishedAt": "2025-04-20T07:38:30Z",
-        "channelId": "UCO0akufu9MOzyz3nvGIXAAw",
-        "title": "Donald Trump’s tariffs have ‘strange impact’ on US economy",
-        "description": "George Washington University Professor Steven Hamilton says Donald Trump’s tariffs have a “strange impact” on the US economy.\n\nMr Hamilton said knowing how to respond to the tariffs is “difficult”.\n\n“They obviously generate a lot of uncertainty.”",
+        "publishedAt": "2025-04-17T00:36:49Z",
+        "channelId": "UCuFFtHWoLl5fauMMD5Ww2jA",
+        "title": "Did Trump really just levy a 245% tariff on China? | About That",
+        "description": "The U.S. indeed has a 245 per cent tariff on Chinese goods, but not in the way you might think. Andrew Chang explains how this figure got so high and which imports are getting hit.\n\n»»» Subscribe to CBC News to watch more videos: http://bit.ly/1RreYWS\n\nConnect with CBC News Online:\n\nFor breaking news, video, audio and in-depth coverage: http://bit.ly/1Z0m6iX\nFollow CBC News on TikTok: https://bit.ly/3TnHioe\nFollow CBC News on Twitter: http://bit.ly/1sA5P9H\nSubscribe to CBC News on Snapchat: https://bit.ly/3leaWsr\n\nDownload the CBC News app for iOS: http://apple.co/25mpsUz\nDownload the CBC News app for Android: http://bit.ly/1XxuozZ\n\n»»»»»»»»»»»»»»»»»»\nFor more than 80 years, CBC News has been the source Canadians turn to, to keep them informed about their communities, their country and their world. Through regional and national programming on multiple platforms, including CBC Television, CBC News Network, CBC Radio, CBCNews.ca, mobile and on-demand, CBC News and its internationally recognized team of award-winning journalists deliver the breaking stories, the issues, the analyses and the personalities that matter to Canadians.",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/vlos6Uk5hUg/default.jpg",
+            "url": "https://i.ytimg.com/vi/4r_LryXuzV4/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/vlos6Uk5hUg/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/4r_LryXuzV4/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/vlos6Uk5hUg/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/4r_LryXuzV4/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/vlos6Uk5hUg/sddefault.jpg",
+            "url": "https://i.ytimg.com/vi/4r_LryXuzV4/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/vlos6Uk5hUg/maxresdefault.jpg",
+            "url": "https://i.ytimg.com/vi/4r_LryXuzV4/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
         },
-        "channelTitle": "Sky News Australia",
+        "channelTitle": "CBC News",
         "tags": [
-          "6371715447112",
-          "business",
-          "fb",
-          "markets",
-          "msn",
-          "yt"
+          "CBC News",
+          "CBC",
+          "News",
+          "245%",
+          "donald trump",
+          "u.s.",
+          "china",
+          "tariffs",
+          "reciprocal tariffs",
+          "trade war",
+          "imports",
+          "exports",
+          "xi jinping",
+          "andrew chang",
+          "about that",
+          "cbc news"
         ],
         "categoryId": "25",
         "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
         "localized": {
-          "title": "Donald Trump’s tariffs have ‘strange impact’ on US economy",
-          "description": "George Washington University Professor Steven Hamilton says Donald Trump’s tariffs have a “strange impact” on the US economy.\n\nMr Hamilton said knowing how to respond to the tariffs is “difficult”.\n\n“They obviously generate a lot of uncertainty.”"
+          "title": "Did Trump really just levy a 245% tariff on China? | About That",
+          "description": "The U.S. indeed has a 245 per cent tariff on Chinese goods, but not in the way you might think. Andrew Chang explains how this figure got so high and which imports are getting hit.\n\n»»» Subscribe to CBC News to watch more videos: http://bit.ly/1RreYWS\n\nConnect with CBC News Online:\n\nFor breaking news, video, audio and in-depth coverage: http://bit.ly/1Z0m6iX\nFollow CBC News on TikTok: https://bit.ly/3TnHioe\nFollow CBC News on Twitter: http://bit.ly/1sA5P9H\nSubscribe to CBC News on Snapchat: https://bit.ly/3leaWsr\n\nDownload the CBC News app for iOS: http://apple.co/25mpsUz\nDownload the CBC News app for Android: http://bit.ly/1XxuozZ\n\n»»»»»»»»»»»»»»»»»»\nFor more than 80 years, CBC News has been the source Canadians turn to, to keep them informed about their communities, their country and their world. Through regional and national programming on multiple platforms, including CBC Television, CBC News Network, CBC Radio, CBCNews.ca, mobile and on-demand, CBC News and its internationally recognized team of award-winning journalists deliver the breaking stories, the issues, the analyses and the personalities that matter to Canadians."
         },
-        "defaultAudioLanguage": "en-US"
+        "defaultAudioLanguage": "en-CA"
       },
       "statistics": {
-        "viewCount": "33326",
-        "likeCount": "340",
-        "favoriteCount": "0",
-        "commentCount": "299"
+        "viewCount": "1023927",
+        "likeCount": "11211",
+        "favoriteCount": "0"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "r7vb6wZTIzuthK3E1OJKXFLj_HE",
+      "etag": "4vaoux9PLTzgw1YuDyglCrejZAo",
       "id": "wOqwzlO2pfU",
       "snippet": {
         "publishedAt": "2025-04-20T00:15:10Z",
@@ -1775,7 +1748,7 @@
         "defaultAudioLanguage": "en"
       },
       "statistics": {
-        "viewCount": "217697",
+        "viewCount": "217725",
         "likeCount": "9202",
         "favoriteCount": "0",
         "commentCount": "1103"
@@ -1783,7 +1756,7 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "V_Xu2gOqJye0GzYTsZWQwG5x8Tg",
+      "etag": "aNLO_mAhjT1RC4g3yLJH4w73v20",
       "id": "6iRjXSsI4mQ",
       "snippet": {
         "publishedAt": "2025-04-17T17:14:18Z",
@@ -1828,10 +1801,10 @@
         "defaultAudioLanguage": "en"
       },
       "statistics": {
-        "viewCount": "599007",
-        "likeCount": "6078",
+        "viewCount": "599456",
+        "likeCount": "6084",
         "favoriteCount": "0",
-        "commentCount": "1213"
+        "commentCount": "1214"
       }
     },
     {
@@ -1912,7 +1885,7 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "W9FSgKcWUr9NgAZk9w_T33GamC4",
+      "etag": "jBhCoeaLUrw0JuomYv8HkTjPBtg",
       "id": "SMigNBNMi9A",
       "snippet": {
         "publishedAt": "2025-04-21T17:56:58Z",
@@ -1977,7 +1950,7 @@
         }
       },
       "statistics": {
-        "viewCount": "17139",
+        "viewCount": "17281",
         "likeCount": "287",
         "favoriteCount": "0",
         "commentCount": "34"
@@ -1985,7 +1958,7 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "c1tqXRNbz_OTC1_U64iiAQDSD-o",
+      "etag": "HCI2YsVAkiX1g8S3UAyFBbSv3HM",
       "id": "3ZvnXQ3mn8E",
       "snippet": {
         "publishedAt": "2025-04-18T15:30:02Z",
@@ -2038,15 +2011,244 @@
         "defaultAudioLanguage": "en"
       },
       "statistics": {
-        "viewCount": "150226",
-        "likeCount": "1671",
+        "viewCount": "150239",
+        "likeCount": "1672",
         "favoriteCount": "0",
         "commentCount": "963"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "f6NMDFl5vt81zdZcIePyB0Kz-ow",
+      "etag": "ZPWXoOFJ1DbqRYgOl4Q6w5-n-II",
+      "id": "P-6VtrCKEkc",
+      "snippet": {
+        "publishedAt": "2025-04-19T05:30:11Z",
+        "channelId": "UCckHqySbfy5FcPP6MD_S-Yg",
+        "title": "'Biggest Shock Since WW2': Wong Warns World Against Trump Tariffs | Singapore PM's FULL SPEECH",
+        "description": "Singapore PM Lawrence Wong lashed out at Donald Trump and his tariffs, claiming that it was the biggest shock post World War II that the global system has ever experienced. Wong was speaking at the launch of the PAP manifesto. Watch for more.\n\n#singapore #usa #tariffs #lawrencewong #unitedstates #donaldtrump #tradewar #worldwar3 #washington #whitehouse\n\nTimes Of India (TOI) Is The Largest Selling English Daily In The World. \n\nTimes Of India Videos Bring You Global News, Views And Sharp Analysis. We Track India's Global Rise, Her Increasing Engagement With The World, The Changing Geopolitical Landscape Amid Conflicts And Wars And The Emerging World Order.  \n\nINTERNATIONAL NEWS | GLOBAL CONFLICTS | MIDDLE EAST WAR | CHANGING WORLD ORDER #TOILive | #TOIVideos \n\nSubscribe to the Times Of India YT channel and press the bell icon to get notified when we go live.\n\nVisit our website https://www.timesofindia.com/\nFollow us on X/ @timesofindia  \nFacebook: https://www.facebook.com/TimesofIndia\nInstagram: https://www.instagram.com/timesofindia/\nDownload the app: http://toi.in/3SLUCa80\nFollow the TOI WhatsApp channel: https://bit.ly/3RYl0J9\n\nFor daily news & updates and exclusive stories, follow the Times of India",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/P-6VtrCKEkc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/P-6VtrCKEkc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/P-6VtrCKEkc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/P-6VtrCKEkc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/P-6VtrCKEkc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Times Of India",
+        "tags": [
+          "times of india",
+          "toi",
+          "latest news",
+          "news",
+          "news today",
+          "latest news today",
+          "trending news",
+          "viral news",
+          "viral video",
+          "times news",
+          "english news",
+          "live news",
+          "singapore",
+          "lawrence wong",
+          "asean",
+          "tariffs",
+          "trade war",
+          "import",
+          "export",
+          "biggest shock",
+          "world war",
+          "storm",
+          "fightback",
+          "usa",
+          "united states",
+          "donald trump",
+          "white house",
+          "washington"
+        ],
+        "categoryId": "25",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "'Biggest Shock Since WW2': Wong Warns World Against Trump Tariffs | Singapore PM's FULL SPEECH",
+          "description": "Singapore PM Lawrence Wong lashed out at Donald Trump and his tariffs, claiming that it was the biggest shock post World War II that the global system has ever experienced. Wong was speaking at the launch of the PAP manifesto. Watch for more.\n\n#singapore #usa #tariffs #lawrencewong #unitedstates #donaldtrump #tradewar #worldwar3 #washington #whitehouse\n\nTimes Of India (TOI) Is The Largest Selling English Daily In The World. \n\nTimes Of India Videos Bring You Global News, Views And Sharp Analysis. We Track India's Global Rise, Her Increasing Engagement With The World, The Changing Geopolitical Landscape Amid Conflicts And Wars And The Emerging World Order.  \n\nINTERNATIONAL NEWS | GLOBAL CONFLICTS | MIDDLE EAST WAR | CHANGING WORLD ORDER #TOILive | #TOIVideos \n\nSubscribe to the Times Of India YT channel and press the bell icon to get notified when we go live.\n\nVisit our website https://www.timesofindia.com/\nFollow us on X/ @timesofindia  \nFacebook: https://www.facebook.com/TimesofIndia\nInstagram: https://www.instagram.com/timesofindia/\nDownload the app: http://toi.in/3SLUCa80\nFollow the TOI WhatsApp channel: https://bit.ly/3RYl0J9\n\nFor daily news & updates and exclusive stories, follow the Times of India"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "statistics": {
+        "viewCount": "9653",
+        "likeCount": "133",
+        "favoriteCount": "0",
+        "commentCount": "65"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "yJujPq9hax6jNVAGCfJMnS8_sMQ",
+      "id": "8cL9f4_EbqU",
+      "snippet": {
+        "publishedAt": "2025-04-17T23:15:01Z",
+        "channelId": "UChLtXXpo4Ge1ReTEboVvTDg",
+        "title": "Italy’s Meloni pleads case for lower EU tariffs with Trump",
+        "description": "The tariff saga played out on multiple fronts in the American capital on Thursday.\n\nItaly Prime Minister Georgia Meloni met with U.S. President Donald Trump in the Oval Office on Thursday, where she pushed for a better deal for Europe and with fewer penalties. \n\nMeanwhile, Trump put Federal Reserve Chair Jerome Powell on notice over his belief that tariff policy would cause a spike in inflation.\n\nAs Reggie Cecchini reports, the president still insists tariffs and any resulting trade deals are the way forward. \n\nFor more info, please go to https://globalnews.ca/news/11137420/trump-tariffs-no-rush-trade-talks/\nSubscribe to Global News Channel HERE: http://bit.ly/20fcXDc\nLike Global News on Facebook HERE: http://bit.ly/255GMJQ\nFollow Global News on X HERE: http://bit.ly/1Toz8mt\nFollow Global News on Instagram HERE: https://bit.ly/2QZaZIB\n#trumptariffs #trump #meloni #GlobalNews",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8cL9f4_EbqU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8cL9f4_EbqU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8cL9f4_EbqU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/8cL9f4_EbqU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/8cL9f4_EbqU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Global News",
+        "tags": [
+          "global news",
+          "donald trump",
+          "trump tariffs",
+          "tariffs",
+          "trump eu tariffs",
+          "georgia meloni",
+          "trump meloni meeting",
+          "jerome powell",
+          "interest rates",
+          "inflation",
+          "trump tariff policy",
+          "trump trade war",
+          "trade"
+        ],
+        "categoryId": "25",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Italy’s Meloni pleads case for lower EU tariffs with Trump",
+          "description": "The tariff saga played out on multiple fronts in the American capital on Thursday.\n\nItaly Prime Minister Georgia Meloni met with U.S. President Donald Trump in the Oval Office on Thursday, where she pushed for a better deal for Europe and with fewer penalties. \n\nMeanwhile, Trump put Federal Reserve Chair Jerome Powell on notice over his belief that tariff policy would cause a spike in inflation.\n\nAs Reggie Cecchini reports, the president still insists tariffs and any resulting trade deals are the way forward. \n\nFor more info, please go to https://globalnews.ca/news/11137420/trump-tariffs-no-rush-trade-talks/\nSubscribe to Global News Channel HERE: http://bit.ly/20fcXDc\nLike Global News on Facebook HERE: http://bit.ly/255GMJQ\nFollow Global News on X HERE: http://bit.ly/1Toz8mt\nFollow Global News on Instagram HERE: https://bit.ly/2QZaZIB\n#trumptariffs #trump #meloni #GlobalNews"
+        },
+        "defaultAudioLanguage": "en-CA"
+      },
+      "statistics": {
+        "viewCount": "24227",
+        "likeCount": "126",
+        "favoriteCount": "0",
+        "commentCount": "107"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "dKAMBFNmfecRMcXd91Fy2YTQ_sY",
+      "id": "oyq9mmQBeXI",
+      "snippet": {
+        "publishedAt": "2025-04-17T06:28:13Z",
+        "channelId": "UCef1-8eOpJgud7szVPlZQAQ",
+        "title": "LIVE: Singapore To End Trade Ties With U.S? | PM Lawrence Wong's Big Reveal | Trump Tariffs | N18G",
+        "description": "SINGAPORE – Singapore’s foreign policy approach is to have many best friends, including the US, China and Europe, and the city state does not want a world where it can have only one friend, said Prime Minister Lawrence Wong at a dialogue after he delivered the 14th S. Rajaratnam Lecture on April 16.\n\nIn a transcript released by the Ministry of Foreign Affairs, PM Wong answered questions that ranged from managing relations with the US and China, to the role Singaporeans can play in the nation’s foreign policy.\n\n#singapore #trumptariffs #trump #lawrencewong #news18live \n\nNews18 Mobile App - https://onelink.to/desc-youtube",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oyq9mmQBeXI/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oyq9mmQBeXI/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oyq9mmQBeXI/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/oyq9mmQBeXI/sddefault_live.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/oyq9mmQBeXI/maxresdefault_live.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "CNN-News18",
+        "tags": [
+          "news18",
+          "cnn news18",
+          "Singapore trade news",
+          "Lawrence Wong",
+          "Singapore US trade",
+          "end of trade ties",
+          "US Singapore relations",
+          "breaking news Singapore",
+          "global trade shift",
+          "US foreign policy",
+          "Singapore economy",
+          "Lawrence Wong announcement",
+          "international trade 2025",
+          "geopolitical news",
+          "Southeast Asia politics",
+          "economic realignment",
+          "US trade war",
+          "Singapore diplomacy",
+          "trade policy change",
+          "global economic news",
+          "Singapore China relations",
+          "trade war update",
+          "PM Lawrence Wong speech",
+          "trump"
+        ],
+        "categoryId": "25",
+        "liveBroadcastContent": "live",
+        "defaultLanguage": "en-IN",
+        "localized": {
+          "title": "LIVE: Singapore To End Trade Ties With U.S? | PM Lawrence Wong's Big Reveal | Trump Tariffs | N18G",
+          "description": "SINGAPORE – Singapore’s foreign policy approach is to have many best friends, including the US, China and Europe, and the city state does not want a world where it can have only one friend, said Prime Minister Lawrence Wong at a dialogue after he delivered the 14th S. Rajaratnam Lecture on April 16.\n\nIn a transcript released by the Ministry of Foreign Affairs, PM Wong answered questions that ranged from managing relations with the US and China, to the role Singaporeans can play in the nation’s foreign policy.\n\n#singapore #trumptariffs #trump #lawrencewong #news18live \n\nNews18 Mobile App - https://onelink.to/desc-youtube"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "statistics": {
+        "viewCount": "468823",
+        "likeCount": "4065",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "m1g_3wF50zLWU_JPQSaMBwX7tWc",
       "id": "CHKaghzhBLw",
       "snippet": {
         "publishedAt": "2025-04-15T17:45:00Z",
@@ -2103,7 +2305,7 @@
         "defaultAudioLanguage": "en-GB"
       },
       "statistics": {
-        "viewCount": "256575",
+        "viewCount": "256584",
         "likeCount": "1413",
         "favoriteCount": "0",
         "commentCount": "1305"
@@ -2111,7 +2313,60 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "c6bphQx0PQR__BC4neClseHyl3Y",
+      "etag": "JIHCRcTlb8aWECsFgjT6JawFl3E",
+      "id": "AugSloNoR8s",
+      "snippet": {
+        "publishedAt": "2025-04-17T23:51:11Z",
+        "channelId": "UCMliswJ7oukCeW35GSayhRA",
+        "title": "Trump Signals Potential for Tariff Deal With China | WSJ News",
+        "description": "President Trump said he is optimistic that the U.S. can reach a deal on tariffs with China. He also appeared to signal he might lower the current 145% tariffs. Photo: Chris Kleponis /Pool via CNP/Zuma Press",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AugSloNoR8s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AugSloNoR8s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AugSloNoR8s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/AugSloNoR8s/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/AugSloNoR8s/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "WSJ News",
+        "categoryId": "25",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Trump Signals Potential for Tariff Deal With China | WSJ News",
+          "description": "President Trump said he is optimistic that the U.S. can reach a deal on tariffs with China. He also appeared to signal he might lower the current 145% tariffs. Photo: Chris Kleponis /Pool via CNP/Zuma Press"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "statistics": {
+        "viewCount": "27827",
+        "likeCount": "103",
+        "favoriteCount": "0",
+        "commentCount": "106"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "98gJt4f08btA630j4JG3QJAs6Hg",
       "id": "4wP4juSbLRI",
       "snippet": {
         "publishedAt": "2025-04-18T09:41:20Z",
@@ -2176,10 +2431,88 @@
         "defaultAudioLanguage": "en-GB"
       },
       "statistics": {
-        "viewCount": "716447",
-        "likeCount": "9036",
+        "viewCount": "716839",
+        "likeCount": "9040",
         "favoriteCount": "0",
-        "commentCount": "3590"
+        "commentCount": "3593"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "STVgQTWqh4CtUQm9h6-B2zB5pCo",
+      "id": "JMTQ3aQ_Xig",
+      "snippet": {
+        "publishedAt": "2025-04-17T16:00:36Z",
+        "channelId": "UCKjU3KzdbJE1EFcHVqXC3_g",
+        "title": "What Trump gets wrong about tariffs",
+        "description": "U.S. President Donald Trump often claims that tariffs introduced in the late 1800s by then-president William McKinley ushered in America’s Golden Age, but history reveals a different story. CBC’s Eli Glasner breaks down what Trump gets wrong and the lessons he could learn from the past.\n\n#trump #politics #news \n\nWatch The National live on YouTube starting at 9 p.m. ET\n\nSubscribe to The National: \nhttps://www.youtube.com/user/CBCTheNational?sub_confirmation=1\n\nMore from CBC News | https://www.cbc.ca/news\n\nThe National is the flagship of CBC News, showcasing award-winning journalism from across Canada and around the world. Led by Chief Correspondent Adrienne Arsenault and Ian Hanomansing, our team of trusted reporters helps you make sense of the world, wherever you are.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JMTQ3aQ_Xig/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JMTQ3aQ_Xig/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JMTQ3aQ_Xig/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/JMTQ3aQ_Xig/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/JMTQ3aQ_Xig/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "CBC News: The National",
+        "tags": [
+          "Donald Trump",
+          "Trump tariffs",
+          "Trump's trade war",
+          "William McKinley",
+          "gilded age",
+          "U.S. protectionism",
+          "free trade",
+          "Great Depression",
+          "China",
+          "U.S.-China trade war",
+          "trump mckinley",
+          "mckinley tariffs",
+          "trump tariff obsession",
+          "trump mckinley tariffs",
+          "trump china",
+          "china trade war",
+          "Margaret MacMillan",
+          "Craig Baird",
+          "Ronald Reagan",
+          "Douglas Irwin",
+          "CBC",
+          "CBC News",
+          "The National",
+          "Eli Glasner"
+        ],
+        "categoryId": "25",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "What Trump gets wrong about tariffs",
+          "description": "U.S. President Donald Trump often claims that tariffs introduced in the late 1800s by then-president William McKinley ushered in America’s Golden Age, but history reveals a different story. CBC’s Eli Glasner breaks down what Trump gets wrong and the lessons he could learn from the past.\n\n#trump #politics #news \n\nWatch The National live on YouTube starting at 9 p.m. ET\n\nSubscribe to The National: \nhttps://www.youtube.com/user/CBCTheNational?sub_confirmation=1\n\nMore from CBC News | https://www.cbc.ca/news\n\nThe National is the flagship of CBC News, showcasing award-winning journalism from across Canada and around the world. Led by Chief Correspondent Adrienne Arsenault and Ian Hanomansing, our team of trusted reporters helps you make sense of the world, wherever you are."
+        },
+        "defaultAudioLanguage": "en-CA"
+      },
+      "statistics": {
+        "viewCount": "45042",
+        "likeCount": "473",
+        "favoriteCount": "0"
       }
     },
     {
@@ -2252,85 +2585,7 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "FnvnjVg03asvxb1HRDUUP1zDh4Q",
-      "id": "JMTQ3aQ_Xig",
-      "snippet": {
-        "publishedAt": "2025-04-17T16:00:36Z",
-        "channelId": "UCKjU3KzdbJE1EFcHVqXC3_g",
-        "title": "What Trump gets wrong about tariffs",
-        "description": "U.S. President Donald Trump often claims that tariffs introduced in the late 1800s by then-president William McKinley ushered in America’s Golden Age, but history reveals a different story. CBC’s Eli Glasner breaks down what Trump gets wrong and the lessons he could learn from the past.\n\n#trump #politics #news \n\nWatch The National live on YouTube starting at 9 p.m. ET\n\nSubscribe to The National: \nhttps://www.youtube.com/user/CBCTheNational?sub_confirmation=1\n\nMore from CBC News | https://www.cbc.ca/news\n\nThe National is the flagship of CBC News, showcasing award-winning journalism from across Canada and around the world. Led by Chief Correspondent Adrienne Arsenault and Ian Hanomansing, our team of trusted reporters helps you make sense of the world, wherever you are.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/JMTQ3aQ_Xig/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/JMTQ3aQ_Xig/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/JMTQ3aQ_Xig/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/JMTQ3aQ_Xig/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/JMTQ3aQ_Xig/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "CBC News: The National",
-        "tags": [
-          "Donald Trump",
-          "Trump tariffs",
-          "Trump's trade war",
-          "William McKinley",
-          "gilded age",
-          "U.S. protectionism",
-          "free trade",
-          "Great Depression",
-          "China",
-          "U.S.-China trade war",
-          "trump mckinley",
-          "mckinley tariffs",
-          "trump tariff obsession",
-          "trump mckinley tariffs",
-          "trump china",
-          "china trade war",
-          "Margaret MacMillan",
-          "Craig Baird",
-          "Ronald Reagan",
-          "Douglas Irwin",
-          "CBC",
-          "CBC News",
-          "The National",
-          "Eli Glasner"
-        ],
-        "categoryId": "25",
-        "liveBroadcastContent": "none",
-        "defaultLanguage": "en",
-        "localized": {
-          "title": "What Trump gets wrong about tariffs",
-          "description": "U.S. President Donald Trump often claims that tariffs introduced in the late 1800s by then-president William McKinley ushered in America’s Golden Age, but history reveals a different story. CBC’s Eli Glasner breaks down what Trump gets wrong and the lessons he could learn from the past.\n\n#trump #politics #news \n\nWatch The National live on YouTube starting at 9 p.m. ET\n\nSubscribe to The National: \nhttps://www.youtube.com/user/CBCTheNational?sub_confirmation=1\n\nMore from CBC News | https://www.cbc.ca/news\n\nThe National is the flagship of CBC News, showcasing award-winning journalism from across Canada and around the world. Led by Chief Correspondent Adrienne Arsenault and Ian Hanomansing, our team of trusted reporters helps you make sense of the world, wherever you are."
-        },
-        "defaultAudioLanguage": "en-CA"
-      },
-      "statistics": {
-        "viewCount": "45037",
-        "likeCount": "473",
-        "favoriteCount": "0"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "EFsGINHkiyjKdiT8sJyiuvSGvtA",
+      "etag": "CN0v_8hg-0oagLg--Hk91Tk_Nz8",
       "id": "_KqJ17Av_Ys",
       "snippet": {
         "publishedAt": "2025-04-17T20:14:53Z",
@@ -2385,77 +2640,10 @@
         "defaultAudioLanguage": "en-US"
       },
       "statistics": {
-        "viewCount": "629077",
-        "likeCount": "6320",
+        "viewCount": "629256",
+        "likeCount": "6322",
         "favoriteCount": "0",
         "commentCount": "635"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "bITZrm7CDCM8PdeDslgjyZf9CvA",
-      "id": "5KxCVU0-bog",
-      "snippet": {
-        "publishedAt": "2025-04-16T12:59:52Z",
-        "channelId": "UC4OqEJz6oABzz_7nu29zF3A",
-        "title": "Trump tariffs on China could reach 245% | D.C. Daily",
-        "description": "Breaking overnight, tariffs on China could jump as high as 245%. A White House fact sheet on Wednesday says the new hike is in response to China's retaliatory tariff of 125%. China has said it would not increase tariffs again even if the United States does.\n\nSubscribe to FOX 26 Houston: https://www.youtube.com/myfoxhouston26?sub_confirmation=1\n\nWatch FOX 26 Houston Live: https://www.fox26houston.com/live\n\nHouston area news, weather, traffic, sports and breaking news from FOX 26 Houston. Watch news and local programming daily from KRIV.\n\nWatch more FOX 26 Houston on YouTube:\nWhat's Your Point?: https://www.youtube.com/playlist?list=PLzU9hsam67vZXZPhBKz8g7NmLspNSCJMW\nIsiah Factor Uncensored: https://www.youtube.com/playlist?list=PLzU9hsam67vZy1iMI2wiIa4988tnEqoS7\nPositively Houston: https://www.youtube.com/playlist?list=PLzU9hsam67vYgxB8_wTc4NdcTBGfe60N_\n\nDownload the FOX 26 Houston News app: https://fox26houston.onelink.me/xslh?pid=social&c=youtube&af_web_dp=https%3A%2F%2Fwww.fox26houston.com%2Fapps\n\nDownload the FOX 26 Houston Weather app: https://www.fox26houston.com/apps\n\nFollow FOX 26 Houston on Facebook: https://www.facebook.com/fox26houston\n\nFollow FOX 26 Houston on Twitter: https://www.twitter.com/fox26houston\n\nFollow FOX 26 Houston on Instagram: https://www.instagram.com/fox26houston\n\nSubscribe to the FOX 26 Houston newsletter: https://www.fox26houston.com/newsletters",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/5KxCVU0-bog/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/5KxCVU0-bog/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/5KxCVU0-bog/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/5KxCVU0-bog/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/5KxCVU0-bog/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "FOX 26 Houston",
-        "tags": [
-          "trump tariffs",
-          "tariffs",
-          "economy",
-          "dc daily",
-          "president trump",
-          "president donald trump",
-          "china",
-          "china tariffs",
-          "stock market",
-          "immigration",
-          "deportation",
-          "harvard"
-        ],
-        "categoryId": "25",
-        "liveBroadcastContent": "none",
-        "defaultLanguage": "en",
-        "localized": {
-          "title": "Trump tariffs on China could reach 245% | D.C. Daily",
-          "description": "Breaking overnight, tariffs on China could jump as high as 245%. A White House fact sheet on Wednesday says the new hike is in response to China's retaliatory tariff of 125%. China has said it would not increase tariffs again even if the United States does.\n\nSubscribe to FOX 26 Houston: https://www.youtube.com/myfoxhouston26?sub_confirmation=1\n\nWatch FOX 26 Houston Live: https://www.fox26houston.com/live\n\nHouston area news, weather, traffic, sports and breaking news from FOX 26 Houston. Watch news and local programming daily from KRIV.\n\nWatch more FOX 26 Houston on YouTube:\nWhat's Your Point?: https://www.youtube.com/playlist?list=PLzU9hsam67vZXZPhBKz8g7NmLspNSCJMW\nIsiah Factor Uncensored: https://www.youtube.com/playlist?list=PLzU9hsam67vZy1iMI2wiIa4988tnEqoS7\nPositively Houston: https://www.youtube.com/playlist?list=PLzU9hsam67vYgxB8_wTc4NdcTBGfe60N_\n\nDownload the FOX 26 Houston News app: https://fox26houston.onelink.me/xslh?pid=social&c=youtube&af_web_dp=https%3A%2F%2Fwww.fox26houston.com%2Fapps\n\nDownload the FOX 26 Houston Weather app: https://www.fox26houston.com/apps\n\nFollow FOX 26 Houston on Facebook: https://www.facebook.com/fox26houston\n\nFollow FOX 26 Houston on Twitter: https://www.twitter.com/fox26houston\n\nFollow FOX 26 Houston on Instagram: https://www.instagram.com/fox26houston\n\nSubscribe to the FOX 26 Houston newsletter: https://www.fox26houston.com/newsletters"
-        },
-        "defaultAudioLanguage": "en"
-      },
-      "statistics": {
-        "viewCount": "66246",
-        "likeCount": "333",
-        "favoriteCount": "0",
-        "commentCount": "740"
       }
     },
     {
@@ -2547,74 +2735,7 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "yJujPq9hax6jNVAGCfJMnS8_sMQ",
-      "id": "8cL9f4_EbqU",
-      "snippet": {
-        "publishedAt": "2025-04-17T23:15:01Z",
-        "channelId": "UChLtXXpo4Ge1ReTEboVvTDg",
-        "title": "Italy’s Meloni pleads case for lower EU tariffs with Trump",
-        "description": "The tariff saga played out on multiple fronts in the American capital on Thursday.\n\nItaly Prime Minister Georgia Meloni met with U.S. President Donald Trump in the Oval Office on Thursday, where she pushed for a better deal for Europe and with fewer penalties. \n\nMeanwhile, Trump put Federal Reserve Chair Jerome Powell on notice over his belief that tariff policy would cause a spike in inflation.\n\nAs Reggie Cecchini reports, the president still insists tariffs and any resulting trade deals are the way forward. \n\nFor more info, please go to https://globalnews.ca/news/11137420/trump-tariffs-no-rush-trade-talks/\nSubscribe to Global News Channel HERE: http://bit.ly/20fcXDc\nLike Global News on Facebook HERE: http://bit.ly/255GMJQ\nFollow Global News on X HERE: http://bit.ly/1Toz8mt\nFollow Global News on Instagram HERE: https://bit.ly/2QZaZIB\n#trumptariffs #trump #meloni #GlobalNews",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/8cL9f4_EbqU/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/8cL9f4_EbqU/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/8cL9f4_EbqU/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/8cL9f4_EbqU/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/8cL9f4_EbqU/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "Global News",
-        "tags": [
-          "global news",
-          "donald trump",
-          "trump tariffs",
-          "tariffs",
-          "trump eu tariffs",
-          "georgia meloni",
-          "trump meloni meeting",
-          "jerome powell",
-          "interest rates",
-          "inflation",
-          "trump tariff policy",
-          "trump trade war",
-          "trade"
-        ],
-        "categoryId": "25",
-        "liveBroadcastContent": "none",
-        "localized": {
-          "title": "Italy’s Meloni pleads case for lower EU tariffs with Trump",
-          "description": "The tariff saga played out on multiple fronts in the American capital on Thursday.\n\nItaly Prime Minister Georgia Meloni met with U.S. President Donald Trump in the Oval Office on Thursday, where she pushed for a better deal for Europe and with fewer penalties. \n\nMeanwhile, Trump put Federal Reserve Chair Jerome Powell on notice over his belief that tariff policy would cause a spike in inflation.\n\nAs Reggie Cecchini reports, the president still insists tariffs and any resulting trade deals are the way forward. \n\nFor more info, please go to https://globalnews.ca/news/11137420/trump-tariffs-no-rush-trade-talks/\nSubscribe to Global News Channel HERE: http://bit.ly/20fcXDc\nLike Global News on Facebook HERE: http://bit.ly/255GMJQ\nFollow Global News on X HERE: http://bit.ly/1Toz8mt\nFollow Global News on Instagram HERE: https://bit.ly/2QZaZIB\n#trumptariffs #trump #meloni #GlobalNews"
-        },
-        "defaultAudioLanguage": "en-CA"
-      },
-      "statistics": {
-        "viewCount": "24227",
-        "likeCount": "126",
-        "favoriteCount": "0",
-        "commentCount": "107"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "F9kLMtbaks78-u3MDdGKNe3ljuM",
+      "etag": "EFUFv1q4Fz3uIFjLRxUzLbPpjsU",
       "id": "chmXUYQAHGM",
       "snippet": {
         "publishedAt": "2025-04-17T22:16:33Z",
@@ -2666,7 +2787,7 @@
         "defaultAudioLanguage": "en"
       },
       "statistics": {
-        "viewCount": "56014",
+        "viewCount": "56016",
         "likeCount": "369",
         "favoriteCount": "0",
         "commentCount": "171"
@@ -2674,7 +2795,124 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "cl1G8JJydg9EnretSg2MyjXCLHw",
+      "etag": "odmbC7aw8yXfkRaBDp0zvYgQk2M",
+      "id": "dyQ93WUaTSw",
+      "snippet": {
+        "publishedAt": "2025-04-18T02:15:06Z",
+        "channelId": "UCg40OxZ1GYh3u3jBntB6DLg",
+        "title": "Trump Points To Possible TikTok Deal As Possibly Included In China Tariff And Trade Negotiations",
+        "description": "In the Oval Office, President Trump spoke about a TikTok deal as being part of negotiations on trade and tariffs with China.\n\nFuel your success with Forbes. Gain unlimited access to premium journalism, including breaking news, groundbreaking in-depth reported stories, daily digests and more. Plus, members get a front-row seat at members-only events with leading thinkers and doers, access to premium video that can help you get ahead, an ad-light experience, early access to select products including NFT drops and more:\n\nhttps://account.forbes.com/membership/?utm_source=youtube&utm_medium=display&utm_campaign=growth_non-sub_paid_subscribe_ytdescript\n\n\nStay Connected\nForbes on Facebook: http://fb.com/forbes\nForbes Video on Twitter: http://www.twitter.com/forbes\nForbes Video on Instagram: http://instagram.com/forbes\nMore From Forbes:  http://forbes.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dyQ93WUaTSw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dyQ93WUaTSw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dyQ93WUaTSw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/dyQ93WUaTSw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/dyQ93WUaTSw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Forbes Breaking News",
+        "categoryId": "25",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Trump Points To Possible TikTok Deal As Possibly Included In China Tariff And Trade Negotiations",
+          "description": "In the Oval Office, President Trump spoke about a TikTok deal as being part of negotiations on trade and tariffs with China.\n\nFuel your success with Forbes. Gain unlimited access to premium journalism, including breaking news, groundbreaking in-depth reported stories, daily digests and more. Plus, members get a front-row seat at members-only events with leading thinkers and doers, access to premium video that can help you get ahead, an ad-light experience, early access to select products including NFT drops and more:\n\nhttps://account.forbes.com/membership/?utm_source=youtube&utm_medium=display&utm_campaign=growth_non-sub_paid_subscribe_ytdescript\n\n\nStay Connected\nForbes on Facebook: http://fb.com/forbes\nForbes Video on Twitter: http://www.twitter.com/forbes\nForbes Video on Instagram: http://instagram.com/forbes\nMore From Forbes:  http://forbes.com"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "statistics": {
+        "viewCount": "10704",
+        "likeCount": "54",
+        "favoriteCount": "0",
+        "commentCount": "47"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "md6FsnyzcUGQryBI9ghCRCNclVs",
+      "id": "i1ZfGNdvZJo",
+      "snippet": {
+        "publishedAt": "2025-04-19T19:19:43Z",
+        "channelId": "UCzy2Sl0-273HcNLPcdXVqYQ",
+        "title": "New Study Reveals the True Price Tag of Trump's Tariff Policies",
+        "description": "President Trump’s tariff policy is widespread and hits China especially hard. The nonpartisan Yale Budget Lab has been tracking Presidential policies since 2024. But most recently they’ve been tracking Trump’s tariffs. Last week they released their updated study based on the current tariff policy. They looked at how these tariffs will impact American consumers and the American economy in both the short-run and the long-run. numbers are eye opening.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/i1ZfGNdvZJo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/i1ZfGNdvZJo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/i1ZfGNdvZJo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/i1ZfGNdvZJo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/i1ZfGNdvZJo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Lisa Remillard",
+        "tags": [
+          "lisa remillard",
+          "lisa remillard tiktok",
+          "the news girl",
+          "new girl tiktok",
+          "politics",
+          "tariffs",
+          "inflation",
+          "gdp",
+          "us economy",
+          "price increase",
+          "prices"
+        ],
+        "categoryId": "25",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "New Study Reveals the True Price Tag of Trump's Tariff Policies",
+          "description": "President Trump’s tariff policy is widespread and hits China especially hard. The nonpartisan Yale Budget Lab has been tracking Presidential policies since 2024. But most recently they’ve been tracking Trump’s tariffs. Last week they released their updated study based on the current tariff policy. They looked at how these tariffs will impact American consumers and the American economy in both the short-run and the long-run. numbers are eye opening."
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "statistics": {
+        "viewCount": "3571",
+        "likeCount": "325",
+        "favoriteCount": "0",
+        "commentCount": "47"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "lgnfUs6QguZcfujWPz3bxOlZ99A",
       "id": "ByEcWc2Q5mo",
       "snippet": {
         "publishedAt": "2025-04-17T19:44:48Z",
@@ -2718,8 +2956,8 @@
         "defaultAudioLanguage": "en"
       },
       "statistics": {
-        "viewCount": "3432544",
-        "likeCount": "44414",
+        "viewCount": "3433546",
+        "likeCount": "44426",
         "favoriteCount": "0",
         "commentCount": "1659"
       }
@@ -2791,7 +3029,7 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "efT55AjPM92Jkv_-UJTtfJXZoXk",
+      "etag": "lg6WZeqPle7SYKVhyyvnMjl3VxA",
       "id": "bE9tnq4_nrI",
       "snippet": {
         "publishedAt": "2025-04-17T14:07:41Z",
@@ -2846,7 +3084,7 @@
         }
       },
       "statistics": {
-        "viewCount": "100563",
+        "viewCount": "100567",
         "likeCount": "722",
         "favoriteCount": "0",
         "commentCount": "718"
@@ -2940,7 +3178,7 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "NIGBh8gSTpZnk--3G4A2ZqbYSeA",
+      "etag": "Z1TReB-H-jAQKw080XwxbrQGz6g",
       "id": "2K4mvjzqDVo",
       "snippet": {
         "publishedAt": "2025-04-21T03:36:56Z",
@@ -3009,7 +3247,7 @@
         }
       },
       "statistics": {
-        "viewCount": "4580",
+        "viewCount": "4585",
         "likeCount": "41",
         "favoriteCount": "0",
         "commentCount": "41"
@@ -3017,7 +3255,81 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "VHpd4JKjRlrCa0Ph7aHyKMzsmDc",
+      "etag": "orY4Fl4Qi_svVIaMSPMKvGNfgAg",
+      "id": "FMPYy00a-ic",
+      "snippet": {
+        "publishedAt": "2025-04-18T04:45:00Z",
+        "channelId": "UCXIJgqnII2ZOINSWNOGFThA",
+        "title": "Trump forecasts 'very good deal' with China on tariffs, trade",
+        "description": "'Outnumbered' reacts to President Donald Trump fielding questions ahead of his meeting with Italian Prime Minister Giorgia Meloni. #tariffs #china #trump #FoxNews #fox #news \n\nSubscribe to Fox News! https://bit.ly/2vBUvAS \nWatch more Fox News Video: http://video.foxnews.com \nWatch Fox News Channel Live: http://www.foxnewsgo.com/ \n \nFOX News Channel (FNC) is a 24-hour all-encompassing news service delivering breaking news as well as political and business news. The number one network in cable, FNC has been the most-watched television news channel for 18 consecutive years. According to a 2020 Brand Keys Consumer Loyalty Engagement Index report, FOX News is the top brand in the country for morning and evening news coverage. A 2019 Suffolk University poll named FOX News as the most trusted source for television news or commentary, while a 2019 Brand Keys Emotion Engagement Analysis survey found that FOX News was the most trusted cable news brand. A 2017 Gallup/Knight Foundation survey also found that among Americans who could name an objective news source, FOX News was the top-cited outlet. Owned by FOX Corporation, FNC is available in nearly 90 million homes and dominates the cable news landscape, routinely notching the top ten programs in the genre. \n \nWatch full episodes of your favorite shows \nThe Five: https://www.foxnews.com/video/shows/the-five \nSpecial Report with Bret Baier: https://www.foxnews.com/video/shows/special-report \nJesse Watters Primetime: https://www.foxnews.com/video/shows/jesse-watters-primetime \nHannity: https://www.foxnews.com/video/shows/hannity \nThe Ingraham Angle: https://www.foxnews.com/video/shows/ingraham-angle \nGutfeld!: https://www.foxnews.com/video/shows/gutfeld \nFox News @ Night: https://www.foxnews.com/video/shows/fox-news-night \n \nFollow Fox News on Facebook: https://www.facebook.com/FoxNews/ \nFollow Fox News on Twitter: https://twitter.com/FoxNews/ \nFollow Fox News on Instagram: https://www.instagram.com/foxnews/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FMPYy00a-ic/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FMPYy00a-ic/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FMPYy00a-ic/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/FMPYy00a-ic/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/FMPYy00a-ic/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Fox News",
+        "tags": [
+          "china tariff deal",
+          "china trade deal",
+          "deal with china",
+          "donald trump",
+          "economy",
+          "italy pm",
+          "italy prime minister giorgia meloni",
+          "president xi",
+          "tariff deal with china",
+          "trade",
+          "trade deal china",
+          "trump",
+          "trump china",
+          "trump deal with china",
+          "trump forecasts deal with china",
+          "trump predicts trade deal",
+          "trump predicts very good deal with china",
+          "trump press conference ahead of italy pm",
+          "trump trade deal",
+          "usa",
+          "xi trump trade deal"
+        ],
+        "categoryId": "25",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Trump forecasts 'very good deal' with China on tariffs, trade",
+          "description": "'Outnumbered' reacts to President Donald Trump fielding questions ahead of his meeting with Italian Prime Minister Giorgia Meloni. #tariffs #china #trump #FoxNews #fox #news \n\nSubscribe to Fox News! https://bit.ly/2vBUvAS \nWatch more Fox News Video: http://video.foxnews.com \nWatch Fox News Channel Live: http://www.foxnewsgo.com/ \n \nFOX News Channel (FNC) is a 24-hour all-encompassing news service delivering breaking news as well as political and business news. The number one network in cable, FNC has been the most-watched television news channel for 18 consecutive years. According to a 2020 Brand Keys Consumer Loyalty Engagement Index report, FOX News is the top brand in the country for morning and evening news coverage. A 2019 Suffolk University poll named FOX News as the most trusted source for television news or commentary, while a 2019 Brand Keys Emotion Engagement Analysis survey found that FOX News was the most trusted cable news brand. A 2017 Gallup/Knight Foundation survey also found that among Americans who could name an objective news source, FOX News was the top-cited outlet. Owned by FOX Corporation, FNC is available in nearly 90 million homes and dominates the cable news landscape, routinely notching the top ten programs in the genre. \n \nWatch full episodes of your favorite shows \nThe Five: https://www.foxnews.com/video/shows/the-five \nSpecial Report with Bret Baier: https://www.foxnews.com/video/shows/special-report \nJesse Watters Primetime: https://www.foxnews.com/video/shows/jesse-watters-primetime \nHannity: https://www.foxnews.com/video/shows/hannity \nThe Ingraham Angle: https://www.foxnews.com/video/shows/ingraham-angle \nGutfeld!: https://www.foxnews.com/video/shows/gutfeld \nFox News @ Night: https://www.foxnews.com/video/shows/fox-news-night \n \nFollow Fox News on Facebook: https://www.facebook.com/FoxNews/ \nFollow Fox News on Twitter: https://twitter.com/FoxNews/ \nFollow Fox News on Instagram: https://www.instagram.com/foxnews/"
+        }
+      },
+      "statistics": {
+        "viewCount": "63214",
+        "likeCount": "836",
+        "favoriteCount": "0",
+        "commentCount": "851"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "VfhQTiwFWOqku44lANsZUyhcct8",
       "id": "D2E8YKNzWdA",
       "snippet": {
         "publishedAt": "2025-04-17T17:10:00Z",
@@ -3085,7 +3397,7 @@
         }
       },
       "statistics": {
-        "viewCount": "393047",
+        "viewCount": "393084",
         "likeCount": "4079",
         "favoriteCount": "0",
         "commentCount": "1811"
@@ -3212,7 +3524,7 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "C1Cd8bYEoYj_YiZYs8Y60POuNb4",
+      "etag": "3DXUrNzgLulUigTrw6Qe9KgSA78",
       "id": "wZFHkG4plUs",
       "snippet": {
         "publishedAt": "2025-04-15T18:00:31Z",
@@ -3262,293 +3574,10 @@
         "defaultAudioLanguage": "en"
       },
       "statistics": {
-        "viewCount": "331385",
+        "viewCount": "331389",
         "likeCount": "2653",
         "favoriteCount": "0",
         "commentCount": "1438"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "snsS6BW2WfnRNfWeceZfyVOr1EY",
-      "id": "4dFZ9Qn8q64",
-      "snippet": {
-        "publishedAt": "2025-04-16T10:29:56Z",
-        "channelId": "UCmRbHAgG2k2vDUvb3xsEunQ",
-        "title": "US President Donald Trump Mocks China Amid A Tariff War | Trump Tariff | N18G",
-        "description": "\"JD must've gotten a call from China,\" joked Donald Trump, while honouring the Navy Midshipmen football team at the White House for winning the Commander-in-Chief’s Trophy after defeating both the Army & Air Force teams. #Watch\n\n#trump #us #navytrophy #football #cnbctv18digital #jdvance #china\n#CNBCTV18 #BusinessNewsLive #MarketNews #CNBC\n\n🔴CNBC TV18 LIVE TV: https://youtube.com/live/P857H4ej-MQ\nSUBSCRIBE to our Channel: https://bit.ly/3nvEcxf\n---------------------------------------------------------------------------------------------------------------------\n                               👑 Check Out Top CNBC TV18 Playlist Videos: \n🔹Young Turks Reloaded with Shereen Bhan: https://www.youtube.com/playlist?list=PLjq9mRS1PfGAeBW0FxoO8D2cbKx8YPKAZ\n\n🔹 World News: https://www.youtube.com/playlist?list=PLjq9mRS1PfGDHHT6b309VWbeVIxjc73r0\n\n🔹CNBC TV18 Classic Interviews: https://www.youtube.com/playlist?list=PLjq9mRS1PfGDmfXVg7XEQngsCY9RoS-fv\n\n🔹CNBC TV18 Digital: https://www.youtube.com/playlist?list=PLjq9mRS1PfGDCcaVZ_82M9vhLo9lGJYzo\n\n🔹CNBC TV18 Weekend Special: https://www.youtube.com/playlist?list=PLjq9mRS1PfGBHEa5NnoKuUsX5GwxEGuri\n\n🔹CNBC TV18 Next-Gen: https://www.youtube.com/playlist?list=PLjq9mRS1PfGA6roe9q3J9fq_gBIDjX2w7\n\n🔹Overdrive Show: https://www.youtube.com/playlist?list=PLjq9mRS1PfGCnSVjfbWfNCJLrv-CqfGmH\n🔹CNBC TV18 Newsreels: https://www.youtube.com/playlist?list=PLjq9mRS1PfGCmABWWQRX4NqGLCtScwqex\n\n🔹Startup Streets: https://www.youtube.com/playlist?list=PLjq9mRS1PfGD3CzrtMr_VJRbIly6sfyFI\n\n------------------------------------------------------------------------------------\nYou can also connect with CNBC-TV18 News Online\nCatch the latest news: https://bit.ly/2YbpXBM\n\nFollow CNBC-TV18 round the clock: https://www.cnbctv18.com/live-tv/\n\nStay updated with all the market action in real time: https://www.cnbctv18.com/market-live/\n\nYou can also stay updated with all the latest news on-the-go with CNBC-TV18 Minis: https://www.cnbctv18.com/minis/\n\nLike us on Facebook: https://www.facebook.com/cnbctv18india/\nFollow us on Twitter: https://twitter.com/CNBCTV18News\nFollow us on Instagram: https://www.instagram.com/cnbctv18india/\nCatch us on: Linkedin: https://in.linkedin.com/company/cnbc-tv18\nn18oc_business\n\nAbout CNBC-TV18: India's leading business news channel, CNBC-TV18 offers the most comprehensive coverage of businesses, the economy and the financial markets. Catch all your favourite shows, exclusive videos, big-ticket interviews and more here.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/4dFZ9Qn8q64/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/4dFZ9Qn8q64/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/4dFZ9Qn8q64/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/4dFZ9Qn8q64/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/4dFZ9Qn8q64/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "CNBC-TV18",
-        "tags": [
-          "china",
-          "donald trump",
-          "trump",
-          "trump china tariffs",
-          "trump china",
-          "trump tariffs",
-          "china tariffs",
-          "trump tariffs china",
-          "trump china trade war",
-          "trump trade war",
-          "trump news",
-          "trump vs china",
-          "trump on china",
-          "trump china boeing",
-          "trump china policy",
-          "trump china tariff",
-          "china trade war",
-          "trump biden china",
-          "china us trade war",
-          "us china trade war",
-          "aranceles trump china",
-          "trump china tariff war",
-          "boicot china trump",
-          "china trump tariffs",
-          "mercados china trump",
-          "trump responde china"
-        ],
-        "categoryId": "25",
-        "liveBroadcastContent": "none",
-        "defaultLanguage": "en-IN",
-        "localized": {
-          "title": "US President Donald Trump Mocks China Amid A Tariff War | Trump Tariff | N18G",
-          "description": "\"JD must've gotten a call from China,\" joked Donald Trump, while honouring the Navy Midshipmen football team at the White House for winning the Commander-in-Chief’s Trophy after defeating both the Army & Air Force teams. #Watch\n\n#trump #us #navytrophy #football #cnbctv18digital #jdvance #china\n#CNBCTV18 #BusinessNewsLive #MarketNews #CNBC\n\n🔴CNBC TV18 LIVE TV: https://youtube.com/live/P857H4ej-MQ\nSUBSCRIBE to our Channel: https://bit.ly/3nvEcxf\n---------------------------------------------------------------------------------------------------------------------\n                               👑 Check Out Top CNBC TV18 Playlist Videos: \n🔹Young Turks Reloaded with Shereen Bhan: https://www.youtube.com/playlist?list=PLjq9mRS1PfGAeBW0FxoO8D2cbKx8YPKAZ\n\n🔹 World News: https://www.youtube.com/playlist?list=PLjq9mRS1PfGDHHT6b309VWbeVIxjc73r0\n\n🔹CNBC TV18 Classic Interviews: https://www.youtube.com/playlist?list=PLjq9mRS1PfGDmfXVg7XEQngsCY9RoS-fv\n\n🔹CNBC TV18 Digital: https://www.youtube.com/playlist?list=PLjq9mRS1PfGDCcaVZ_82M9vhLo9lGJYzo\n\n🔹CNBC TV18 Weekend Special: https://www.youtube.com/playlist?list=PLjq9mRS1PfGBHEa5NnoKuUsX5GwxEGuri\n\n🔹CNBC TV18 Next-Gen: https://www.youtube.com/playlist?list=PLjq9mRS1PfGA6roe9q3J9fq_gBIDjX2w7\n\n🔹Overdrive Show: https://www.youtube.com/playlist?list=PLjq9mRS1PfGCnSVjfbWfNCJLrv-CqfGmH\n🔹CNBC TV18 Newsreels: https://www.youtube.com/playlist?list=PLjq9mRS1PfGCmABWWQRX4NqGLCtScwqex\n\n🔹Startup Streets: https://www.youtube.com/playlist?list=PLjq9mRS1PfGD3CzrtMr_VJRbIly6sfyFI\n\n------------------------------------------------------------------------------------\nYou can also connect with CNBC-TV18 News Online\nCatch the latest news: https://bit.ly/2YbpXBM\n\nFollow CNBC-TV18 round the clock: https://www.cnbctv18.com/live-tv/\n\nStay updated with all the market action in real time: https://www.cnbctv18.com/market-live/\n\nYou can also stay updated with all the latest news on-the-go with CNBC-TV18 Minis: https://www.cnbctv18.com/minis/\n\nLike us on Facebook: https://www.facebook.com/cnbctv18india/\nFollow us on Twitter: https://twitter.com/CNBCTV18News\nFollow us on Instagram: https://www.instagram.com/cnbctv18india/\nCatch us on: Linkedin: https://in.linkedin.com/company/cnbc-tv18\nn18oc_business\n\nAbout CNBC-TV18: India's leading business news channel, CNBC-TV18 offers the most comprehensive coverage of businesses, the economy and the financial markets. Catch all your favourite shows, exclusive videos, big-ticket interviews and more here."
-        },
-        "defaultAudioLanguage": "en-IN"
-      },
-      "statistics": {
-        "viewCount": "142346",
-        "likeCount": "806",
-        "favoriteCount": "0",
-        "commentCount": "305"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "RCC3modt5bBzCn8KqbhOYQ9UVOM",
-      "id": "pdliBK_fPd8",
-      "snippet": {
-        "publishedAt": "2025-04-17T17:49:05Z",
-        "channelId": "UCvAnclelY8eSq8GyPE19KTw",
-        "title": "Trump tariffs: President plans to make 'very good deal with China'",
-        "description": "President Trump says he is prepared to make a “very good deal” with China as the trade war between the two nations remains tense.\n\nhttps://thenationaldesk.com/news/americas-news-now/italys-prime-minister-giorgia-meloni-to-act-as-bridge-for-european-union-eu-us-trade-tensions-in-meeting-with-president-donald-trump-exports-tariff-deal-trade-war\n\n#trump #china #tariffs #trade #deal \n\n--------------------------------------\n\nThe National Desk (TND) brings you award-winning local storytelling from Sinclair Broadcast Group's local TV newsrooms across the United States and feeds from sources throughout the world.\n\nLike us on Facebook for live feeds, video: https://facebook.com/TND/\nFollow us on Instagram: http://instagram.com/TND\nFollow us on TikTok: https://www.tiktok.com/@tndtok\nFollow us on X: https://x.com/TND\nRead more & watch our videos: http://thenationaldesk.com\n\nTND covers content from Sinclair's stations in: \nAbilene-San Angelo, TX : KTXS\nAlbany, GA : WFXL\nAlbany, NY : WRGB \nAmarillo, TX : KVII\nAsheville, NC : WLOS\nAustin , TX : KEYE\nBakersfield, CA : KBAK/KBFX\nBaltimore : WBFF\nBeaumont, TX : KFDM/KBTV\nBirmingham, AL : WBMA\nBoise, ID : KBOI/KYUU\nBristol, VA : WCYB\nCedar Rapids, IA : KGAN/KFXA\nChampaign, IL : WCCU\nCharleston, SC : WCIV\nCharleston, WV : WCHS/WVAH\nChattanooga, TN : WTVC\nCincinnati, OH : WKRC/WSTR\nColumbia, SC : WACH\nColumbus, OH : WSYX/WTTE\nDayton, OH : WKEF/WRGT\nEl Paso, TX : KFOX/KDBC\nEugene, OR : KVAL/KMTR\nEureka, CA : KAEF\nFlint, MI : WEYI/WBSF\nFresno, CA : KMPH\nGainesville, FL : WGFL\nGreen Bay, WI : WLUK\nGreenville-New Bern, NC : WCTI\nHarlingen, TX : KGBT\nHarrisburg, PA : WHP\nJefferson City, MO : KRCG\nJohnstown, PA : WJAC\nKalamazoo-Grand Rapids, MI : WWMT\nKirksville-Ottumwa, IA : KTVO\nLas Vegas, NV : KSNV\nLewiston, ID : KLEW\nLincoln, NE : KHGI/KWNB\nLittle Rock, AR : KATV\nLynchburg, VA : WSET\nMacon, GA : WGXA\nMedford, OR : KTVL \nMobile, AL : WPMI\nMyrtle Beach, SC : WPDE\nNashville, TN : WZTV\nOklahoma City : KOCB/KOKH\nPasco, WA : KEPR\nPensacola, FL : WEAR/WFGX\nPortland, ME : WGME/WPFO\nPortland, OR : KATU/KUNP\nProvidence, RI : WJAR\nQuincy-Hannibal, IL : KHQA\nRedding-Chico, CA : KRCR\nReno, NV : KRNV/KRXI\nRochester, NY : WHAM\nSalt Lake City : KUTV\nSan Antonio, TX : KABB/WOAI\nSavannah, GA : WTGS\nSeattle, WA : KOMO/KUNS\nSioux City, IA : KMEG/KPTH\nSouth Bend, IN : WSBT\nSpringfield, IL : WICS\nSteubenville, OH : WTOV\nSyracuse, NY : WSTM\nToledo, OH : WNWO\nTraverse City, MI : WPBN\nTulsa, OK : KTUL\nWashington DC : WJLA\nWest Palm Beach, FL : WPEC\nWilkes-Barre, PA : WOLF\nYakima, WA : KIMA\n\nThis video and all Sinclair Broadcast Group content archives of local news and sports coverage are available for your use. For more information contact us at contentsales@sbgtv.com",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/pdliBK_fPd8/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/pdliBK_fPd8/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/pdliBK_fPd8/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/pdliBK_fPd8/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/pdliBK_fPd8/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "The National Desk",
-        "tags": [
-          "News",
-          "The National Desk",
-          "TND",
-          "Reporting",
-          "Local News",
-          "trump",
-          "china",
-          "tariffs",
-          "trade",
-          "xi jinping"
-        ],
-        "categoryId": "25",
-        "liveBroadcastContent": "none",
-        "defaultLanguage": "en-US",
-        "localized": {
-          "title": "Trump tariffs: President plans to make 'very good deal with China'",
-          "description": "President Trump says he is prepared to make a “very good deal” with China as the trade war between the two nations remains tense.\n\nhttps://thenationaldesk.com/news/americas-news-now/italys-prime-minister-giorgia-meloni-to-act-as-bridge-for-european-union-eu-us-trade-tensions-in-meeting-with-president-donald-trump-exports-tariff-deal-trade-war\n\n#trump #china #tariffs #trade #deal \n\n--------------------------------------\n\nThe National Desk (TND) brings you award-winning local storytelling from Sinclair Broadcast Group's local TV newsrooms across the United States and feeds from sources throughout the world.\n\nLike us on Facebook for live feeds, video: https://facebook.com/TND/\nFollow us on Instagram: http://instagram.com/TND\nFollow us on TikTok: https://www.tiktok.com/@tndtok\nFollow us on X: https://x.com/TND\nRead more & watch our videos: http://thenationaldesk.com\n\nTND covers content from Sinclair's stations in: \nAbilene-San Angelo, TX : KTXS\nAlbany, GA : WFXL\nAlbany, NY : WRGB \nAmarillo, TX : KVII\nAsheville, NC : WLOS\nAustin , TX : KEYE\nBakersfield, CA : KBAK/KBFX\nBaltimore : WBFF\nBeaumont, TX : KFDM/KBTV\nBirmingham, AL : WBMA\nBoise, ID : KBOI/KYUU\nBristol, VA : WCYB\nCedar Rapids, IA : KGAN/KFXA\nChampaign, IL : WCCU\nCharleston, SC : WCIV\nCharleston, WV : WCHS/WVAH\nChattanooga, TN : WTVC\nCincinnati, OH : WKRC/WSTR\nColumbia, SC : WACH\nColumbus, OH : WSYX/WTTE\nDayton, OH : WKEF/WRGT\nEl Paso, TX : KFOX/KDBC\nEugene, OR : KVAL/KMTR\nEureka, CA : KAEF\nFlint, MI : WEYI/WBSF\nFresno, CA : KMPH\nGainesville, FL : WGFL\nGreen Bay, WI : WLUK\nGreenville-New Bern, NC : WCTI\nHarlingen, TX : KGBT\nHarrisburg, PA : WHP\nJefferson City, MO : KRCG\nJohnstown, PA : WJAC\nKalamazoo-Grand Rapids, MI : WWMT\nKirksville-Ottumwa, IA : KTVO\nLas Vegas, NV : KSNV\nLewiston, ID : KLEW\nLincoln, NE : KHGI/KWNB\nLittle Rock, AR : KATV\nLynchburg, VA : WSET\nMacon, GA : WGXA\nMedford, OR : KTVL \nMobile, AL : WPMI\nMyrtle Beach, SC : WPDE\nNashville, TN : WZTV\nOklahoma City : KOCB/KOKH\nPasco, WA : KEPR\nPensacola, FL : WEAR/WFGX\nPortland, ME : WGME/WPFO\nPortland, OR : KATU/KUNP\nProvidence, RI : WJAR\nQuincy-Hannibal, IL : KHQA\nRedding-Chico, CA : KRCR\nReno, NV : KRNV/KRXI\nRochester, NY : WHAM\nSalt Lake City : KUTV\nSan Antonio, TX : KABB/WOAI\nSavannah, GA : WTGS\nSeattle, WA : KOMO/KUNS\nSioux City, IA : KMEG/KPTH\nSouth Bend, IN : WSBT\nSpringfield, IL : WICS\nSteubenville, OH : WTOV\nSyracuse, NY : WSTM\nToledo, OH : WNWO\nTraverse City, MI : WPBN\nTulsa, OK : KTUL\nWashington DC : WJLA\nWest Palm Beach, FL : WPEC\nWilkes-Barre, PA : WOLF\nYakima, WA : KIMA\n\nThis video and all Sinclair Broadcast Group content archives of local news and sports coverage are available for your use. For more information contact us at contentsales@sbgtv.com"
-        },
-        "defaultAudioLanguage": "en-US"
-      },
-      "statistics": {
-        "viewCount": "15018",
-        "likeCount": "210",
-        "favoriteCount": "0",
-        "commentCount": "31"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "ZO7nNHDeJjRG6p3j081r2-ZnOrI",
-      "id": "ycFlz88f8ho",
-      "snippet": {
-        "publishedAt": "2025-04-04T16:20:07Z",
-        "channelId": "UCvJJ_dzjViJCoLf5uKUTwoA",
-        "title": "Trump’s Tariff Math Explained",
-        "description": "The Trump administration launched a sweeping tariff strategy targeting countries with which the U.S. runs trade deficits. The White House's formula is being used to calculate new import duties, but some economists say it lacks credibility and does not reflect actual trade practices. Experts caution that the move could lead to retaliatory tariffs, disrupt global supply chains and threaten economic growth.\n\nChapters:\n0:00 Introduction\n1:38 The formula\n2:47 Trade deficits\n\nProduced and edited by: Charlotte Morabito\nAnimation: Jason Reginato\nSenior Director of Video: Lindsey Jacobson\nAdditional Footage: Getty Images\n\n» Subscribe to CNBC: https://cnb.cx/SubscribeCNBC\n» Subscribe to CNBC TV: https://cnb.cx/SubscribeCNBCtelevision\n\nAbout CNBC: From 'Wall Street' to 'Main Street' to award winning original documentaries and Reality TV series, CNBC has you covered. Experience special sneak peeks of your favorite shows, exclusive video and more.\n\nDo you want a new career that’s higher-paying, more flexible or fulfilling? Take CNBC’s new online course - How to Change Careers and Be Happier at Work. Pre-register today and use coupon code EARLYBIRD for an introductory discount of 30% off $67 (+taxes and fees) through May 13, 2025: https://cnb.cx/4igNyqZ\n\nConnect with CNBC News Online\nGet the latest news: https://www.cnbc.com/\nFollow CNBC on LinkedIn: https://cnb.cx/LinkedInCNBC\nFollow CNBC News on Instagram: https://cnb.cx/InstagramCNBC\nFollow CNBC News on Facebook: https://cnb.cx/LikeCNBC\nFollow CNBC on Threads: https://cnb.cx/threads\nFollow CNBC News on X: https://cnb.cx/FollowCNBC\nFollow CNBC on WhatsApp: https://cnb.cx/WhatsAppCNBC\n\n#CNBC\n#Tariffs\n#Trump \n\nTrump’s Tariff Math Explained",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/ycFlz88f8ho/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/ycFlz88f8ho/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/ycFlz88f8ho/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/ycFlz88f8ho/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/ycFlz88f8ho/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "CNBC",
-        "tags": [
-          "Trump tariff policy",
-          "reciprocal tariffs",
-          "U.S. trade deficit",
-          "global trade war",
-          "inflation risk",
-          "trade retaliation",
-          "manufacturing reshoring",
-          "White House tariffs",
-          "economic uncertainty",
-          "reciprocal tariffs white house",
-          "reciprocal tariffs explained",
-          "reciprocal tariffs trump",
-          "reciprocal tariffs chart",
-          "trump tariff policy explained",
-          "donald trump tariff policy explained",
-          "trump tariffs white house"
-        ],
-        "categoryId": "25",
-        "liveBroadcastContent": "none",
-        "localized": {
-          "title": "Trump’s Tariff Math Explained",
-          "description": "The Trump administration launched a sweeping tariff strategy targeting countries with which the U.S. runs trade deficits. The White House's formula is being used to calculate new import duties, but some economists say it lacks credibility and does not reflect actual trade practices. Experts caution that the move could lead to retaliatory tariffs, disrupt global supply chains and threaten economic growth.\n\nChapters:\n0:00 Introduction\n1:38 The formula\n2:47 Trade deficits\n\nProduced and edited by: Charlotte Morabito\nAnimation: Jason Reginato\nSenior Director of Video: Lindsey Jacobson\nAdditional Footage: Getty Images\n\n» Subscribe to CNBC: https://cnb.cx/SubscribeCNBC\n» Subscribe to CNBC TV: https://cnb.cx/SubscribeCNBCtelevision\n\nAbout CNBC: From 'Wall Street' to 'Main Street' to award winning original documentaries and Reality TV series, CNBC has you covered. Experience special sneak peeks of your favorite shows, exclusive video and more.\n\nDo you want a new career that’s higher-paying, more flexible or fulfilling? Take CNBC’s new online course - How to Change Careers and Be Happier at Work. Pre-register today and use coupon code EARLYBIRD for an introductory discount of 30% off $67 (+taxes and fees) through May 13, 2025: https://cnb.cx/4igNyqZ\n\nConnect with CNBC News Online\nGet the latest news: https://www.cnbc.com/\nFollow CNBC on LinkedIn: https://cnb.cx/LinkedInCNBC\nFollow CNBC News on Instagram: https://cnb.cx/InstagramCNBC\nFollow CNBC News on Facebook: https://cnb.cx/LikeCNBC\nFollow CNBC on Threads: https://cnb.cx/threads\nFollow CNBC News on X: https://cnb.cx/FollowCNBC\nFollow CNBC on WhatsApp: https://cnb.cx/WhatsAppCNBC\n\n#CNBC\n#Tariffs\n#Trump \n\nTrump’s Tariff Math Explained"
-        },
-        "defaultAudioLanguage": "en"
-      },
-      "statistics": {
-        "viewCount": "278740",
-        "likeCount": "3708",
-        "favoriteCount": "0",
-        "commentCount": "1072"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "AzrL2aJQh1PhXZuNtg-_rmCyoXs",
-      "id": "0M8hYC2I7H4",
-      "snippet": {
-        "publishedAt": "2025-04-18T13:56:47Z",
-        "channelId": "UCckHqySbfy5FcPP6MD_S-Yg",
-        "title": "'King Donald...': Jeffery Sachs GOES OFF On Trump Tariffs; Urges World To NOT Live In 'Crazy Land'",
-        "description": "Economist Jeffrey Sachs sharply criticized Donald Trump’s new tariff threats, dismissing them as “Mickey Mouse economics” and blaming him for creating turmoil in global markets. In a pointed critique, Sachs argued that Trump’s understanding of trade was so misguided that “he wouldn’t even pass an introductory economics course.”\n\n#jeffreysachs #trump #trumptariffs #tradewar \n\nTimes Of India (TOI) Is The Largest Selling English Daily In The World. \n\nTimes Of India Videos Bring You Global News, Views And Sharp Analysis. We Track India's Global Rise, Her Increasing Engagement With The World, The Changing Geopolitical Landscape Amid Conflicts And Wars And The Emerging World Order.  \n\nINTERNATIONAL NEWS | GLOBAL CONFLICTS | MIDDLE EAST WAR | CHANGING WORLD ORDER #TOILive | #TOIVideos \n\nSubscribe to the Times Of India YT channel and press the bell icon to get notified when we go live.\n\nVisit our website https://www.timesofindia.com/\nFollow us on X/ @timesofindia  \nFacebook: https://www.facebook.com/TimesofIndia\nInstagram: https://www.instagram.com/timesofindia/\nDownload the app: http://toi.in/3SLUCa80\nFollow the TOI WhatsApp channel: https://bit.ly/3RYl0J9\n\nFor daily news & updates and exclusive stories, follow the Times of India",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/0M8hYC2I7H4/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/0M8hYC2I7H4/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/0M8hYC2I7H4/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/0M8hYC2I7H4/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/0M8hYC2I7H4/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "Times Of India",
-        "tags": [
-          "times of india",
-          "toi",
-          "latest news",
-          "news",
-          "news today",
-          "latest news today",
-          "trending news",
-          "viral news",
-          "viral video",
-          "times news",
-          "english news",
-          "live news"
-        ],
-        "categoryId": "25",
-        "liveBroadcastContent": "none",
-        "defaultLanguage": "en",
-        "localized": {
-          "title": "'King Donald...': Jeffery Sachs GOES OFF On Trump Tariffs; Urges World To NOT Live In 'Crazy Land'",
-          "description": "Economist Jeffrey Sachs sharply criticized Donald Trump’s new tariff threats, dismissing them as “Mickey Mouse economics” and blaming him for creating turmoil in global markets. In a pointed critique, Sachs argued that Trump’s understanding of trade was so misguided that “he wouldn’t even pass an introductory economics course.”\n\n#jeffreysachs #trump #trumptariffs #tradewar \n\nTimes Of India (TOI) Is The Largest Selling English Daily In The World. \n\nTimes Of India Videos Bring You Global News, Views And Sharp Analysis. We Track India's Global Rise, Her Increasing Engagement With The World, The Changing Geopolitical Landscape Amid Conflicts And Wars And The Emerging World Order.  \n\nINTERNATIONAL NEWS | GLOBAL CONFLICTS | MIDDLE EAST WAR | CHANGING WORLD ORDER #TOILive | #TOIVideos \n\nSubscribe to the Times Of India YT channel and press the bell icon to get notified when we go live.\n\nVisit our website https://www.timesofindia.com/\nFollow us on X/ @timesofindia  \nFacebook: https://www.facebook.com/TimesofIndia\nInstagram: https://www.instagram.com/timesofindia/\nDownload the app: http://toi.in/3SLUCa80\nFollow the TOI WhatsApp channel: https://bit.ly/3RYl0J9\n\nFor daily news & updates and exclusive stories, follow the Times of India"
-        },
-        "defaultAudioLanguage": "en"
-      },
-      "statistics": {
-        "viewCount": "96126",
-        "likeCount": "1463",
-        "favoriteCount": "0",
-        "commentCount": "310"
       }
     }
   ],

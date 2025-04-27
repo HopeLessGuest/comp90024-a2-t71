@@ -1,6 +1,6 @@
 {
   "kind": "youtube#searchListResponse",
-  "etag": "6fjW1-A8-jIWDdg22KNLc5pxcl8",
+  "etag": "QeVQM_kNX4QkvJiqLw_p8bA1Gj8",
   "nextPageToken": "CDIQAA",
   "regionCode": "AU",
   "pageInfo": {
@@ -8,6 +8,40 @@
     "resultsPerPage": 50
   },
   "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6k03zUs7GKTiXlf0Bs4yFE59vnI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CygrmYdJOXg"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T14:45:03Z",
+        "channelId": "UCK7tptUDHh-RYDsdxO1-5QQ",
+        "title": "Trump Tariffs Are Attacking the U.S. Trade Deficit—Does It Need Fixing? | WSJ",
+        "description": "President Trump's broad tariff rollout takes aim at the U.S. trade deficit, which he calls a policy of “economic surrender.” As Trump's ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CygrmYdJOXg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CygrmYdJOXg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CygrmYdJOXg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Wall Street Journal",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T14:45:03Z"
+      }
+    },
     {
       "kind": "youtube#searchResult",
       "etag": "yhnxVzRy4Zgf0sdTV8bL9wJ1X28",
@@ -180,6 +214,40 @@
     },
     {
       "kind": "youtube#searchResult",
+      "etag": "-laGdThFuULdGhc4W7hCZ18s4AU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "aU_nrHmOJhA"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T08:38:55Z",
+        "channelId": "UCm7lHFkt2yB_WzL67aruVBQ",
+        "title": "China US Tariffs War | China Hits Back As Trump Predicts Trade Deal | Xi Jinping | Beijing | America",
+        "description": "BEIJING, CHINA - Chinese foreign ministry holds its daily news conference. Seeking comments after China warns countries ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/aU_nrHmOJhA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/aU_nrHmOJhA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/aU_nrHmOJhA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Hindustan Times",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T08:38:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
       "etag": "lv3nfd9jW-dwxTV2ixJrg_4jQ-c",
       "id": {
         "kind": "youtube#video",
@@ -210,74 +278,6 @@
         "channelTitle": "Fox Business",
         "liveBroadcastContent": "none",
         "publishTime": "2025-04-22T00:30:01Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "z6cRJtNYeVKMvvPjgUlOpk_DKkA",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "PC5_6RHwc-U"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-20T14:00:37Z",
-        "channelId": "UCIALMKvObZNtJ6AmdCLP7Lg",
-        "title": "Carlyle Group CEO Talks Fed, China-US and Trump Tariffs",
-        "description": "Previously Carlyle Group CEO Harvey Schwartz told investors to “buckle up a bit” for more market volatility as Trump ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/PC5_6RHwc-U/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/PC5_6RHwc-U/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/PC5_6RHwc-U/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Bloomberg Television",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-20T14:00:37Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "pHO6uo5EXvx1nG7b48Wm5mh7lmk",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "je8LOBnNWjo"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-19T15:01:11Z",
-        "channelId": "UCvJJ_dzjViJCoLf5uKUTwoA",
-        "title": "Why Bath And Body Works Is One Step Ahead Of Trump’s Tariffs",
-        "description": "As the threat of tariffs linger, one American retail company is especially well-positioned should the Trump administration move ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/je8LOBnNWjo/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/je8LOBnNWjo/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/je8LOBnNWjo/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "CNBC",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-19T15:01:11Z"
       }
     },
     {
@@ -316,40 +316,6 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "2m9HvML8dtaXClfOSIdon-QReCU",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "5eIOpZniFWM"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-21T14:15:00Z",
-        "channelId": "UCCXoCcu9Rp7NPbTzIvogpZg",
-        "title": "Trump tariffs predicted to hit key trade partner in &#39;very dramatic&#39; way",
-        "description": "Former Canadian member of parliament Ruby Dhalla on the potential impact U.S. tariffs could have on Canadian families and ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/5eIOpZniFWM/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/5eIOpZniFWM/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/5eIOpZniFWM/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Fox Business",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-21T14:15:00Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
       "etag": "SYFEfyo2j_qGh7j7kN71-1J1QsE",
       "id": {
         "kind": "youtube#video",
@@ -384,70 +350,104 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "SdWi_PGwkWwDhREOinzwNGgOdlc",
+      "etag": "pHO6uo5EXvx1nG7b48Wm5mh7lmk",
       "id": {
         "kind": "youtube#video",
-        "videoId": "4S0ceOFeRdk"
+        "videoId": "je8LOBnNWjo"
       },
       "snippet": {
-        "publishedAt": "2025-04-22T04:54:27Z",
-        "channelId": "UCz8QaiQxApLq8sLNcszYyJw",
-        "title": "US China Trade War LIVE: Trump to Hit China with Port Tariffs? | Trade War | US vs China | N18G",
-        "description": "US China Trade War LIVE: Trump to Hit China with Port Tariffs? | Trade War | US vs China | N18G US President Donald Trump is ...",
+        "publishedAt": "2025-04-19T15:01:11Z",
+        "channelId": "UCvJJ_dzjViJCoLf5uKUTwoA",
+        "title": "Why Bath And Body Works Is One Step Ahead Of Trump’s Tariffs",
+        "description": "As the threat of tariffs linger, one American retail company is especially well-positioned should the Trump administration move ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/4S0ceOFeRdk/default.jpg",
+            "url": "https://i.ytimg.com/vi/je8LOBnNWjo/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/4S0ceOFeRdk/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/je8LOBnNWjo/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/4S0ceOFeRdk/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/je8LOBnNWjo/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "Firstpost",
+        "channelTitle": "CNBC",
         "liveBroadcastContent": "none",
-        "publishTime": "2025-04-22T04:54:27Z"
+        "publishTime": "2025-04-19T15:01:11Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "-laGdThFuULdGhc4W7hCZ18s4AU",
+      "etag": "z6cRJtNYeVKMvvPjgUlOpk_DKkA",
       "id": {
         "kind": "youtube#video",
-        "videoId": "aU_nrHmOJhA"
+        "videoId": "PC5_6RHwc-U"
       },
       "snippet": {
-        "publishedAt": "2025-04-21T08:38:55Z",
-        "channelId": "UCm7lHFkt2yB_WzL67aruVBQ",
-        "title": "China US Tariffs War | China Hits Back As Trump Predicts Trade Deal | Xi Jinping | Beijing | America",
-        "description": "BEIJING, CHINA - Chinese foreign ministry holds its daily news conference. Seeking comments after China warns countries ...",
+        "publishedAt": "2025-04-20T14:00:37Z",
+        "channelId": "UCIALMKvObZNtJ6AmdCLP7Lg",
+        "title": "Carlyle Group CEO Talks Fed, China-US and Trump Tariffs",
+        "description": "Previously Carlyle Group CEO Harvey Schwartz told investors to “buckle up a bit” for more market volatility as Trump ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/aU_nrHmOJhA/default.jpg",
+            "url": "https://i.ytimg.com/vi/PC5_6RHwc-U/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/aU_nrHmOJhA/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/PC5_6RHwc-U/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/aU_nrHmOJhA/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/PC5_6RHwc-U/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "Hindustan Times",
+        "channelTitle": "Bloomberg Television",
         "liveBroadcastContent": "none",
-        "publishTime": "2025-04-21T08:38:55Z"
+        "publishTime": "2025-04-20T14:00:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DfO9oMCQ_sSpSAXE_wE4K8BWzZ4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9n5CVUVMQU8"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T17:31:15Z",
+        "channelId": "UCef1-8eOpJgud7szVPlZQAQ",
+        "title": "LIVE: PM Modi Hosts JD Vance Amid Trump&#39;s Tariff Threats | Vantage with Palki Sharma | N18G",
+        "description": "U.S. Vice-President JD Vance is on a three-day visit to India as President Donald Trump's tariffs loom. As per reports, India is ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9n5CVUVMQU8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9n5CVUVMQU8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9n5CVUVMQU8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CNN-News18",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T17:31:15Z"
       }
     },
     {
@@ -520,36 +520,36 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "1CIvgPYtmaxfJY9OndLjSxB8lKk",
+      "etag": "tZsmhFAnMaAv2dXDkhvik5TdP3A",
       "id": {
         "kind": "youtube#video",
-        "videoId": "PeChF2cWxJ4"
+        "videoId": "othWe_iWrzA"
       },
       "snippet": {
-        "publishedAt": "2025-04-18T16:00:47Z",
-        "channelId": "UChirEOpgFCupRAk5etXqPaA",
-        "title": "Newsom Says California to Sue Over Trump’s Tariffs",
-        "description": "California Governor Gavin Newsom said his state is suing to halt Donald Trump's tariffs, setting up a high-stakes legal challenge ...",
+        "publishedAt": "2025-04-19T14:57:12Z",
+        "channelId": "UCJFOER35ggIWwsXh2ZDnqyg",
+        "title": "&#39;Trump tariff theory a mess, don&#39;t give in to US extortionists…&#39;: Japanese Leader&#39;s roaring speech",
+        "description": "Japanese opposition lawmaker Shinji Oguma from the Constitutional Democratic Party sharply criticised US President Donald ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/PeChF2cWxJ4/default.jpg",
+            "url": "https://i.ytimg.com/vi/othWe_iWrzA/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/PeChF2cWxJ4/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/othWe_iWrzA/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/PeChF2cWxJ4/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/othWe_iWrzA/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "Bloomberg News",
+        "channelTitle": "The Economic Times",
         "liveBroadcastContent": "none",
-        "publishTime": "2025-04-18T16:00:47Z"
+        "publishTime": "2025-04-19T14:57:12Z"
       }
     },
     {
@@ -588,546 +588,70 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "tZsmhFAnMaAv2dXDkhvik5TdP3A",
+      "etag": "VtnFMWS6Pob277jm2Wy5KadJTxc",
       "id": {
         "kind": "youtube#video",
-        "videoId": "othWe_iWrzA"
+        "videoId": "Ozc_2LNqF7I"
       },
       "snippet": {
-        "publishedAt": "2025-04-19T14:57:12Z",
-        "channelId": "UCJFOER35ggIWwsXh2ZDnqyg",
-        "title": "&#39;Trump tariff theory a mess, don&#39;t give in to US extortionists…&#39;: Japanese Leader&#39;s roaring speech",
-        "description": "Japanese opposition lawmaker Shinji Oguma from the Constitutional Democratic Party sharply criticised US President Donald ...",
+        "publishedAt": "2025-04-20T16:00:26Z",
+        "channelId": "UCTjDhFuGXlhx9Us0gq0VK2w",
+        "title": "Trump’s tariff backlash could be a win for Democrats | Jim Kennedy",
+        "description": "There's no question the party was in a funk after the election… Now they've started to get some newfound energy.” The Democrats ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/othWe_iWrzA/default.jpg",
+            "url": "https://i.ytimg.com/vi/Ozc_2LNqF7I/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/othWe_iWrzA/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/Ozc_2LNqF7I/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/othWe_iWrzA/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/Ozc_2LNqF7I/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "The Economic Times",
+        "channelTitle": "Times Radio",
         "liveBroadcastContent": "none",
-        "publishTime": "2025-04-19T14:57:12Z"
+        "publishTime": "2025-04-20T16:00:26Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "49mPq2zKJg6Gqqmq9dEgw1wJzOI",
+      "etag": "1CIvgPYtmaxfJY9OndLjSxB8lKk",
       "id": {
         "kind": "youtube#video",
-        "videoId": "UFTMqHWVYMc"
+        "videoId": "PeChF2cWxJ4"
       },
       "snippet": {
-        "publishedAt": "2025-04-19T10:00:46Z",
-        "channelId": "UCJg9wBPyKMNA5sRDnvzmkdg",
-        "title": "U.S. and China continue tariff fight",
-        "description": "Oklahoma State University professor Sunderesh Heragu joins LiveNOW's Austin Westfall to discuss the evolving economic ...",
+        "publishedAt": "2025-04-18T16:00:47Z",
+        "channelId": "UChirEOpgFCupRAk5etXqPaA",
+        "title": "Newsom Says California to Sue Over Trump’s Tariffs",
+        "description": "California Governor Gavin Newsom said his state is suing to halt Donald Trump's tariffs, setting up a high-stakes legal challenge ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/UFTMqHWVYMc/default.jpg",
+            "url": "https://i.ytimg.com/vi/PeChF2cWxJ4/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/UFTMqHWVYMc/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/PeChF2cWxJ4/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/UFTMqHWVYMc/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/PeChF2cWxJ4/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "LiveNOW from FOX",
+        "channelTitle": "Bloomberg News",
         "liveBroadcastContent": "none",
-        "publishTime": "2025-04-19T10:00:46Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "fu9dTIHJlS7fSqVC-LVd_blYFiE",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "qgfZceP5SV0"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-18T15:47:16Z",
-        "channelId": "UCBi2mrWuNuyYy4gbM6fU18Q",
-        "title": "Trump says US and China are discussing a deal on tariffs",
-        "description": "President Donald Trump revealed for the first time on Thursday that the United States is in talks with China on a tariff deal. Trump ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/qgfZceP5SV0/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/qgfZceP5SV0/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/qgfZceP5SV0/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "ABC News",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-18T15:47:16Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "U53qT7k6c4btNO-NIgLBUL8hyn0",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "xY-i-tSqRBw"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-18T16:15:58Z",
-        "channelId": "UCVxBA3Cbu3pm8w8gEIoMEog",
-        "title": "U.S. in talks with China on tariff deal, Trump says",
-        "description": "President Trump says the U.S. is in talks with China on a tariff deal that could be reached in the next few weeks. It comes after he ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/xY-i-tSqRBw/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/xY-i-tSqRBw/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/xY-i-tSqRBw/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "ABC7",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-18T16:15:58Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "iJ_WvM6Tb34KCAU_YkJMICZ4ddA",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "7uPhOUizzRA"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-17T15:00:10Z",
-        "channelId": "UCvJJ_dzjViJCoLf5uKUTwoA",
-        "title": "Will Trump&#39;s tariffs cause the next recession?",
-        "description": "President Trump's sweeping new tariffs sparked a $6 trillion market sell-off and reignited debate about trade policy. Economists ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/7uPhOUizzRA/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/7uPhOUizzRA/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/7uPhOUizzRA/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "CNBC",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-17T15:00:10Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "nzRIiFzLqjl4fPk_QUSJq54odBk",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "gcgyEMRp66M"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-18T01:31:36Z",
-        "channelId": "UCBi2mrWuNuyYy4gbM6fU18Q",
-        "title": "Trump hints at tariff talks with China, says 100% chance US will reach deal with EU",
-        "description": "Pres. Trump expressed confidence about reaching a deal with the Europe while hosting Italy PM Giorgia Meloni, a hard-right ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/gcgyEMRp66M/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/gcgyEMRp66M/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/gcgyEMRp66M/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "ABC News",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-18T01:31:36Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "T-XIMurgnCFZ0DTRj5GqvryChL8",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "vlos6Uk5hUg"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-20T07:38:30Z",
-        "channelId": "UCO0akufu9MOzyz3nvGIXAAw",
-        "title": "Donald Trump’s tariffs have ‘strange impact’ on US economy",
-        "description": "George Washington University Professor Steven Hamilton says Donald Trump's tariffs have a “strange impact” on the US ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/vlos6Uk5hUg/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/vlos6Uk5hUg/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/vlos6Uk5hUg/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Sky News Australia",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-20T07:38:30Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "n6iuP6_hGJt2CoCAi-uPopi55nM",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "wOqwzlO2pfU"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-20T00:15:10Z",
-        "channelId": "UCvixJtaXuNdMPUGdOPcY8Ag",
-        "title": "Republican donors REVOLT against Trump and tariffs",
-        "description": "Republican donors are revolting against Donald Trump's economic scheme, but it's merely out of self-interest ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/wOqwzlO2pfU/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/wOqwzlO2pfU/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/wOqwzlO2pfU/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "David Pakman Show",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-20T00:15:10Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "PatyjfgObuzYaMiZrdHagzyiBSI",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "6iRjXSsI4mQ"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-17T17:14:18Z",
-        "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
-        "title": "How Trump&#39;s tariffs are impacting car prices",
-        "description": "CNN's Vanessa Yurkevich reports from the New York Auto Show about how cars sold in the US will be impacted by President ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/6iRjXSsI4mQ/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/6iRjXSsI4mQ/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/6iRjXSsI4mQ/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "CNN",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-17T17:14:18Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "KgYJ4KOW_4UcAZfajm6fXIZt_Ps",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "CVP2ZFfJXbE"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-19T14:17:29Z",
-        "channelId": "UCef1-8eOpJgud7szVPlZQAQ",
-        "title": "Trump Tariffs | India And US To Finalize Bilateral Trade Agreement On Reciprocal Tariffs | News18",
-        "description": "BreakingNews | India and the US are set to finalize a bilateral trade agreement covering 19 chapters, including tariffs and ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/CVP2ZFfJXbE/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/CVP2ZFfJXbE/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/CVP2ZFfJXbE/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "CNN-News18",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-19T14:17:29Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "TK70R3KBRZKHKc3A8fLtro6YwVQ",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "SMigNBNMi9A"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-21T17:56:58Z",
-        "channelId": "UCz8QaiQxApLq8sLNcszYyJw",
-        "title": "Trump Targets Made-In-China iPhones | Firstpost America | N18G",
-        "description": "Trump Targets Made-In-China iPhones | Firstpost America | N18G Apple's sleek iPhones may be Designed in California, but ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/SMigNBNMi9A/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/SMigNBNMi9A/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/SMigNBNMi9A/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Firstpost",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-21T17:56:58Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "HiiIsR4GS-430lq6vXXhdSS-bYA",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "3ZvnXQ3mn8E"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-18T15:30:02Z",
-        "channelId": "UCknLrEdhRCp1aegoMqRaCZg",
-        "title": "&#39;100 percent&#39; chance of tariff deal with EU says Trump | DW News",
-        "description": "Italian Prime Minister Georgia Meloni has met with US Vice President JD Vance in Italy, just a day after meeting with President ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/3ZvnXQ3mn8E/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/3ZvnXQ3mn8E/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/3ZvnXQ3mn8E/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "DW News",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-18T15:30:02Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "cnSI1mYfHw5c9SCWVyPyB78Hxok",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "CHKaghzhBLw"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-15T17:45:00Z",
-        "channelId": "UC16niRr50-MSBwiO3YDb3RA",
-        "title": "US President Donald Trump&#39;s tariffs put Chinese businesses &#39;in limbo&#39; | BBC News",
-        "description": "Businesses have been sharing their concerns about the impact of US tariffs at the annual Canton Fair in Guangzhou, the world's ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/CHKaghzhBLw/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/CHKaghzhBLw/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/CHKaghzhBLw/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "BBC News",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-15T17:45:00Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "se5LdY07q6WAZX_D5nHWB7zDaKM",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "4wP4juSbLRI"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-18T09:41:20Z",
-        "channelId": "UCJFOER35ggIWwsXh2ZDnqyg",
-        "title": "&#39;We love you… but we won’t visit&#39;: Trump tariffs turn Canadian tourists away from US border town",
-        "description": "Point Roberts, a tiny US town trapped below Canada, is facing economic collapse. Trump's tariffs and insults toward Canada have ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/4wP4juSbLRI/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/4wP4juSbLRI/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/4wP4juSbLRI/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "The Economic Times",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-18T09:41:20Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "loWCmhWpYHi53GQLF-MxBgzPD-k",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "akEAGqxAvsI"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-17T21:01:20Z",
-        "channelId": "UCuFFtHWoLl5fauMMD5Ww2jA",
-        "title": "Trump, Italian PM discuss tariffs in White House",
-        "description": "President Donald Trump said Thursday he is in 'no rush' to reach any trade deals because he views tariffs as making the United ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/akEAGqxAvsI/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/akEAGqxAvsI/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/akEAGqxAvsI/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "CBC News",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-17T21:01:20Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "Ul5Iac7lreFME_LpyEmywP5eBb4",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "JMTQ3aQ_Xig"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-17T16:00:36Z",
-        "channelId": "UCKjU3KzdbJE1EFcHVqXC3_g",
-        "title": "What Trump gets wrong about tariffs",
-        "description": "U.S. President Donald Trump often claims that tariffs introduced in the late 1800s by then-president William McKinley ushered in ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/JMTQ3aQ_Xig/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/JMTQ3aQ_Xig/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/JMTQ3aQ_Xig/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "CBC News: The National",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-17T16:00:36Z"
+        "publishTime": "2025-04-18T16:00:47Z"
       }
     },
     {
@@ -1166,138 +690,444 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "W0LaB7V-_DJwH0yUYItbckv5lJA",
+      "etag": "49mPq2zKJg6Gqqmq9dEgw1wJzOI",
       "id": {
         "kind": "youtube#video",
-        "videoId": "5KxCVU0-bog"
+        "videoId": "UFTMqHWVYMc"
       },
       "snippet": {
-        "publishedAt": "2025-04-16T12:59:52Z",
-        "channelId": "UC4OqEJz6oABzz_7nu29zF3A",
-        "title": "Trump tariffs on China could reach 245% | D.C. Daily",
-        "description": "Breaking overnight, tariffs on China could jump as high as 245%. A White House fact sheet on Wednesday says the new hike is in ...",
+        "publishedAt": "2025-04-19T10:00:46Z",
+        "channelId": "UCJg9wBPyKMNA5sRDnvzmkdg",
+        "title": "U.S. and China continue tariff fight",
+        "description": "Oklahoma State University professor Sunderesh Heragu joins LiveNOW's Austin Westfall to discuss the evolving economic ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/5KxCVU0-bog/default.jpg",
+            "url": "https://i.ytimg.com/vi/UFTMqHWVYMc/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/5KxCVU0-bog/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/UFTMqHWVYMc/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/5KxCVU0-bog/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/UFTMqHWVYMc/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "FOX 26 Houston",
+        "channelTitle": "LiveNOW from FOX",
         "liveBroadcastContent": "none",
-        "publishTime": "2025-04-16T12:59:52Z"
+        "publishTime": "2025-04-19T10:00:46Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "lGrgpVrXZREfJ3dSMjNxbY6Keyo",
+      "etag": "SdWi_PGwkWwDhREOinzwNGgOdlc",
       "id": {
         "kind": "youtube#video",
-        "videoId": "fnZZCVTZVfA"
+        "videoId": "4S0ceOFeRdk"
       },
       "snippet": {
-        "publishedAt": "2025-04-17T14:30:34Z",
-        "channelId": "UCXIJgqnII2ZOINSWNOGFThA",
-        "title": "Trump holds key tariff meeting, tries to isolate China",
-        "description": "Fox News' Alexandria Hoff reports the latest on tariff negotiations from the White House. Rep. Lisa McClain also weighs in on the ...",
+        "publishedAt": "2025-04-22T04:54:27Z",
+        "channelId": "UCz8QaiQxApLq8sLNcszYyJw",
+        "title": "US China Trade War LIVE: Trump to Hit China with Port Tariffs? | Trade War | US vs China | N18G",
+        "description": "US China Trade War LIVE: Trump to Hit China with Port Tariffs? | Trade War | US vs China | N18G US President Donald Trump is ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/fnZZCVTZVfA/default.jpg",
+            "url": "https://i.ytimg.com/vi/4S0ceOFeRdk/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/fnZZCVTZVfA/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/4S0ceOFeRdk/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/fnZZCVTZVfA/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/4S0ceOFeRdk/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "Fox News",
+        "channelTitle": "Firstpost",
         "liveBroadcastContent": "none",
-        "publishTime": "2025-04-17T14:30:34Z"
+        "publishTime": "2025-04-22T04:54:27Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "-d7agHKogeEB5nzZY2Fx2ldD_pg",
+      "etag": "TK70R3KBRZKHKc3A8fLtro6YwVQ",
       "id": {
         "kind": "youtube#video",
-        "videoId": "8cL9f4_EbqU"
+        "videoId": "SMigNBNMi9A"
       },
       "snippet": {
-        "publishedAt": "2025-04-17T23:15:01Z",
-        "channelId": "UChLtXXpo4Ge1ReTEboVvTDg",
-        "title": "Italy’s Meloni pleads case for lower EU tariffs with Trump",
-        "description": "The tariff saga played out on multiple fronts in the American capital on Thursday. Italy Prime Minister Georgia Meloni met with U.S. ...",
+        "publishedAt": "2025-04-21T17:56:58Z",
+        "channelId": "UCz8QaiQxApLq8sLNcszYyJw",
+        "title": "Trump Targets Made-In-China iPhones | Firstpost America | N18G",
+        "description": "Trump Targets Made-In-China iPhones | Firstpost America | N18G Apple's sleek iPhones may be Designed in California, but ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/8cL9f4_EbqU/default.jpg",
+            "url": "https://i.ytimg.com/vi/SMigNBNMi9A/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/8cL9f4_EbqU/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/SMigNBNMi9A/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/8cL9f4_EbqU/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/SMigNBNMi9A/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "Global News",
+        "channelTitle": "Firstpost",
         "liveBroadcastContent": "none",
-        "publishTime": "2025-04-17T23:15:01Z"
+        "publishTime": "2025-04-21T17:56:58Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "IRe6yKnJhcgHWg7RYEz9cycghUg",
+      "etag": "fu9dTIHJlS7fSqVC-LVd_blYFiE",
       "id": {
         "kind": "youtube#video",
-        "videoId": "chmXUYQAHGM"
+        "videoId": "qgfZceP5SV0"
       },
       "snippet": {
-        "publishedAt": "2025-04-17T22:16:33Z",
-        "channelId": "UChF5O40UBqAc82I7-i5ig6A",
-        "title": "Trump Speaks on Harvard, Tariffs, China, TikTok:  Full Q&amp;A",
-        "description": "President Donald Trump said he could force out Federal Reserve Chair Jerome Powell, rebuking the notion that the US central ...",
+        "publishedAt": "2025-04-18T15:47:16Z",
+        "channelId": "UCBi2mrWuNuyYy4gbM6fU18Q",
+        "title": "Trump says US and China are discussing a deal on tariffs",
+        "description": "President Donald Trump revealed for the first time on Thursday that the United States is in talks with China on a tariff deal. Trump ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/chmXUYQAHGM/default.jpg",
+            "url": "https://i.ytimg.com/vi/qgfZceP5SV0/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/chmXUYQAHGM/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/qgfZceP5SV0/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/chmXUYQAHGM/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/qgfZceP5SV0/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "Bloomberg Podcasts",
+        "channelTitle": "ABC News",
         "liveBroadcastContent": "none",
-        "publishTime": "2025-04-17T22:16:33Z"
+        "publishTime": "2025-04-18T15:47:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "iJ_WvM6Tb34KCAU_YkJMICZ4ddA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7uPhOUizzRA"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-17T15:00:10Z",
+        "channelId": "UCvJJ_dzjViJCoLf5uKUTwoA",
+        "title": "Will Trump&#39;s tariffs cause the next recession?",
+        "description": "President Trump's sweeping new tariffs sparked a $6 trillion market sell-off and reignited debate about trade policy. Economists ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7uPhOUizzRA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7uPhOUizzRA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7uPhOUizzRA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CNBC",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-17T15:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PatyjfgObuzYaMiZrdHagzyiBSI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6iRjXSsI4mQ"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-17T17:14:18Z",
+        "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+        "title": "How Trump&#39;s tariffs are impacting car prices",
+        "description": "CNN's Vanessa Yurkevich reports from the New York Auto Show about how cars sold in the US will be impacted by President ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6iRjXSsI4mQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6iRjXSsI4mQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6iRjXSsI4mQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CNN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-17T17:14:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "U53qT7k6c4btNO-NIgLBUL8hyn0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xY-i-tSqRBw"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-18T16:15:58Z",
+        "channelId": "UCVxBA3Cbu3pm8w8gEIoMEog",
+        "title": "U.S. in talks with China on tariff deal, Trump says",
+        "description": "President Trump says the U.S. is in talks with China on a tariff deal that could be reached in the next few weeks. It comes after he ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xY-i-tSqRBw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xY-i-tSqRBw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xY-i-tSqRBw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ABC7",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-18T16:15:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nzRIiFzLqjl4fPk_QUSJq54odBk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gcgyEMRp66M"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-18T01:31:36Z",
+        "channelId": "UCBi2mrWuNuyYy4gbM6fU18Q",
+        "title": "Trump hints at tariff talks with China, says 100% chance US will reach deal with EU",
+        "description": "Pres. Trump expressed confidence about reaching a deal with the Europe while hosting Italy PM Giorgia Meloni, a hard-right ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gcgyEMRp66M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gcgyEMRp66M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gcgyEMRp66M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ABC News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-18T01:31:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "n6iuP6_hGJt2CoCAi-uPopi55nM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wOqwzlO2pfU"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-20T00:15:10Z",
+        "channelId": "UCvixJtaXuNdMPUGdOPcY8Ag",
+        "title": "Republican donors REVOLT against Trump and tariffs",
+        "description": "Republican donors are revolting against Donald Trump's economic scheme, but it's merely out of self-interest ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wOqwzlO2pfU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wOqwzlO2pfU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wOqwzlO2pfU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "David Pakman Show",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-20T00:15:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ul5Iac7lreFME_LpyEmywP5eBb4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JMTQ3aQ_Xig"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-17T16:00:36Z",
+        "channelId": "UCKjU3KzdbJE1EFcHVqXC3_g",
+        "title": "What Trump gets wrong about tariffs",
+        "description": "U.S. President Donald Trump often claims that tariffs introduced in the late 1800s by then-president William McKinley ushered in ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JMTQ3aQ_Xig/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JMTQ3aQ_Xig/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JMTQ3aQ_Xig/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CBC News: The National",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-17T16:00:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KgYJ4KOW_4UcAZfajm6fXIZt_Ps",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CVP2ZFfJXbE"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-19T14:17:29Z",
+        "channelId": "UCef1-8eOpJgud7szVPlZQAQ",
+        "title": "Trump Tariffs | India And US To Finalize Bilateral Trade Agreement On Reciprocal Tariffs | News18",
+        "description": "BreakingNews | India and the US are set to finalize a bilateral trade agreement covering 19 chapters, including tariffs and ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CVP2ZFfJXbE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CVP2ZFfJXbE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CVP2ZFfJXbE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CNN-News18",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-19T14:17:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HiiIsR4GS-430lq6vXXhdSS-bYA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3ZvnXQ3mn8E"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-18T15:30:02Z",
+        "channelId": "UCknLrEdhRCp1aegoMqRaCZg",
+        "title": "&#39;100 percent&#39; chance of tariff deal with EU says Trump | DW News",
+        "description": "Italian Prime Minister Georgia Meloni has met with US Vice President JD Vance in Italy, just a day after meeting with President ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3ZvnXQ3mn8E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3ZvnXQ3mn8E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3ZvnXQ3mn8E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "DW News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-18T15:30:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "inMghaRcKkRjX9opv22xCmodhCg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "P-6VtrCKEkc"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-19T05:30:11Z",
+        "channelId": "UCckHqySbfy5FcPP6MD_S-Yg",
+        "title": "&#39;Biggest Shock Since WW2&#39;: Wong Warns World Against Trump Tariffs | Singapore PM&#39;s FULL SPEECH",
+        "description": "Singapore PM Lawrence Wong lashed out at Donald Trump and his tariffs, claiming that it was the biggest shock post World War II ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/P-6VtrCKEkc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/P-6VtrCKEkc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/P-6VtrCKEkc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Times Of India",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-19T05:30:11Z"
       }
     },
     {
@@ -1336,6 +1166,346 @@
     },
     {
       "kind": "youtube#searchResult",
+      "etag": "cnSI1mYfHw5c9SCWVyPyB78Hxok",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CHKaghzhBLw"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-15T17:45:00Z",
+        "channelId": "UC16niRr50-MSBwiO3YDb3RA",
+        "title": "US President Donald Trump&#39;s tariffs put Chinese businesses &#39;in limbo&#39; | BBC News",
+        "description": "Businesses have been sharing their concerns about the impact of US tariffs at the annual Canton Fair in Guangzhou, the world's ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CHKaghzhBLw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CHKaghzhBLw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CHKaghzhBLw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "BBC News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-15T17:45:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-d7agHKogeEB5nzZY2Fx2ldD_pg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8cL9f4_EbqU"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-17T23:15:01Z",
+        "channelId": "UChLtXXpo4Ge1ReTEboVvTDg",
+        "title": "Italy’s Meloni pleads case for lower EU tariffs with Trump",
+        "description": "The tariff saga played out on multiple fronts in the American capital on Thursday. Italy Prime Minister Georgia Meloni met with U.S. ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8cL9f4_EbqU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8cL9f4_EbqU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8cL9f4_EbqU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Global News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-17T23:15:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0iBx25d97G83xXmv1hOan3tdUXM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AugSloNoR8s"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-17T23:51:11Z",
+        "channelId": "UCMliswJ7oukCeW35GSayhRA",
+        "title": "Trump Signals Potential for Tariff Deal With China | WSJ News",
+        "description": "President Trump said he is optimistic that the U.S. can reach a deal on tariffs with China. He also appeared to signal he might ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AugSloNoR8s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AugSloNoR8s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AugSloNoR8s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WSJ News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-17T23:51:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "loWCmhWpYHi53GQLF-MxBgzPD-k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "akEAGqxAvsI"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-17T21:01:20Z",
+        "channelId": "UCuFFtHWoLl5fauMMD5Ww2jA",
+        "title": "Trump, Italian PM discuss tariffs in White House",
+        "description": "President Donald Trump said Thursday he is in 'no rush' to reach any trade deals because he views tariffs as making the United ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/akEAGqxAvsI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/akEAGqxAvsI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/akEAGqxAvsI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CBC News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-17T21:01:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "se5LdY07q6WAZX_D5nHWB7zDaKM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4wP4juSbLRI"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-18T09:41:20Z",
+        "channelId": "UCJFOER35ggIWwsXh2ZDnqyg",
+        "title": "&#39;We love you… but we won’t visit&#39;: Trump tariffs turn Canadian tourists away from US border town",
+        "description": "Point Roberts, a tiny US town trapped below Canada, is facing economic collapse. Trump's tariffs and insults toward Canada have ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4wP4juSbLRI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4wP4juSbLRI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4wP4juSbLRI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Economic Times",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-18T09:41:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lGrgpVrXZREfJ3dSMjNxbY6Keyo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fnZZCVTZVfA"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-17T14:30:34Z",
+        "channelId": "UCXIJgqnII2ZOINSWNOGFThA",
+        "title": "Trump holds key tariff meeting, tries to isolate China",
+        "description": "Fox News' Alexandria Hoff reports the latest on tariff negotiations from the White House. Rep. Lisa McClain also weighs in on the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fnZZCVTZVfA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fnZZCVTZVfA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fnZZCVTZVfA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fox News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-17T14:30:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "W0LaB7V-_DJwH0yUYItbckv5lJA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5KxCVU0-bog"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-16T12:59:52Z",
+        "channelId": "UC4OqEJz6oABzz_7nu29zF3A",
+        "title": "Trump tariffs on China could reach 245% | D.C. Daily",
+        "description": "Breaking overnight, tariffs on China could jump as high as 245%. A White House fact sheet on Wednesday says the new hike is in ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5KxCVU0-bog/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5KxCVU0-bog/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5KxCVU0-bog/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "FOX 26 Houston",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-16T12:59:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IRe6yKnJhcgHWg7RYEz9cycghUg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "chmXUYQAHGM"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-17T22:16:33Z",
+        "channelId": "UChF5O40UBqAc82I7-i5ig6A",
+        "title": "Trump Speaks on Harvard, Tariffs, China, TikTok:  Full Q&amp;A",
+        "description": "President Donald Trump said he could force out Federal Reserve Chair Jerome Powell, rebuking the notion that the US central ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/chmXUYQAHGM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/chmXUYQAHGM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/chmXUYQAHGM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Bloomberg Podcasts",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-17T22:16:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XIPyp48l-myysVsYyDQJ0pNAPKU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "dyQ93WUaTSw"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-18T02:15:06Z",
+        "channelId": "UCg40OxZ1GYh3u3jBntB6DLg",
+        "title": "Trump Points To Possible TikTok Deal As Possibly Included In China Tariff And Trade Negotiations",
+        "description": "In the Oval Office, President Trump spoke about a TikTok deal as being part of negotiations on trade and tariffs with China.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dyQ93WUaTSw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dyQ93WUaTSw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dyQ93WUaTSw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Forbes Breaking News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-18T02:15:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SRTy-Gfy_iiIKz8XgBfN9wvnq2w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "i1ZfGNdvZJo"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-19T19:19:43Z",
+        "channelId": "UCzy2Sl0-273HcNLPcdXVqYQ",
+        "title": "New Study Reveals the True Price Tag of Trump&#39;s Tariff Policies",
+        "description": "President Trump's tariff policy is widespread and hits China especially hard. The nonpartisan Yale Budget Lab has been tracking ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/i1ZfGNdvZJo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/i1ZfGNdvZJo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/i1ZfGNdvZJo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Lisa Remillard",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-19T19:19:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
       "etag": "zEUcc_ZQxaP5M6-PrcUgIf5huwg",
       "id": {
         "kind": "youtube#video",
@@ -1366,210 +1536,6 @@
         "channelTitle": "CBS News",
         "liveBroadcastContent": "none",
         "publishTime": "2025-04-16T21:41:39Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "SgLPYNaFc7OBw03L6sWwdHlqQnc",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "bE9tnq4_nrI"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-17T14:07:41Z",
-        "channelId": "UC83jt4dlz1Gjl58fzQrrKZg",
-        "title": "US-Japan tariff talks yield no breakthrough even as Trump hails &#39;big progress&#39;",
-        "description": "Japanese Prime Minister Shigeru Ishiba has warned that trade negotiations with the US will not be easy, after discussions ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/bE9tnq4_nrI/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/bE9tnq4_nrI/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/bE9tnq4_nrI/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "CNA",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-17T14:07:41Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "hlwTSrjLubRVTyjKIB50xq0FeeQ",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "Itz_346ROmA"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-17T08:49:28Z",
-        "channelId": "UCVgO39Bk5sMo66-6o6Spn6Q",
-        "title": "Damage to world trade by Trump tariffs revealed | ABC News",
-        "description": "Local shares finished higher while Wall Street fell, as new Australian jobs data fed into expectations of a May interest rate cut.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/Itz_346ROmA/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/Itz_346ROmA/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/Itz_346ROmA/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "ABC News (Australia)",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-17T08:49:28Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "nbjPDeQCEsfA3-UvggYslIq_m08",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "2K4mvjzqDVo"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-21T03:36:56Z",
-        "channelId": "UCqTa3sNT6SfiQ2DQK_kuWlA",
-        "title": "China Vows Brutal Payback On Trump Tariffs | Trump’s Tariffs Compared To 1930s Great Depression",
-        "description": "Tensions explode between China and the U.S. as Beijing issues a fierce warning against Washington's latest tariffs. China's ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/2K4mvjzqDVo/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/2K4mvjzqDVo/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/2K4mvjzqDVo/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Oneindia News",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-21T03:36:56Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "Gn76l0dpcySt-tBEUA2lachI6zg",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "D2E8YKNzWdA"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-17T17:10:00Z",
-        "channelId": "UCz8QaiQxApLq8sLNcszYyJw",
-        "title": "Trump Trade War: China Courts India After US Tariffs | Vantage with Palki Sharma | N18G",
-        "description": "Trump Trade War: China Courts India After US Tariffs | Vantage with Palki Sharma | N18G As U.S. President Donald Trump slaps ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/D2E8YKNzWdA/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/D2E8YKNzWdA/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/D2E8YKNzWdA/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Firstpost",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-17T17:10:00Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "DNDYIYUyPkZPMNB-OR5dECX0Jp8",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "Wjp8LwSSAY8"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-02T21:24:13Z",
-        "channelId": "UC16niRr50-MSBwiO3YDb3RA",
-        "title": "Trump unveils sweeping global tariffs in watershed moment for world trade | BBC News",
-        "description": "Donald Trump has announced sweeping tariffs on goods from countries around the world on what he called “Liberation Day”.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/Wjp8LwSSAY8/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/Wjp8LwSSAY8/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/Wjp8LwSSAY8/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "BBC News",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-02T21:24:13Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "nyFjy35IJt8ssZCTDOAQjFDbL_A",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "wZFHkG4plUs"
-      },
-      "snippet": {
-        "publishedAt": "2025-04-15T18:00:31Z",
-        "channelId": "UCaXkIU1QidjPwiAYu6GcHjg",
-        "title": "China tries to capitalize on Trump tariff turmoil",
-        "description": "President Trump moves to impose new tariffs on semiconductors and drugs as Chinese President Xi tries to capitalize on Trump's ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/wZFHkG4plUs/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/wZFHkG4plUs/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/wZFHkG4plUs/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "MSNBC",
-        "liveBroadcastContent": "none",
-        "publishTime": "2025-04-15T18:00:31Z"
       }
     },
     {
@@ -1608,6 +1574,40 @@
     },
     {
       "kind": "youtube#searchResult",
+      "etag": "nbjPDeQCEsfA3-UvggYslIq_m08",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2K4mvjzqDVo"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T03:36:56Z",
+        "channelId": "UCqTa3sNT6SfiQ2DQK_kuWlA",
+        "title": "China Vows Brutal Payback On Trump Tariffs | Trump’s Tariffs Compared To 1930s Great Depression",
+        "description": "Tensions explode between China and the U.S. as Beijing issues a fierce warning against Washington's latest tariffs. China's ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2K4mvjzqDVo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2K4mvjzqDVo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2K4mvjzqDVo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Oneindia News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T03:36:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
       "etag": "r70NQUtsu4Z4-FHXOSbLLNQgiKo",
       "id": {
         "kind": "youtube#video",
@@ -1642,70 +1642,70 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "Qfr7S-EVc1V-ujadC2ZZ4dh5nDc",
+      "etag": "hlwTSrjLubRVTyjKIB50xq0FeeQ",
       "id": {
         "kind": "youtube#video",
-        "videoId": "ycFlz88f8ho"
+        "videoId": "Itz_346ROmA"
       },
       "snippet": {
-        "publishedAt": "2025-04-04T16:20:07Z",
-        "channelId": "UCvJJ_dzjViJCoLf5uKUTwoA",
-        "title": "Trump’s Tariff Math Explained",
-        "description": "The Trump administration launched a sweeping tariff strategy targeting countries with which the U.S. runs trade deficits. The White ...",
+        "publishedAt": "2025-04-17T08:49:28Z",
+        "channelId": "UCVgO39Bk5sMo66-6o6Spn6Q",
+        "title": "Damage to world trade by Trump tariffs revealed | ABC News",
+        "description": "Local shares finished higher while Wall Street fell, as new Australian jobs data fed into expectations of a May interest rate cut.",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/ycFlz88f8ho/default.jpg",
+            "url": "https://i.ytimg.com/vi/Itz_346ROmA/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/ycFlz88f8ho/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/Itz_346ROmA/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/ycFlz88f8ho/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/Itz_346ROmA/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "CNBC",
+        "channelTitle": "ABC News (Australia)",
         "liveBroadcastContent": "none",
-        "publishTime": "2025-04-04T16:20:07Z"
+        "publishTime": "2025-04-17T08:49:28Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "-QlTjxXyTh68XksOSjyzGmNfLbk",
+      "etag": "D7ZrT7NehWJUQxxs_uoL-EW4Bkk",
       "id": {
         "kind": "youtube#video",
-        "videoId": "0M8hYC2I7H4"
+        "videoId": "87l3xv6XwxY"
       },
       "snippet": {
-        "publishedAt": "2025-04-18T13:56:47Z",
-        "channelId": "UCckHqySbfy5FcPP6MD_S-Yg",
-        "title": "&#39;King Donald...&#39;: Jeffery Sachs GOES OFF On Trump Tariffs; Urges World To NOT Live In &#39;Crazy Land&#39;",
-        "description": "Economist Jeffrey Sachs sharply criticized Donald Trump's new tariff threats, dismissing them as “Mickey Mouse economics” and ...",
+        "publishedAt": "2025-04-16T21:02:27Z",
+        "channelId": "UCaXkIU1QidjPwiAYu6GcHjg",
+        "title": "‘Completely man-made’: Markets tumble after Fed Chair suggests Trump’s tariffs will cause inflation",
+        "description": "CNBC Senior Economics Reporter Steve Liesman joins Nicolle Wallace to discuss the market's reaction to new comments on ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/0M8hYC2I7H4/default.jpg",
+            "url": "https://i.ytimg.com/vi/87l3xv6XwxY/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/0M8hYC2I7H4/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/87l3xv6XwxY/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/0M8hYC2I7H4/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/87l3xv6XwxY/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "Times Of India",
+        "channelTitle": "MSNBC",
         "liveBroadcastContent": "none",
-        "publishTime": "2025-04-18T13:56:47Z"
+        "publishTime": "2025-04-16T21:02:27Z"
       }
     }
   ]

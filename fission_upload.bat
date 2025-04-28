@@ -4,7 +4,7 @@
 fission fn delete --name=testyoutube
 
 :: Delete the existing route named 'testyoutube' if it exists
-fission route delete --name=testyoutube
+fission route delete --name=testyoutube-route
 
 :: Create a new function 'testyoutube' using the source code in Youtube_API/
 :: and attaches the secret 'youtube-api-key'

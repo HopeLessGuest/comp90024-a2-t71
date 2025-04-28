@@ -36,7 +36,7 @@ def get_video_details(youtube, video_ids):
 
 
 # Main entrypoint for Fission
-def main(context):
+def main():
     #api_key = load_api_key()
     api_key = "AIzaSyBbDw8fz5hE2bIQSZY-vlhSz2bTGoiwGTg"
     youtube = build_youtube_client(api_key)
@@ -63,5 +63,5 @@ def main(context):
     # return as JSON
     return json.dumps(output, ensure_ascii=False, indent=2)
 
-if __name__ == '__main__':
-    print(main(None))
+# if __name__ == '__main__':
+#     print(main(None))

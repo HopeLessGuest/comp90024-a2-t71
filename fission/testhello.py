@@ -1,2 +1,2 @@
-def main(context):
+def main():
     return "Hello from Fission!"

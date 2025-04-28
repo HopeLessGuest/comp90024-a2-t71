@@ -37,8 +37,8 @@ def get_video_details(youtube, video_ids):
 
 # Main entrypoint for Fission
 def main(context):
-    api_key = load_api_key()
-
+    #api_key = load_api_key()
+    api_key = "AIzaSyBbDw8fz5hE2bIQSZY-vlhSz2bTGoiwGTg"
     youtube = build_youtube_client(api_key)
 
     search_response = search_videos(youtube, query='Trump tariff')
@@ -54,10 +54,14 @@ def main(context):
     video_statistics = get_video_details(youtube, video_ids)
 
     # Prepare output
-    output = {
-        'search_response': search_response,
-        'video_statistics': video_statistics
-    }
+    output = search_response
+    # output = {
+    #     'search_response': search_response,
+    #     'video_statistics': video_statistics
+    # }
 
     # return as JSON
     return json.dumps(output, ensure_ascii=False, indent=2)
+
+if __name__ == '__main__':
+    print(main(None))

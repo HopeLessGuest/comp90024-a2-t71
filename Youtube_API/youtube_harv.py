@@ -1,40 +1,63 @@
 from googleapiclient.discovery import build
 from datetime import datetime
 import json
+from elasticsearch import Elasticsearch
 
-API_KEY = 'AIzaSyBbDw8fz5hE2bIQSZY-vlhSz2bTGoiwGTg'
-youtube = build('youtube', 'v3', developerKey=API_KEY)
+# Helper function: Load API Key
+def load_api_key(filepath='.secrets/youtube_api_key.txt'):
+    with open(filepath, 'r') as f:
+        return f.read().strip()
 
-# Get today's date in YYYYMMDD format
-date_str = datetime.now().strftime('%Y%m%d_%H%M')
 
-search_response = youtube.search().list(
-    part='snippet',
-    q='Trump tariff',
-    type='video',
-    regionCode='AU',
-    maxResults=100
-).execute()
+# Helper function: Build YouTube API client
+def build_youtube_client(api_key):
+    return build('youtube', 'v3', developerKey=api_key)
 
-video_ids = [
-    item['id']['videoId']
-    for item in search_response['items']
-    if item.get('id', {}).get('kind') == 'youtube#video' and 'videoId' in item['id']
-]
 
-video_response = youtube.videos().list(
-    part='snippet,statistics,contentDetails',
-    id=','.join(video_ids)
-).execute()
+# Helper function: Search videos
+def search_videos(youtube, query, region='AU', max_results=5):
+    response = youtube.search().list(
+        part='snippet',
+        q=query,
+        type='video',
+        regionCode=region,
+        maxResults=max_results
+    ).execute()
+    return response
 
-video_statistics = youtube.videos().list(
-    part='statistics,snippet',
-    id=','.join(video_ids)
-).execute()
 
-# save data to files
-with open(f'youtube_video_search_data_{date_str}.json', 'w', encoding='utf-8') as f:
-    json.dump(search_response, f, ensure_ascii=False, indent=2)
+# Helper function: Get video details
+def get_video_details(youtube, video_ids):
+    response = youtube.videos().list(
+        part='snippet,statistics,contentDetails',
+        id=','.join(video_ids)
+    ).execute()
+    return response
 
-with open(f'youtube_video_detail_{date_str}.json', 'w', encoding='utf-8') as f:
-    json.dump(video_statistics, f, ensure_ascii=False, indent=2)
+
+# Main entrypoint for Fission
+def main(context):
+    api_key = load_api_key()
+
+    youtube = build_youtube_client(api_key)
+
+    search_response = search_videos(youtube, query='Trump tariff')
+
+    # Extract video IDs
+    video_ids = [
+        item['id']['videoId']
+        for item in search_response['items']
+        if item.get('id', {}).get('kind') == 'youtube#video' and 'videoId' in item['id']
+    ]
+
+    # Get video details
+    video_statistics = get_video_details(youtube, video_ids)
+
+    # Prepare output
+    output = {
+        'search_response': search_response,
+        'video_statistics': video_statistics
+    }
+
+    # return as JSON
+    return json.dumps(output, ensure_ascii=False, indent=2)

@@ -34,7 +34,7 @@ def build_youtube_client(api_key):
 
 
 # Search videos
-def search_videos(youtube, query, region='AU', max_results=20, start_date=None, end_date=None):
+def search_videos(youtube, query, region='AU', max_results=50, start_date=None, end_date=None):
     """
     Search for YouTube videos within an optional date range.
 
@@ -62,8 +62,18 @@ def search_videos(youtube, query, region='AU', max_results=20, start_date=None, 
     if end_date:
         search_params['publishedBefore'] = end_date.isoformat("T") + "Z"
 
-    response = youtube.search().list(**search_params).execute()
-    return response
+    next_page_token = None
+    while True:
+        if next_page_token:
+            search_params['pageToken'] = next_page_token
+
+        response = youtube.search().list(**search_params).execute()
+        items = response.get('items', [])
+        yield items  # Yield a page of items
+
+        next_page_token = response.get('nextPageToken')
+        if not next_page_token:
+            break  # No more pages
 
 
 # Get video details
@@ -72,7 +82,7 @@ def get_video_details(youtube, video_ids):
         part='snippet,statistics,contentDetails',
         id=','.join(video_ids)
     ).execute()
-    return response
+    return response.get("items", [])
 
 
 # # Load the last recorded search date from the local log file (ISO format)
@@ -135,6 +145,16 @@ def connect_elasticsearch():
     return es
 
 
+# Extracts video IDs from a list of search result items.
+def extract_video_ids(search_items):
+    return [
+        item['id']['videoId']
+        for item in search_items
+        if item.get('id', {}).get('kind') == 'youtube#video' and 'videoId' in item['id']
+    ]
+
+
+
 # Main entrypoint for Fission
 def main():
     # get current time in ISO format
@@ -159,21 +179,27 @@ def main():
     end_date = None
 
     # start_date, end_date = get_next_search_period()
-    search_response = search_videos(youtube, max_results=max_results, query="interest rates", start_date=start_date,
-                                    end_date=end_date)
 
-    # Extract video IDs
-    video_ids = [
-        item['id']['videoId']
-        for item in search_response['items']
-        if item.get('id', {}).get('kind') == 'youtube#video' and 'videoId' in item['id']
-    ]
+    search_results = []
+    video_ids = []
+    video_statistics = []
+    # get search video snippet
+    for page_items in search_videos(youtube, max_results=50, query=search_prompt, start_date=start_date,
+                                    end_date=end_date):
+        search_results.extend(page_items)
 
-    # Get video details
-    video_statistics = get_video_details(youtube, video_ids)
+        # Only extract IDs from this page
+        ids_this_page = extract_video_ids(page_items)
+        video_ids.extend(ids_this_page)
+
+        # Only query ES for new video IDs
+        video_statistics.extend(get_video_details(youtube, ids_this_page))
+
+
+
 
     # Prepare output
-    output = video_statistics.get("items", [])
+    output = video_statistics
 
     # Connect and send data to ES
     try:
@@ -186,8 +212,8 @@ def main():
     # save_end_date(end_date)
 
     # return as JSON
-    return json.dumps(output, ensure_ascii=False, indent=2)
+    return "done"
 
 
-if __name__ == '__main__':
-    print(main())
+# if __name__ == '__main__':
+#     print(main())

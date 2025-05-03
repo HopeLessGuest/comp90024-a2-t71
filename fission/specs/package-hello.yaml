@@ -1,0 +1,14 @@
+apiVersion: fission.io/v1
+kind: Package
+metadata:
+  name: hello-pkg
+spec:
+  environment:
+    name: python39
+    namespace: default
+  source:
+    type: dir
+    dir: ./hello
+  buildcmd: "./build.sh"
+status:
+  buildstatus: pending

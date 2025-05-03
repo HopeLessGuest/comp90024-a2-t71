@@ -7,8 +7,8 @@ fission fn delete --name=testyoutube
 fission route delete --name=testyoutube-route
 
 :: Create a new function 'testyoutube' using the source code in Youtube_API/
-:: and attaches the secret 'youtube-api-key'
-fission fn create --name testyoutube --env python39 --src Youtube_API/ --entrypoint youtube_harv.main --secret youtube-api-key
+:: and attaches the secret 'youtube-api-key' --secret youtube-api-key
+fission fn create --name testyoutube --env python39 --src ./Youtube_API --entrypoint youtube_harv.main
 
 :: Create a new HTTP route 'testyoutube-route' to expose the function
 :: The function will be accessible at '/api/testyoutube' with the GET method

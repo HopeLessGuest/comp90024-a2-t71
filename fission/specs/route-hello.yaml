@@ -1,0 +1,11 @@
+apiVersion: fission.io/v1
+kind: HTTPTrigger
+metadata:
+  name: testhello-route
+spec:
+  functionref:
+    name: testhello
+    type: name
+  methods:
+    - GET
+  relativeurl: /api/testhello

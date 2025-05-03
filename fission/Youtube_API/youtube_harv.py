@@ -3,6 +3,7 @@ from datetime import datetime
 import json
 from elasticsearch import Elasticsearch
 
+
 # Helper function: Load API Key
 def load_api_key(filepath='.secrets/youtube_api_key.txt'):
     with open(filepath, 'r') as f:
@@ -15,7 +16,7 @@ def build_youtube_client(api_key):
 
 
 # Helper function: Search videos
-def search_videos(youtube, query, region='AU', max_results=5):
+def search_videos(youtube, query, region='AU', max_results=20):
     response = youtube.search().list(
         part='snippet',
         q=query,
@@ -37,7 +38,7 @@ def get_video_details(youtube, video_ids):
 
 # Main entrypoint for Fission
 def main():
-    #api_key = load_api_key()
+    # api_key = load_api_key()
     api_key = "AIzaSyBbDw8fz5hE2bIQSZY-vlhSz2bTGoiwGTg"
     youtube = build_youtube_client(api_key)
 
@@ -50,11 +51,25 @@ def main():
         if item.get('id', {}).get('kind') == 'youtube#video' and 'videoId' in item['id']
     ]
 
+    # Connect es
+    es = Elasticsearch(hosts=["http://localhost:9200"])
+    for item in search_response['items']:
+        if item.get('id', {}).get('kind') == 'youtube#video':
+            doc = {
+                'videoId': item['id']['videoId'],
+                'title': item['snippet']['title'],
+                'publishedAt': item['snippet']['publishedAt'],
+                'description': item['snippet'].get('description', ''),
+                'channelTitle': item['snippet']['channelTitle']
+            }
+
+            es.index(index='youtube-videos', document=doc)
+
     # Get video details
     video_statistics = get_video_details(youtube, video_ids)
 
     # Prepare output
-    output = search_response
+    output = video_statistics
     # output = {
     #     'search_response': search_response,
     #     'video_statistics': video_statistics
@@ -63,5 +78,6 @@ def main():
     # return as JSON
     return json.dumps(output, ensure_ascii=False, indent=2)
 
-# if __name__ == '__main__':
-#     print(main(None))
+
+if __name__ == '__main__':
+    print(main())

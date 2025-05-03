@@ -1,0 +1,13 @@
+apiVersion: fission.io/v1
+kind: Function
+metadata:
+  name: testhello
+spec:
+  functionTimeout: 60
+  environment:
+    name: python39
+    namespace: default
+  package:
+    packageRef:
+      name: hello-pkg
+  entrypoint: "testhello.main"

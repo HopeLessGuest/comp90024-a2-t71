@@ -1,2 +1,2 @@
 #!/bin/bash
-pip install --target . -r requirements.txt
+pip install -r ${SRC_PKG}/requirements.txt -t ${SRC_PKG} && cp -r ${SRC_PKG} ${DEPLOY_PKG}

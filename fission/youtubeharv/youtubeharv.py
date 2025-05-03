@@ -1,13 +1,22 @@
 from googleapiclient.discovery import build
 from datetime import datetime
 import json
+import os
 from elasticsearch import Elasticsearch
 
 
 # Helper function: Load API Key
-def load_api_key(filepath='.secrets/youtube_api_key.txt'):
-    with open(filepath, 'r') as f:
-        return f.read().strip()
+def load_api_key(filepath='../../.secrets/youtube_api_key.txt'):
+    fission_path = '/secrets/youtube-api-key/api_key'
+
+    if os.path.exists(fission_path):
+        with open(fission_path, 'r') as f:
+            return f.read().strip()
+    elif os.path.exists(filepath):
+        with open(filepath, 'r') as f:
+            return f.read().strip()
+    else:
+        raise FileNotFoundError(f"API key not found in {fission_path} or {filepath}")
 
 
 # Helper function: Build YouTube API client
@@ -38,11 +47,12 @@ def get_video_details(youtube, video_ids):
 
 # Main entrypoint for Fission
 def main():
-    # api_key = load_api_key()
-    api_key = "AIzaSyBbDw8fz5hE2bIQSZY-vlhSz2bTGoiwGTg"
+    api_key = load_api_key()
     youtube = build_youtube_client(api_key)
 
-    search_response = search_videos(youtube, query='Trump tariff')
+    # custom result number
+    max_results = 20
+    search_response = search_videos(youtube, query='Trump tariff', max_results = max_results)
 
     # Extract video IDs
     video_ids = [
@@ -52,18 +62,18 @@ def main():
     ]
 
     # Connect es
-    es = Elasticsearch(hosts=["http://localhost:9200"])
-    for item in search_response['items']:
-        if item.get('id', {}).get('kind') == 'youtube#video':
-            doc = {
-                'videoId': item['id']['videoId'],
-                'title': item['snippet']['title'],
-                'publishedAt': item['snippet']['publishedAt'],
-                'description': item['snippet'].get('description', ''),
-                'channelTitle': item['snippet']['channelTitle']
-            }
-
-            es.index(index='youtube-videos', document=doc)
+    # es = Elasticsearch(hosts=["http://localhost:9200"])
+    # for item in search_response['items']:
+    #     if item.get('id', {}).get('kind') == 'youtube#video':
+    #         doc = {
+    #             'videoId': item['id']['videoId'],
+    #             'title': item['snippet']['title'],
+    #             'publishedAt': item['snippet']['publishedAt'],
+    #             'description': item['snippet'].get('description', ''),
+    #             'channelTitle': item['snippet']['channelTitle']
+    #         }
+    #
+    #         es.index(index='youtube-videos', document=doc)
 
     # Get video details
     video_statistics = get_video_details(youtube, video_ids)

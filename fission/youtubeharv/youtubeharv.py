@@ -75,7 +75,7 @@ def get_video_details(youtube, video_ids):
     return response
 
 
-# Load the last recorded search date from the log file (ISO format)
+# Load the last recorded search date from the local log file (ISO format)
 def load_last_date(log_file="search_log.txt", search_start_date="2025-01-01"):
     if Path(log_file).exists():
         with open(log_file, "r") as f:
@@ -83,6 +83,19 @@ def load_last_date(log_file="search_log.txt", search_start_date="2025-01-01"):
             if lines:
                 return datetime.fromisoformat(lines[-1])
     return datetime.fromisoformat(search_start_date) - timedelta(days=1)
+
+
+# Load the last recorded search date from the ES log file (ISO format)
+
+def load_last_date_from_es(es, index="youtube-log"):
+    resp = es.search(
+        index=index,
+        size=1,
+        sort=[{"end_date": {"order": "desc"}}]
+    )
+    if resp['hits']['hits']:
+        return datetime.fromisoformat(resp['hits']['hits'][0]['_source']['end_date'])
+    return datetime.fromisoformat("2025-01-01") - timedelta(days=1)
 
 
 # Append the current search end date to the log file in ISO format

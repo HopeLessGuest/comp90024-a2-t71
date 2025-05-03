@@ -2,10 +2,11 @@ from googleapiclient.discovery import build
 from datetime import datetime
 import json
 import os
+from pathlib import Path
 from elasticsearch import Elasticsearch
 
 
-# Helper function: Load API Key
+# Load API Key
 def load_api_key(filepath='youtube_api_key.txt'):
     zip_path = '/userfunc/deployarchive/youtube_api_key.txt'
     secrets_path = '/secrets/youtube-api-key'
@@ -27,12 +28,12 @@ def load_api_key(filepath='youtube_api_key.txt'):
         raise FileNotFoundError(f"API key not found in {fission_path} or {filepath} or {secrets_path}")
 
 
-# Helper function: Build YouTube API client
+# Build YouTube API client
 def build_youtube_client(api_key):
     return build('youtube', 'v3', developerKey=api_key)
 
 
-# Helper function: Search videos
+# Search videos
 def search_videos(youtube, query, region='AU', max_results=20):
     response = youtube.search().list(
         part='snippet',
@@ -44,7 +45,7 @@ def search_videos(youtube, query, region='AU', max_results=20):
     return response
 
 
-# Helper function: Get video details
+# Get video details
 def get_video_details(youtube, video_ids):
     response = youtube.videos().list(
         part='snippet,statistics,contentDetails',
@@ -53,14 +54,48 @@ def get_video_details(youtube, video_ids):
     return response
 
 
+# Load the last recorded search date from the log file (ISO format)
+def load_last_date(log_file="search_log.txt"):
+    if Path(log_file).exists():
+        with open(log_file, "r") as f:
+            lines = f.read().strip().splitlines()
+            if lines:
+                return datetime.fromisoformat(lines[-1])
+    return datetime.fromisoformat(START_DATE) - timedelta(days=1)
+
+
+# Append the current search end date to the log file in ISO format
+def save_end_date(log_file="search_log.txt", end_date):
+    with open(log_file, "a") as f:
+        f.write(end_date.date().isoformat() + "\n")
+
+
+# Calculate the next search period based on the last recorded date
+def get_next_search_period(days=7):
+    last_end = load_last_date()
+    start = last_end + timedelta(days=1)
+    end = start + timedelta(days=days - 1)
+    return start, end
+
+
 # Main entrypoint for Fission
 def main():
+    # get current time in ISO format
+    now = datetime.now().isoformat()[1:19]
+
+    # set default search start time
+    start_time = "2025-01-01"
+
+    # set api key
     api_key = load_api_key()
     youtube = build_youtube_client(api_key)
 
+    # set log file path
+    log_file = "search_log.txt"
+
     # custom result number
     max_results = 2
-    search_response = search_videos(youtube, query='Trump tariff', max_results = max_results)
+    search_response = search_videos(youtube, query='Trump tariff', max_results=max_results)
 
     # Extract video IDs
     video_ids = [
@@ -87,11 +122,7 @@ def main():
     video_statistics = get_video_details(youtube, video_ids)
 
     # Prepare output
-    output = search_response
-    # output = {
-    #     'search_response': search_response,
-    #     'video_statistics': video_statistics
-    # }
+    output = video_statistics
 
     # return as JSON
     return json.dumps(output, ensure_ascii=False, indent=2)

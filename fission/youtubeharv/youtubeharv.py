@@ -6,17 +6,25 @@ from elasticsearch import Elasticsearch
 
 
 # Helper function: Load API Key
-def load_api_key(filepath='../../.secrets/youtube_api_key.txt'):
-    fission_path = '/secrets/youtube-api-key/api_key'
+def load_api_key(filepath='youtube_api_key.txt'):
+    zip_path = '/userfunc/deployarchive/youtube_api_key.txt'
+    secrets_path = '/secrets/youtube-api-key'
+    local_path = filepath
 
-    if os.path.exists(fission_path):
-        with open(fission_path, 'r') as f:
+    if os.path.exists(secrets_path):
+        print(f"✅ Using secret path: {secrets_path}")
+        with open(secrets_path, 'r') as f:
             return f.read().strip()
-    elif os.path.exists(filepath):
-        with open(filepath, 'r') as f:
+    elif os.path.exists(zip_path):
+        print(f"✅ Using zip path: {zip_path}")
+        with open(zip_path, 'r') as f:
+            return f.read().strip()
+    elif os.path.exists(local_path):
+        print(f"✅ Using local path: {local_path}")
+        with open(local_path, 'r') as f:
             return f.read().strip()
     else:
-        raise FileNotFoundError(f"API key not found in {fission_path} or {filepath}")
+        raise FileNotFoundError(f"API key not found in {fission_path} or {filepath} or {secrets_path}")
 
 
 # Helper function: Build YouTube API client
@@ -51,7 +59,7 @@ def main():
     youtube = build_youtube_client(api_key)
 
     # custom result number
-    max_results = 20
+    max_results = 2
     search_response = search_videos(youtube, query='Trump tariff', max_results = max_results)
 
     # Extract video IDs
@@ -79,7 +87,7 @@ def main():
     video_statistics = get_video_details(youtube, video_ids)
 
     # Prepare output
-    output = video_statistics
+    output = search_response
     # output = {
     #     'search_response': search_response,
     #     'video_statistics': video_statistics

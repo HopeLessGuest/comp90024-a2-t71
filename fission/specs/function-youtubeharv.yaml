@@ -1,29 +1,26 @@
 apiVersion: fission.io/v1
 kind: Function
 metadata:
-  creationTimestamp: null
   name: youtubeharv
 spec:
-  InvokeStrategy:
-    ExecutionStrategy:
-      ExecutorType: poolmgr
-      MaxScale: 0
-      MinScale: 0
-      SpecializationTimeout: 120
-      TargetCPUPercent: 0
-    StrategyType: execution
-    secrets:
-    - youtube-api-key
-  concurrency: 500
   environment:
     name: python39
-    namespace: ""
-  functionTimeout: 60
-  idletimeout: 120
+    namespace: default
   package:
     functionName: youtubeharv.main
     packageref:
       name: youtubeharv-pkg
-      namespace: ""
+      namespace: default
+  InvokeStrategy:
+    StrategyType: execution
+    ExecutionStrategy:
+      ExecutorType: poolmgr
+      MinScale: 1
+      MaxScale: 2
+      Secrets:
+        - name: youtube-api-key
+          mountPath: /secrets/youtube-api-key
+  functionTimeout: 60
+  idletimeout: 120
+  concurrency: 500
   requestsPerPod: 1
-  resources: {}

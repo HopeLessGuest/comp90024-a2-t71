@@ -1,15 +1,15 @@
 apiVersion: fission.io/v1
 kind: Function
 metadata:
-  name: youtubeharv
+  name: youtubelifeharv
 spec:
   environment:
     name: python39
     namespace: default
   package:
-    functionName: youtubeharv.main
+    functionName: youtubelifeharv.main
     packageref:
-      name: youtubeharv-pkg
+      name: youtubelifeharv-pkg
       namespace: default
   InvokeStrategy:
     StrategyType: execution

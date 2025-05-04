@@ -1,4 +1,5 @@
 from googleapiclient.discovery import build
+from youtube_helper import *
 
 # Hardcoded YouTube API key
 API_KEY = 'AIzaSyAe4U7EGjlauzCwu-6Sj-Nxf1wEz8lSBpQ'

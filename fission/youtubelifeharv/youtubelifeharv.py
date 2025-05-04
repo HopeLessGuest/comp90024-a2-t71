@@ -1,88 +1,9 @@
-from googleapiclient.discovery import build
 from datetime import datetime, timedelta
 import json
 import os
-from pathlib import Path
+from youtube_helper import build_youtube_client, search_videos, get_video_details, load_api_key
+from es_helper import connect_elasticsearch, send_to_elasticsearch, log_search_period_to_es
 from elasticsearch import Elasticsearch
-
-
-# Load API Key
-def load_api_key(filepath='youtube_api_key.txt'):
-    zip_path = '/userfunc/deployarchive/youtube_api_key.txt'
-    secrets_path = '/secrets/youtube-api-key'
-    local_path = filepath
-
-    if os.path.exists(secrets_path):
-        print(f"✅ Using secret path: {secrets_path}")
-        with open(secrets_path, 'r') as f:
-            return f.read().strip()
-    elif os.path.exists(zip_path):
-        print(f"✅ Using zip path: {zip_path}")
-        with open(zip_path, 'r') as f:
-            return f.read().strip()
-    elif os.path.exists(local_path):
-        print(f"✅ Using local path: {local_path}")
-        with open(local_path, 'r') as f:
-            return f.read().strip()
-    else:
-        raise FileNotFoundError(f"API key not found in {zip_path} or {filepath} or {secrets_path}")
-
-
-# Build YouTube API client
-def build_youtube_client(api_key):
-    return build('youtube', 'v3', developerKey=api_key)
-
-
-# Search videos
-def search_videos(youtube, query, region='AU', max_results=50, start_date=None, end_date=None):
-    """
-    Search for YouTube videos within an optional date range.
-
-    Parameters:
-        youtube: Authenticated YouTube API client.
-        query (str): Search query.
-        region (str): Region code (default 'AU').
-        max_results (int): Max results to fetch (default 20).
-        start_date (datetime, optional): Start datetime.
-        end_date (datetime, optional): End datetime.
-
-    Returns:
-        dict: YouTube API response.
-    """
-    search_params = {
-        'part': 'snippet',
-        'q': query,
-        'type': 'video',
-        'regionCode': region,
-        'maxResults': max_results
-    }
-
-    if start_date:
-        search_params['publishedAfter'] = start_date.isoformat("T") + "Z"
-    if end_date:
-        search_params['publishedBefore'] = end_date.isoformat("T") + "Z"
-
-    next_page_token = None
-    while True:
-        if next_page_token:
-            search_params['pageToken'] = next_page_token
-
-        response = youtube.search().list(**search_params).execute()
-        items = response.get('items', [])
-        yield items  # Yield a page of items
-
-        next_page_token = response.get('nextPageToken')
-        if not next_page_token:
-            break  # No more pages
-
-
-# Get video details
-def get_video_details(youtube, video_ids):
-    response = youtube.videos().list(
-        part='snippet,statistics,contentDetails',
-        id=','.join(video_ids)
-    ).execute()
-    return response.get("items", [])
 
 
 # # Load the last recorded search date from the local log file (ISO format)
@@ -124,31 +45,6 @@ def get_next_search_period(days=7):
     return start, end
 
 
-# Send data to Elastic Search
-def send_to_elasticsearch(es, items, index):
-    for item in items:
-        video_id = item.get("id")
-        if video_id:
-            try:
-                es.index(index=index, id=video_id, document=item)
-            except Exception as e:
-                print(f"❌ Failed to index video {video_id}: {e}")
-
-
-# Connect to k8s Elastic Search database
-def connect_elasticsearch():
-    es = Elasticsearch(
-        "https://elasticsearch-master.elastic.svc.cluster.local:9200",
-        basic_auth=("elastic", "elastic"),
-        verify_certs=False
-    )
-    if es.ping():
-        print("✅ Connected to Elasticsearch")
-    else:
-        print("❌ Failed to connect to Elasticsearch")
-    return es
-
-
 # Extracts video IDs from a list of search result items.
 def extract_video_ids(search_items):
     return [
@@ -158,28 +54,13 @@ def extract_video_ids(search_items):
     ]
 
 
-# Log the search start and end date to Elasticsearch for tracking search history
-def log_search_period_to_es(es, start_date, end_date, query=None, result_count=None, index="youtube-log"):
-    doc = {
-        "start_date": start_date.date().isoformat(),
-        "end_date": end_date.date().isoformat(),
-        "timestamp": datetime.utcnow().isoformat()
-    }
-    if query:
-        doc["query"] = query
-    if result_count is not None:
-        doc["result_count"] = result_count
-
-    es.index(index=index, document=doc)
-
-
 # Main entrypoint for Fission
 def main():
     # get current time in ISO format
     now = datetime.now().isoformat()[1:19]
 
     # set default search start time
-    search_start_date =
+    search_start_date = ""
 
     # set api key
     api_key = load_api_key()

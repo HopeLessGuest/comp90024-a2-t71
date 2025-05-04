@@ -1,11 +1,11 @@
 apiVersion: fission.io/v1
 kind: HTTPTrigger
 metadata:
-  name: youtubeharv-route
+  name: youtubelifeharv-route
 spec:
   functionref:
-    name: youtubeharv
+    name: youtubelifeharv
     type: name
   methods:
     - GET
-  relativeurl: /api/youtubeharv
+  relativeurl: /api/youtubelifeharv

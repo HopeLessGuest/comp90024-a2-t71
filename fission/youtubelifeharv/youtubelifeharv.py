@@ -4,7 +4,7 @@ import os
 from youtube_helper import build_youtube_client, search_videos, get_video_details, load_api_key
 from es_helper import connect_elasticsearch, send_to_elasticsearch, log_search_period_to_es, get_latest_date
 from elasticsearch import Elasticsearch
-
+import urllib3
 
 # # Load the last recorded search date from the local log file (ISO format)
 # def load_last_date(log_file="search_log.txt", search_start_date="2025-01-01"):
@@ -64,18 +64,24 @@ def main():
 
     # set api key
     api_key = load_api_key()
+    api_key = 'AIzaSyAe4U7EGjlauzCwu-6Sj-Nxf1wEz8lSBpQ'
     youtube = build_youtube_client(api_key)
+
+    # # set log file path and es index name
+    # log_file = "search_log.txt"
+    # data_index = "youtube-videos-tariff"
+    # data_id_field = "id"
+    # log_index = "youtube-videos-tariff-logs"
 
     # set log file path and es index name
     log_file = "search_log.txt"
-    data_index = "youtube-videos-tariff"
+    data_index = "youtube-videos-life"
     data_id_field = "id"
-    log_index = "youtube-videos-tariff-logs"
-
+    log_index = "youtube-videos-life-logs"
 
     # custom result number and prompt
-    max_results = 2
-    search_prompt = 'Trump tariff'
+    search_prompt = 'melbourne food'
+    max_pages = 2
 
     # custom search date
     start_date = datetime(2025, 1, 1)
@@ -90,12 +96,12 @@ def main():
     video_statistics = []
 
     # Connect to ES
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     es = connect_elasticsearch()
 
     start_time = get_latest_date(es, log_index)
 
     # Daily incremental search loop (excluding end_date)
-    max_pages = 2
     current_date = start_date
     while current_date < end_date:
         next_date = current_date + timedelta(days=1)

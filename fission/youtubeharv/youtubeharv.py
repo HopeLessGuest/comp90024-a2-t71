@@ -179,7 +179,7 @@ def main():
     now = datetime.now().isoformat()[1:19]
 
     # set default search start time
-    search_start_date = "2025-01-01"
+    search_start_date =
 
     # set api key
     api_key = load_api_key()
@@ -195,12 +195,12 @@ def main():
     search_prompt = 'Trump tariff'
 
     # custom search date
-    start_date = None
-    end_date = None
+    start_date = datetime(2025, 1, 1)
     search_date_range = 1
+    end_date = start_date + timedelta(days=search_date_range)
 
-    # get search start date and end date
-    start_date, end_date = get_next_search_period(days=search_date_range)
+    # # get search start date and end date
+    # start_date, end_date = get_next_search_period(days=search_date_range)
 
     search_results = []
     video_ids = []

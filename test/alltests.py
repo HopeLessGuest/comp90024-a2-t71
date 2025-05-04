@@ -1,3 +1,5 @@
-from datetime import datetime
+from datetime import datetime, timedelta
+
 now = datetime.now()
-print(now.isoformat()[1:19])
+last_end = datetime.fromisoformat("2025-01-01") - timedelta(days=1)
+print(last_end)

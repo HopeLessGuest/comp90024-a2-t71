@@ -114,21 +114,25 @@ def get_video_details(youtube, video_ids):
 #         f.write(end_date.date().isoformat() + "\n")
 
 
-# # Get the next date range for YouTube search (default: 7 days)
-# def get_next_search_period(days=7):
-#     last_end = load_last_date()
-#     start = last_end + timedelta(days=1)
-#     end = start + timedelta(days=days - 1)
-#     print(f"[Search Period] Start: {start.isoformat()}, End: {end.isoformat()}")
-#     return start, end
+# Get the next date range for YouTube search (default: 7 days)
+def get_next_search_period(days=7):
+    # last_end = load_last_date()
+    last_end = datetime.fromisoformat("2025-01-01") - timedelta(days=1)
+    start = last_end + timedelta(days=1)
+    end = start + timedelta(days=days - 1)
+    print(f"[Search Period] Start: {start.isoformat()}, End: {end.isoformat()}")
+    return start, end
 
 
 # Send data to Elastic Search
-def send_to_elasticsearch(es, items, index="youtube-videos"):
+def send_to_elasticsearch(es, items, index):
     for item in items:
         video_id = item.get("id")
         if video_id:
-            es.index(index=index, id=video_id, document=item)
+            try:
+                es.index(index=index, id=video_id, document=item)
+            except Exception as e:
+                print(f"❌ Failed to index video {video_id}: {e}")
 
 
 # Connect to k8s Elastic Search database
@@ -154,6 +158,20 @@ def extract_video_ids(search_items):
     ]
 
 
+# Log the search start and end date to Elasticsearch for tracking search history
+def log_search_period_to_es(es, start_date, end_date, query=None, result_count=None, index="youtube-log"):
+    doc = {
+        "start_date": start_date.date().isoformat(),
+        "end_date": end_date.date().isoformat(),
+        "timestamp": datetime.utcnow().isoformat()
+    }
+    if query:
+        doc["query"] = query
+    if result_count is not None:
+        doc["result_count"] = result_count
+
+    es.index(index=index, document=doc)
+
 
 # Main entrypoint for Fission
 def main():
@@ -167,8 +185,10 @@ def main():
     api_key = load_api_key()
     youtube = build_youtube_client(api_key)
 
-    # set log file path
+    # set log file path and es index name
     log_file = "search_log.txt"
+    data_index = "youtube-videos-tariff"
+    log_index = "youtube-videos-tariff-logs"
 
     # custom result number and prompt
     max_results = 2
@@ -177,8 +197,10 @@ def main():
     # custom search date
     start_date = None
     end_date = None
+    search_date_range = 1
 
-    # start_date, end_date = get_next_search_period()
+    # get search start date and end date
+    start_date, end_date = get_next_search_period(days=search_date_range)
 
     search_results = []
     video_ids = []
@@ -192,11 +214,8 @@ def main():
         ids_this_page = extract_video_ids(page_items)
         video_ids.extend(ids_this_page)
 
-        # Only query ES for new video IDs
+        # Fetch video details for this page's video IDs
         video_statistics.extend(get_video_details(youtube, ids_this_page))
-
-
-
 
     # Prepare output
     output = video_statistics
@@ -204,16 +223,22 @@ def main():
     # Connect and send data to ES
     try:
         es = connect_elasticsearch()
-        send_to_elasticsearch(es, output)
+        send_to_elasticsearch(es, output, data_index)
     except Exception as e:
         print(f"❌ Error sending to Elasticsearch: {e}")
+
+    # Record search period to ES log
+    try:
+        log_search_period_to_es(es, start_date, end_date, search_prompt, len(video_statistics), log_index,)
+        print(f"📝 Logged search period to {log_index}")
+    except Exception as e:
+        print(f"❌ Failed to log search period: {e}")
 
     # # Write searched log
     # save_end_date(end_date)
 
     # return as JSON
     return "done"
-
 
 # if __name__ == '__main__':
 #     print(main())

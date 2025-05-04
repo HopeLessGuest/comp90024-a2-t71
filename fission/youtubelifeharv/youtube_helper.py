@@ -1,4 +1,5 @@
 from googleapiclient.discovery import build
+import os
 
 # Load API Key
 def load_api_key(filepath='youtube_api_key.txt'):
@@ -26,10 +27,7 @@ def build_youtube_client(api_key):
     return build('youtube', 'v3', developerKey=api_key)
 
 # Search for YouTube videos with optional date range and pagination
-def search_videos(youtube, query, region='AU', max_results=50, start_date=None, end_date=None):
-    """
-    Search YouTube videos by keyword and optional time window.
-    """
+def search_videos(youtube, query, region='AU', max_results=50, start_date=None, end_date=None, max_pages=None):
     search_params = {
         'part': 'snippet',
         'q': query,
@@ -44,6 +42,8 @@ def search_videos(youtube, query, region='AU', max_results=50, start_date=None, 
         search_params['publishedBefore'] = end_date.isoformat("T") + "Z"
 
     next_page_token = None
+    page_count = 0
+
     while True:
         if next_page_token:
             search_params['pageToken'] = next_page_token
@@ -51,6 +51,10 @@ def search_videos(youtube, query, region='AU', max_results=50, start_date=None, 
         response = youtube.search().list(**search_params).execute()
         items = response.get('items', [])
         yield items
+
+        page_count += 1
+        if max_pages is not None and page_count >= max_pages:
+            break
 
         next_page_token = response.get('nextPageToken')
         if not next_page_token:

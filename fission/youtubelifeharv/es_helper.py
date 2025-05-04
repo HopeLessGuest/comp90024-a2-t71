@@ -11,7 +11,7 @@ def connect_elasticsearch():
         )
         return es
     except Exception as e:
-        print(f"❌ Error connecting to Elasticsearch: {e}")
+        print(f"[X] Error connecting to Elasticsearch: {e}")
         return None
 
 
@@ -25,7 +25,7 @@ def send_to_elasticsearch(es, items, index, id_field=None):
             else:
                 es.index(index=index, document=item)
         except Exception as e:
-            print(f"❌ Failed to index document: {e}")
+            print(f"[X] Failed to index document: {e}")
 
 
 # Log the search metadata to Elasticsearch log index
@@ -44,12 +44,10 @@ def log_search_period_to_es(es, start_date, end_date, query=None, result_count=N
 
 
 # Get the latest `end_date` from a given Elasticsearch log index.
-def get_latest_date(es, index):
+def get_latest_date(es, index) -> datetime:
     query = {
         "size": 1,
-        "sort": [
-            {"end_date": "desc"}
-        ]
+        "sort": [{"end_date": "desc"}]
     }
 
     try:
@@ -57,10 +55,12 @@ def get_latest_date(es, index):
         hits = result.get("hits", {}).get("hits", [])
         if hits:
             end_date_str = hits[0]["_source"].get("end_date")
+            print(f"[OK] Latest end_date found in index '{index}': {end_date_str}")
             return datetime.fromisoformat(end_date_str)
         else:
-            print("ℹ️ No logs found in index.")
-            return None
+            print(f"[!] Index '{index}' has no logs. Using fallback start date: 2025-05-02")
     except Exception as e:
-        print(f"❌ Error fetching latest end_date: {e}")
-        return None
+        print(f"[X] Error querying index '{index}': {e}")
+        print("[!] Using fallback start date: 2025-05-02 due to error.")
+
+    return datetime.fromisoformat("2025-05-02")

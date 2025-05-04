@@ -6,6 +6,7 @@ from es_helper import connect_elasticsearch, send_to_elasticsearch, log_search_p
 from elasticsearch import Elasticsearch
 import urllib3
 
+
 # # Load the last recorded search date from the local log file (ISO format)
 # def load_last_date(log_file="search_log.txt", search_start_date="2025-01-01"):
 #     if Path(log_file).exists():
@@ -35,14 +36,12 @@ import urllib3
 #         f.write(end_date.date().isoformat() + "\n")
 
 
-# Get the next date range for YouTube search (default: 7 days)
-def get_next_search_period(days=7):
-    # last_end = load_last_date()
-    last_end = datetime.fromisoformat("2025-01-01") - timedelta(days=1)
-    start = last_end + timedelta(days=1)
-    end = start + timedelta(days=days - 1)
-    print(f"[Search Period] Start: {start.isoformat()}, End: {end.isoformat()}")
-    return start, end
+# Get the date search range for YouTube search (default: 7 days)
+def get_next_search_period(es, log_index, search_range=7):
+    start_date = get_latest_date(es, log_index) + timedelta(days=1)
+    end_date = start_date + timedelta(days=search_range - 1)
+    print(f"[Search Period] Start: {start_date.date()}, End: {end_date.date()}")
+    return start_date, end_date
 
 
 # Extracts video IDs from a list of search result items.
@@ -59,8 +58,9 @@ def main():
     # get current time in ISO format
     now = datetime.now().isoformat()[1:19]
 
-    # set default search start time
-    search_start_date = ""
+    # print separate line
+    print(f"================================================================================")
+    print(f"[OK] Program started at {now} ")
 
     # set api key
     api_key = load_api_key()
@@ -79,18 +79,6 @@ def main():
     data_id_field = "id"
     log_index = "youtube-videos-life-logs"
 
-    # custom result number and prompt
-    search_prompt = 'melbourne food'
-    max_pages = 2
-
-    # custom search date
-    start_date = datetime(2025, 1, 1)
-    search_date_range = 1
-    end_date = start_date + timedelta(days=search_date_range)
-
-    # # get search start date and end date
-    # start_date, end_date = get_next_search_period(days=search_date_range)
-
     search_results = []
     video_ids = []
     video_statistics = []
@@ -99,14 +87,21 @@ def main():
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     es = connect_elasticsearch()
 
-    start_time = get_latest_date(es, log_index)
+    # custom result number and prompt
+    search_prompt = 'melbourne food'
+    max_pages = 2
+
+    # custom search date
+    start_date = datetime(2025, 1, 1)
+    search_time_range = 1
+
+    # get search start date and end date
+    start_date, end_date = get_next_search_period(es, log_index, search_time_range)
 
     # Daily incremental search loop (excluding end_date)
     current_date = start_date
-    while current_date < end_date:
+    while current_date <= end_date:
         next_date = current_date + timedelta(days=1)
-        print(f"🔍 Searching: {current_date.date()}")
-
         for page_items in search_videos(
                 youtube,
                 max_results=50,
@@ -132,10 +127,10 @@ def main():
 
     # Record search period to ES log
     try:
-        log_search_period_to_es(es, start_date, end_date, search_prompt, len(video_statistics), log_index,)
-        print(f"📝 Logged search period to {log_index}")
+        log_search_period_to_es(es, start_date, end_date, search_prompt, len(video_statistics), log_index, )
+        print(f"[OK] Logged search period to {log_index}")
     except Exception as e:
-        print(f"❌ Failed to log search period: {e}")
+        print(f"[X] Failed to log search period: {e}")
 
     # # Write searched log
     # save_end_date(end_date)

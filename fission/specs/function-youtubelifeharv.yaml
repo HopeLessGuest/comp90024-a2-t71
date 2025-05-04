@@ -20,7 +20,7 @@ spec:
       Secrets:
         - name: youtube-api-key
           mountPath: /secrets/youtube-api-key
-  functionTimeout: 60
-  idletimeout: 120
+  functionTimeout: 180
+  idletimeout: 180
   concurrency: 500
   requestsPerPod: 1

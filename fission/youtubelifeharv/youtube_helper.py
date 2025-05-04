@@ -1,5 +1,6 @@
 from googleapiclient.discovery import build
 import os
+from datetime import timedelta
 
 # Load API Key
 def load_api_key(filepath='youtube_api_key.txt'):
@@ -8,15 +9,15 @@ def load_api_key(filepath='youtube_api_key.txt'):
     local_path = filepath
 
     if os.path.exists(secrets_path):
-        print(f"✅ Using secret path: {secrets_path}")
+        print(f"[OK] Using secret path: {secrets_path}")
         with open(secrets_path, 'r') as f:
             return f.read().strip()
     elif os.path.exists(zip_path):
-        print(f"✅ Using zip path: {zip_path}")
+        print(f"[OK] Using zip path: {zip_path}")
         with open(zip_path, 'r') as f:
             return f.read().strip()
     elif os.path.exists(local_path):
-        print(f"✅ Using local path: {local_path}")
+        print(f"[OK] Using local path: {local_path}")
         with open(local_path, 'r') as f:
             return f.read().strip()
     else:
@@ -39,8 +40,9 @@ def search_videos(youtube, query, region='AU', max_results=50, start_date=None, 
     if start_date:
         search_params['publishedAfter'] = start_date.isoformat("T") + "Z"
     if end_date:
-        search_params['publishedBefore'] = end_date.isoformat("T") + "Z"
+        search_params['publishedBefore'] = (end_date + timedelta(days=1)).isoformat("T") + "Z"
 
+    print(f'[Searching from time period]: {start_date.isoformat("T") + "Z"} to {(end_date + timedelta(days=1)).isoformat("T") + "Z"}')
     next_page_token = None
     page_count = 0
 

@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 import json
 import os
 from youtube_helper import build_youtube_client, search_videos, get_video_details, load_api_key
-from es_helper import connect_elasticsearch, send_to_elasticsearch, log_search_period_to_es
+from es_helper import connect_elasticsearch, send_to_elasticsearch, log_search_period_to_es, get_latest_date
 from elasticsearch import Elasticsearch
 
 
@@ -69,7 +69,9 @@ def main():
     # set log file path and es index name
     log_file = "search_log.txt"
     data_index = "youtube-videos-tariff"
+    data_id_field = "id"
     log_index = "youtube-videos-tariff-logs"
+
 
     # custom result number and prompt
     max_results = 2
@@ -87,7 +89,13 @@ def main():
     video_ids = []
     video_statistics = []
 
+    # Connect to ES
+    es = connect_elasticsearch()
+
+    start_time = get_latest_date(es, log_index)
+
     # Daily incremental search loop (excluding end_date)
+    max_pages = 2
     current_date = start_date
     while current_date < end_date:
         next_date = current_date + timedelta(days=1)
@@ -98,7 +106,8 @@ def main():
                 max_results=50,
                 query=search_prompt,
                 start_date=current_date,
-                end_date=next_date
+                end_date=next_date,
+                max_pages=max_pages
         ):
             search_results.extend(page_items)
 
@@ -112,12 +121,8 @@ def main():
     # Prepare output
     output = video_statistics
 
-    # Connect and send data to ES
-    try:
-        es = connect_elasticsearch()
-        send_to_elasticsearch(es, output, data_index)
-    except Exception as e:
-        print(f"❌ Error sending to Elasticsearch: {e}")
+    # Send data to ES
+    send_to_elasticsearch(es, output, data_index, data_id_field)
 
     # Record search period to ES log
     try:

@@ -3,27 +3,29 @@ from elasticsearch import Elasticsearch
 
 # Connect to Kubernetes Elasticsearch
 def connect_elasticsearch():
-    es = Elasticsearch(
-        "https://elasticsearch-master.elastic.svc.cluster.local:9200",
-        basic_auth=("elastic", "elastic"),
-        verify_certs=False
-    )
-    if es.ping():
-        print("✅ Connected to Elasticsearch")
-    else:
-        print("❌ Failed to connect to Elasticsearch")
-    return es
+    try:
+        es = Elasticsearch(
+            "https://elasticsearch-master.elastic.svc.cluster.local:9200",
+            basic_auth=("elastic", "elastic"),
+            verify_certs=False
+        )
+        return es
+    except Exception as e:
+        print(f"❌ Error connecting to Elasticsearch: {e}")
+        return None
 
 
-# Send list of documents to Elasticsearch with _id = video_id
-def send_to_elasticsearch(es, items, index):
+# Send list of documents to Elasticsearch with custom index
+def send_to_elasticsearch(es, items, index, id_field=None):
     for item in items:
-        video_id = item.get("id")
-        if video_id:
-            try:
-                es.index(index=index, id=video_id, document=item)
-            except Exception as e:
-                print(f"❌ Failed to index video {video_id}: {e}")
+        try:
+            if id_field and id_field in item:
+                doc_id = item[id_field]
+                es.index(index=index, id=doc_id, document=item)
+            else:
+                es.index(index=index, document=item)
+        except Exception as e:
+            print(f"❌ Failed to index document: {e}")
 
 
 # Log the search metadata to Elasticsearch log index
@@ -39,3 +41,26 @@ def log_search_period_to_es(es, start_date, end_date, query=None, result_count=N
         doc["result_count"] = result_count
 
     es.index(index=index, document=doc)
+
+
+# Get the latest `end_date` from a given Elasticsearch log index.
+def get_latest_date(es, index):
+    query = {
+        "size": 1,
+        "sort": [
+            {"end_date": "desc"}
+        ]
+    }
+
+    try:
+        result = es.search(index=index, body=query)
+        hits = result.get("hits", {}).get("hits", [])
+        if hits:
+            end_date_str = hits[0]["_source"].get("end_date")
+            return datetime.fromisoformat(end_date_str)
+        else:
+            print("ℹ️ No logs found in index.")
+            return None
+    except Exception as e:
+        print(f"❌ Error fetching latest end_date: {e}")
+        return None

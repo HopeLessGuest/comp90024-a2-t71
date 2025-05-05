@@ -96,7 +96,6 @@ def collect_video_statistics_by_day(youtube, search_prompt, start_date, end_date
     current_date = start_date
     while current_date <= end_date:
         next_date = current_date + timedelta(days=1)
-        print(f"[Searching from time period]: {current_date.isoformat()} to {next_date.isoformat()}")
 
         try:
             for page_items in search_videos(

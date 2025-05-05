@@ -47,8 +47,8 @@ def send_to_elasticsearch(es, items, index, id_field=None):
 
 
 # Log the search metadata to Elasticsearch log index
-def log_search_period_to_es(es, start_date, end_date, query=None, result_count=None, index="youtube-log",
-                            indexing_stats=None):
+def log_search_to_es(es, start_date, end_date, query=None, result_count=None, index="youtube-log",
+                     indexing_stats=None):
     doc = {
         "start_date": start_date.date().isoformat(),
         "end_date": end_date.date().isoformat(),

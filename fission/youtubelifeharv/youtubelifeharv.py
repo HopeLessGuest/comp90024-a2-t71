@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 import os
 import json
 from youtube_helper import (build_youtube_client, load_api_key, collect_video_statistics_by_day)
-from es_helper import (connect_elasticsearch, send_to_elasticsearch, log_search_period_to_es, get_latest_date)
+from es_helper import (connect_elasticsearch, send_to_elasticsearch, log_search_to_es, get_latest_date)
 import urllib3
 
 
@@ -71,14 +71,14 @@ def collect_and_store_for_keywords(youtube, es, search_prompts, start_date, end_
             )
 
             # Log the search metadata to Elasticsearch
-            log_search_period_to_es(
+            log_search_to_es(
                 es=es,
                 start_date=start_date,
                 end_date=end_date,
                 query=prompt,
                 result_count=len(video_statistics),
                 index=log_index,
-                **indexing_stats
+                indexing_stats=indexing_stats
             )
 
             # Record stats for current keyword
@@ -132,10 +132,13 @@ def main():
         'melbourne food',
         'melbourne shopping',
         'melbourne tourism',
-        # 'melbourne restaurants',
-        # 'melbourne citywalk'
+        'melbourne restaurants',
+        'melbourne citywalk',
+        'melbourne cafe',
+        'melbourne dessert',
+        'melbourne vlog',
     ]
-    max_pages = 2
+    max_pages = 20
 
     # custom search date
     start_date = datetime(2025, 1, 1)
@@ -146,7 +149,7 @@ def main():
 
     # Collects YouTube video data for a list of search prompts, stores them into Elasticsearch,
     # and logs the metadata into a separate log index.
-    # Store returned general stats inall_stats
+    # Store returned general stats in all_stats
     all_stats = collect_and_store_for_keywords(
         youtube=youtube,
         es=es,
@@ -159,8 +162,7 @@ def main():
     )
 
     # return as JSON
-    return all_stats
-    # return json.dumps(all_stats, ensure_ascii=False)
+    return json.dumps(all_stats, ensure_ascii=False)
 
 # if __name__ == '__main__':
 #     print(main())

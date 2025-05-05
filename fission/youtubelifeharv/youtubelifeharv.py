@@ -96,6 +96,7 @@ def collect_and_store_for_keywords(youtube, es, search_prompts, start_date, end_
 
     return all_stats
 
+
 # Main entrypoint for Fission
 def main():
     # get current time in ISO format

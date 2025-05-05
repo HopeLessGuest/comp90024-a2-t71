@@ -18,7 +18,7 @@ def connect_elasticsearch():
 # Send list of documents to Elasticsearch with custom index, return upload stats
 def send_to_elasticsearch(es, items, index, id_field=None):
     stats = {
-        "docs_attempted": 0
+        "docs_attempted": 0,
         "created": 0,
         "updated": 0,
         "failed": 0
@@ -57,10 +57,11 @@ def log_search_period_to_es(es, start_date, end_date, query=None, result_count=N
         doc["query"] = query
     if result_count is not None:
         doc["result_count"] = result_count
-    if stat:
-        doc["docs_attempted"] = stat.get("docs_attempted", 0)
-        doc["docs_successful"] = stat.get("docs_successful", 0)
-        doc["docs_failed"] = stat.get("docs_failed", 0)
+    if indexing_stats:
+        doc["docs_attempted"] = indexing_stats.get("docs_attempted", 0)
+        doc["created"] = indexing_stats.get("created", 0)
+        doc["updated"] = indexing_stats.get("updated", 0)
+        doc["failed"] = indexing_stats.get("failed", 0)
 
     es.index(index=index, document=doc)
 

@@ -63,6 +63,7 @@ def search_videos(youtube, query, region='AU', max_results=50, start_date=None, 
         if not next_page_token:
             break
 
+
 # Get detailed info for a list of video IDs
 def get_video_details(youtube, video_ids):
     response = youtube.videos().list(

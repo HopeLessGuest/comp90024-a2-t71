@@ -40,9 +40,9 @@ def search_videos(youtube, query, region='AU', max_results=50, start_date=None, 
     if start_date:
         search_params['publishedAfter'] = start_date.isoformat("T") + "Z"
     if end_date:
-        search_params['publishedBefore'] = (end_date + timedelta(days=1)).isoformat("T") + "Z"
+        search_params['publishedBefore'] = end_date.isoformat("T") + "Z"
 
-    print(f'[Searching from time period]: {start_date.isoformat("T") + "Z"} to {(end_date + timedelta(days=1)).isoformat("T") + "Z"}')
+    print(f'[Searching from time period]: {start_date.isoformat("T") + "Z"} to {end_date.isoformat("T") + "Z"}')
     next_page_token = None
     page_count = 0
 

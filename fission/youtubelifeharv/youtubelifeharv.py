@@ -89,11 +89,11 @@ def main():
 
     # custom result number and prompt
     search_prompt = 'melbourne food'
-    max_pages = 2
+    max_pages = 20
 
     # custom search date
     start_date = datetime(2025, 1, 1)
-    search_time_range = 1
+    search_time_range = 3
 
     # get search start date and end date
     start_date, end_date = get_next_search_period(es, log_index, search_time_range)
@@ -122,12 +122,12 @@ def main():
     # Prepare output
     output = video_statistics
 
-    # Send data to ES
-    send_to_elasticsearch(es, output, data_index, data_id_field)
+    # Send data to ES and receive returned results stats
+    indexing_stats = send_to_elasticsearch(es, output, data_index, data_id_field)
 
     # Record search period to ES log
     try:
-        log_search_period_to_es(es, start_date, end_date, search_prompt, len(video_statistics), log_index, )
+        log_search_period_to_es(es, start_date, end_date, search_prompt, len(video_statistics), log_index, indexing_stats)
         print(f"[OK] Logged search period to {log_index}")
     except Exception as e:
         print(f"[X] Failed to log search period: {e}")

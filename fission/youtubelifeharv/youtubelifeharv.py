@@ -108,7 +108,8 @@ def main():
 
     # set api key
     api_key = load_api_key()
-    api_key = 'AIzaSyAe4U7EGjlauzCwu-6Sj-Nxf1wEz8lSBpQ'
+    # api_key = 'AIzaSyAe4U7EGjlauzCwu-6Sj-Nxf1wEz8lSBpQ'
+    api_key = 'AIzaSyDj-BtQS5lNlUxTjNyUtTEAKJ7KsIfJj1w'
     youtube = build_youtube_client(api_key)
 
     # # set log file path and es index name
@@ -130,22 +131,28 @@ def main():
     # custom result number and prompt
     search_prompts = [
         'melbourne food',
-        'melbourne shopping',
-        'melbourne tourism',
-        'melbourne restaurants',
-        'melbourne citywalk',
-        'melbourne cafe',
-        'melbourne dessert',
-        'melbourne vlog',
-    ]
-    max_pages = 20
 
-    # custom search date
-    start_date = datetime(2025, 1, 1)
-    search_time_range = 3
+        'melbourne shopping',
+        # 'melbourne tourism',
+
+        # 'melbourne restaurants',
+        # 'melbourne city walk',
+        # 'melbourne cafe',
+        'melbourne dessert',
+        # 'melbourne vlog',
+        # 'melbourne festival'
+    ]
+    max_pages = 10
+
+    # custom search date range
+    search_time_range = 1
 
     # get search start date and end date
     start_date, end_date = get_next_search_period(es, log_index, search_time_range)
+
+    # [Override] Force start date manually (useful for backfilling or testing)
+    start_date = datetime(2025, 1, 1)
+    end_date = datetime(2025, 1, 1)
 
     # Collects YouTube video data for a list of search prompts, stores them into Elasticsearch,
     # and logs the metadata into a separate log index.
@@ -162,7 +169,8 @@ def main():
     )
 
     # return as JSON
-    return json.dumps(all_stats, ensure_ascii=False)
+    return json.dumps(all_stats, ensure_ascii=False, indent=2)
+
 
 # if __name__ == '__main__':
 #     print(main())

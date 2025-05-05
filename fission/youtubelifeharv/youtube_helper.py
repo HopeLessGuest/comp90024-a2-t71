@@ -1,4 +1,5 @@
 from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
 import os
 from datetime import timedelta
 
@@ -69,3 +70,55 @@ def get_video_details(youtube, video_ids):
         id=','.join(video_ids)
     ).execute()
     return response.get("items", [])
+
+
+# Extracts video IDs from a list of search result items.
+def extract_video_ids(search_items):
+    return [
+        item['id']['videoId']
+        for item in search_items
+        if item.get('id', {}).get('kind') == 'youtube#video' and 'videoId' in item['id']
+    ]
+
+
+def collect_video_statistics_by_day(youtube, search_prompt, start_date, end_date, max_pages=10):
+    """
+    Perform daily YouTube searches over a date range and collect video metadata.
+    Returns tuple: (search_results, video_ids, video_statistics) where:
+                - search_results is a list of raw search result items,
+                - video_ids is a list of video ID strings,
+                - video_statistics is a list of full video detail dicts.
+    """
+    search_results = []
+    video_ids = []
+    video_statistics = []
+
+    current_date = start_date
+    while current_date <= end_date:
+        next_date = current_date + timedelta(days=1)
+        print(f"[Searching from time period]: {current_date.isoformat()} to {next_date.isoformat()}")
+
+        try:
+            for page_items in search_videos(
+                    youtube,
+                    max_results=50,
+                    query=search_prompt,
+                    start_date=current_date,
+                    end_date=next_date,
+                    max_pages=max_pages
+                      ):
+                search_results.extend(page_items)
+
+                ids_this_page = extract_video_ids(page_items)
+                video_ids.extend(ids_this_page)
+                video_statistics.extend(get_video_details(youtube, ids_this_page))
+
+        except HttpError as e:
+            # Catch YouTube quota error
+            if e.resp.status == 403 and 'quotaExceeded' in str(e):
+                raise RuntimeError(f"QuotaExceeded for keyword '{search_prompt}' on {current_date.date()}") from e
+            else:
+                raise RuntimeError(f"Unexpected YouTube API error during search for '{search_prompt}' on {current_date.date()}: {str(e)}") from e
+        current_date = next_date
+
+    return search_results, video_ids, video_statistics

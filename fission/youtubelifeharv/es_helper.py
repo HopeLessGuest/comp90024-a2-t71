@@ -1,6 +1,7 @@
 from datetime import datetime
 from elasticsearch import Elasticsearch
 
+
 # Connect to Kubernetes Elasticsearch
 def connect_elasticsearch():
     try:
@@ -45,14 +46,15 @@ def send_to_elasticsearch(es, items, index, id_field=None):
     return stats
 
 
-
 # Log the search metadata to Elasticsearch log index
-def log_search_period_to_es(es, start_date, end_date, query=None, result_count=None, index="youtube-log", indexing_stats=None):
+def log_search_period_to_es(es, start_date, end_date, query=None, result_count=None, index="youtube-log",
+                            indexing_stats=None):
     doc = {
         "start_date": start_date.date().isoformat(),
         "end_date": end_date.date().isoformat(),
         "timestamp": datetime.utcnow().isoformat()
     }
+
     if query:
         doc["query"] = query
     if result_count is not None:
@@ -63,7 +65,11 @@ def log_search_period_to_es(es, start_date, end_date, query=None, result_count=N
         doc["updated"] = indexing_stats.get("updated", 0)
         doc["failed"] = indexing_stats.get("failed", 0)
 
-    es.index(index=index, document=doc)
+    try:
+        es.index(index=index, document=doc)
+        print(f"[OK] Logged search period to {index}")
+    except Exception as e:
+        print(f"[X] Failed to log search period: {e}")
 
 
 # Get the latest `end_date` from a given Elasticsearch log index.

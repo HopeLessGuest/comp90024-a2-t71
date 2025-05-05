@@ -1,9 +1,8 @@
 from datetime import datetime, timedelta
-import json
 import os
-from youtube_helper import build_youtube_client, search_videos, get_video_details, load_api_key
-from es_helper import connect_elasticsearch, send_to_elasticsearch, log_search_period_to_es, get_latest_date
-from elasticsearch import Elasticsearch
+import json
+from youtube_helper import (build_youtube_client, load_api_key, collect_video_statistics_by_day)
+from es_helper import (connect_elasticsearch, send_to_elasticsearch, log_search_period_to_es, get_latest_date)
 import urllib3
 
 
@@ -44,14 +43,58 @@ def get_next_search_period(es, log_index, search_range=7):
     return start_date, end_date
 
 
-# Extracts video IDs from a list of search result items.
-def extract_video_ids(search_items):
-    return [
-        item['id']['videoId']
-        for item in search_items
-        if item.get('id', {}).get('kind') == 'youtube#video' and 'videoId' in item['id']
-    ]
+# Collects YouTube video data for a list of search prompts, stores them into Elasticsearch,
+#     and logs the metadata into a separate log index.
+#  Returns summary of indexing stats or errors for each keyword.
+def collect_and_store_for_keywords(youtube, es, search_prompts, start_date, end_date, data_index, log_index,
+                                   data_id_field="id", max_pages=20):
+    all_stats = []
 
+    for prompt in search_prompts:
+        print(f"\n▶ Searching: {prompt}")
+        try:
+            # Perform search and collect video details for the date range
+            search_results, video_ids, video_statistics = collect_video_statistics_by_day(
+                youtube=youtube,
+                search_prompt=prompt,
+                start_date=start_date,
+                end_date=end_date,
+                max_pages=max_pages
+            )
+
+            # Send video details to Elasticsearch
+            indexing_stats = send_to_elasticsearch(
+                es,
+                video_statistics,
+                index=data_index,
+                id_field=data_id_field
+            )
+
+            # Log the search metadata to Elasticsearch
+            log_search_period_to_es(
+                es=es,
+                start_date=start_date,
+                end_date=end_date,
+                query=prompt,
+                result_count=len(video_statistics),
+                index=log_index,
+                **indexing_stats
+            )
+
+            # Record stats for current keyword
+            all_stats.append({
+                "keyword": prompt,
+                **indexing_stats
+            })
+
+        except Exception as e:
+            print(f"[X] Failed to collect for keyword '{prompt}': {e}")
+            all_stats.append({
+                "keyword": prompt,
+                "error": str(e)
+            })
+
+    return all_stats
 
 # Main entrypoint for Fission
 def main():
@@ -59,7 +102,7 @@ def main():
     now = datetime.now().isoformat()[1:19]
 
     # print separate line
-    print(f"================================================================================")
+    print(f"==================== Function started ====================")
     print(f"[OK] Program started at {now} ")
 
     # set api key
@@ -79,17 +122,19 @@ def main():
     data_id_field = "id"
     log_index = "youtube-videos-life-logs"
 
-    search_results = []
-    video_ids = []
-    video_statistics = []
-
     # Connect to ES
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     es = connect_elasticsearch()
 
     # custom result number and prompt
-    search_prompt = 'melbourne food'
-    max_pages = 20
+    search_prompts = [
+        'melbourne food',
+        'melbourne shopping',
+        'melbourne tourism',
+        # 'melbourne restaurants',
+        # 'melbourne citywalk'
+    ]
+    max_pages = 2
 
     # custom search date
     start_date = datetime(2025, 1, 1)
@@ -98,45 +143,23 @@ def main():
     # get search start date and end date
     start_date, end_date = get_next_search_period(es, log_index, search_time_range)
 
-    # Daily incremental search loop (excluding end_date)
-    current_date = start_date
-    while current_date <= end_date:
-        next_date = current_date + timedelta(days=1)
-        for page_items in search_videos(
-                youtube,
-                max_results=50,
-                query=search_prompt,
-                start_date=current_date,
-                end_date=next_date,
-                max_pages=max_pages
-        ):
-            search_results.extend(page_items)
-
-            # Extract video IDs and get statistics
-            ids_this_page = extract_video_ids(page_items)
-            video_ids.extend(ids_this_page)
-            video_statistics.extend(get_video_details(youtube, ids_this_page))
-
-        current_date = next_date  # Move to next day
-
-    # Prepare output
-    output = video_statistics
-
-    # Send data to ES and receive returned results stats
-    indexing_stats = send_to_elasticsearch(es, output, data_index, data_id_field)
-
-    # Record search period to ES log
-    try:
-        log_search_period_to_es(es, start_date, end_date, search_prompt, len(video_statistics), log_index, indexing_stats)
-        print(f"[OK] Logged search period to {log_index}")
-    except Exception as e:
-        print(f"[X] Failed to log search period: {e}")
-
-    # # Write searched log
-    # save_end_date(end_date)
+    # Collects YouTube video data for a list of search prompts, stores them into Elasticsearch,
+    # and logs the metadata into a separate log index.
+    # Store returned general stats inall_stats
+    all_stats = collect_and_store_for_keywords(
+        youtube=youtube,
+        es=es,
+        search_prompts=search_prompts,
+        start_date=start_date,
+        end_date=end_date,
+        data_index=data_index,
+        log_index=log_index,
+        max_pages=max_pages
+    )
 
     # return as JSON
-    return "done"
+    return all_stats
+    # return json.dumps(all_stats, ensure_ascii=False)
 
 # if __name__ == '__main__':
 #     print(main())

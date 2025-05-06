@@ -111,7 +111,12 @@ def collect_video_statistics_by_day(youtube, search_prompt, start_date, end_date
 
                 ids_this_page = extract_video_ids(page_items)
                 video_ids.extend(ids_this_page)
-                video_statistics.extend(get_video_details(youtube, ids_this_page))
+                video_details = get_video_details(youtube, ids_this_page)
+
+                # add search_prompt to each detail item
+                for video in video_details:
+                    video['search_prompt'] = search_prompt
+                video_statistics.extend(video_details)
 
         except HttpError as e:
             # Catch YouTube quota error

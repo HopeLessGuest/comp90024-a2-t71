@@ -87,9 +87,9 @@ def get_latest_date(es, index) -> datetime:
             print(f"[OK] Latest end_date found in index '{index}': {end_date_str}")
             return datetime.fromisoformat(end_date_str)
         else:
-            print(f"[!] Index '{index}' has no logs. Using fallback start date: 2025-05-01")
+            print(f"[!] Index '{index}' has no logs. Using fallback start date: 2025-04-01")
     except Exception as e:
         print(f"[X] Error querying index '{index}': {e}")
-        print("[!] Using fallback start date: 2025-05-01 due to error.")
+        print("[!] Using fallback start date: 2025-04-01 due to error.")
 
-    return datetime.fromisoformat("2025-05-01")
+    return datetime.fromisoformat("2025-04-01")

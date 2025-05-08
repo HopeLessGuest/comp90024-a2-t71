@@ -45,7 +45,7 @@ def main():
     max_pages = 5
 
     # custom search date range
-    search_time_range = 10
+    search_time_range = 30
 
     # get search start date and end date
     start_date, end_date = get_next_search_period(es, log_index, search_time_range)

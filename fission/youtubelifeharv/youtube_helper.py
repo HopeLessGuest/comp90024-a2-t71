@@ -2,7 +2,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 import os
 from datetime import timedelta
-
+from es_helper import get_latest_date
 # Load API Key
 def load_api_key(filepath='youtube_api_key.txt'):
     zip_path = '/userfunc/deployarchive/youtube_api_key.txt'
@@ -127,3 +127,10 @@ def collect_video_statistics_by_day(youtube, search_prompt, start_date, end_date
         current_date = next_date
 
     return search_results, video_ids, video_statistics
+
+# Get the date search range for YouTube search (default: 7 days)
+def get_next_search_period(es, log_index, search_range=7):
+    start_date = get_latest_date(es, log_index) + timedelta(days=1)
+    end_date = start_date + timedelta(days=search_range - 1)
+    print(f"[Search Period] Start: {start_date.date()}, End: {end_date.date()}")
+    return start_date, end_date

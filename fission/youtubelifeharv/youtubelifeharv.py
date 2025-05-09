@@ -71,8 +71,8 @@ def main():
 
     # set api key
     api_key = load_api_key()
-    # api_key = 'AIzaSyAe4U7EGjlauzCwu-6Sj-Nxf1wEz8lSBpQ'
-    api_key = 'AIzaSyAe4U7EGjlauzCwu-6Sj-Nxf1wEz8lSBpQ'
+    # Anqi's api_key = 'AIzaSyAe4U7EGjlauzCwu-6Sj-Nxf1wEz8lSBpQ'
+    api_key = 'AIzaSyBbDw8fz5hE2bIQSZY-vlhSz2bTGoiwGTg'
     youtube = build_youtube_client(api_key)
 
     # # set log file path and es index name
@@ -101,7 +101,7 @@ def main():
         # 'melbourne restaurants',
         # 'melbourne city walk',
         # 'melbourne cafe',
-        'melbourne dessert',
+        # 'melbourne dessert',
         'melbourne vlog',
         # 'melbourne festival'
     ]

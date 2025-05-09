@@ -17,7 +17,10 @@ def main():
 
     # set api key
     api_key = load_api_key()
+    # Anqi's
     # api_key = 'AIzaSyAe4U7EGjlauzCwu-6Sj-Nxf1wEz8lSBpQ'
+
+    # My unimelb email
     api_key = 'AIzaSyDj-BtQS5lNlUxTjNyUtTEAKJ7KsIfJj1w'
     youtube = build_youtube_client(api_key)
 
@@ -45,7 +48,7 @@ def main():
     max_pages = 5
 
     # custom search date range
-    search_time_range = 30
+    search_time_range = 20
 
     # get search start date and end date
     start_date, end_date = get_next_search_period(es, log_index, search_time_range)

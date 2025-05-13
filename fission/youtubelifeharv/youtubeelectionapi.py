@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 ES_HOST = "https://elasticsearch-master.elastic:9200"
 ES_USER = "elastic"
 ES_PASS = "elastic"
-ES_INDEX = "youtube-videos-life"
+ES_INDEX = "youtube-videos-election"  # Election data index
 
 # === Main function for Fission ===
 def main():
@@ -21,20 +21,11 @@ def main():
         start_date_str = request.args.get("start")
         end_date_str = request.args.get("end")
 
-        # === Step 2: Apply default values if missing ===
+        # === Step 2: Set default values if missing ===
         if not start_date_str:
-            start_date_str = "2025-01-01"
-
+            start_date_str = "2024-01-01"  # Default start for election videos
         if not end_date_str:
             end_date_str = datetime.now(timezone.utc).date().isoformat()
-
-        # === Step 2: Validate inputs ===
-        if not start_date_str or not end_date_str:
-            return Response(
-                json.dumps({"status": 400, "message": "Missing 'start' or 'end' query parameter"}),
-                mimetype='application/json',
-                status=400
-            )
 
         # === Step 3: Parse to ISO format ===
         start_date = datetime.strptime(start_date_str, "%Y-%m-%d").isoformat() + "Z"

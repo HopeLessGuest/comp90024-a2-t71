@@ -76,7 +76,16 @@ def log_search_to_es(es, start_date, end_date, query=None, result_count=None, in
 def get_latest_date(es, index) -> datetime:
     query = {
         "size": 1,
-        "sort": [{"end_date": "desc"}]
+        "query": {
+            "range": {
+                "docs_attempted": {
+                    "gt": 0
+                }
+            }
+        },
+        "sort": [
+            {"end_date": "desc"}
+        ]
     }
 
     try:

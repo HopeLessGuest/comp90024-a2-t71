@@ -1,0 +1,23 @@
+apiVersion: fission.io/v1
+kind: Function
+metadata:
+  name: youtubeelectionapi
+spec:
+  environment:
+    name: python39
+    namespace: default
+  package:
+    functionName: youtubeelectionapi.main
+    packageref:
+      name: youtubelifeharv-pkg
+      namespace: default
+  InvokeStrategy:
+    StrategyType: execution
+    ExecutionStrategy:
+      ExecutorType: newdeploy
+      MinScale: 1
+      MaxScale: 2
+  functionTimeout: 180
+  idletimeout: 180
+  concurrency: 500
+  requestsPerPod: 1

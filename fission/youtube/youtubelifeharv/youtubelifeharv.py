@@ -118,8 +118,8 @@ def main():
     start_date, end_date = get_next_search_period(es, log_index, search_time_range)
 
     # [Override] Force start date manually (useful for backfilling or testing)
-    start_date = datetime(2025, 3, 15)
-    end_date = datetime(2025, 3, 25)
+    # start_date = datetime(2025, 3, 15)
+    # end_date = datetime(2025, 3, 25)
 
     # Collects YouTube video data for a list of search prompts, stores them into Elasticsearch,
     # and logs the metadata into a separate log index.

@@ -45,7 +45,7 @@ def main():
         'australia election',
     ]
 
-    max_pages = 3
+    max_pages = 5
 
     # custom search date range
     search_time_range = 1
@@ -54,8 +54,8 @@ def main():
     start_date, end_date = get_next_search_period(es, log_index, search_time_range)
 
     # [Override] Force start date manually (useful for backfilling or testing)
-    start_date = datetime(2024, 11, 1)
-    end_date = datetime(2024, 12, 30)
+    # start_date = datetime(2024, 11, 1)
+    # end_date = datetime(2024, 12, 30)
 
     # Collects YouTube video data for a list of search prompts, stores them into Elasticsearch,
     # and logs the metadata into a separate log index.

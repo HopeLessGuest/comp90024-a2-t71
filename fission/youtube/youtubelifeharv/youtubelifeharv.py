@@ -101,10 +101,8 @@ def main():
     # custom result number and prompt
     search_prompts = [
         'melbourne food',
-
         # 'melbourne shopping',
         # 'melbourne tourism',
-
         # 'melbourne restaurants',
         # 'melbourne city walk',
         # 'melbourne cafe',

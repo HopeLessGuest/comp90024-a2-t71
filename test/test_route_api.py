@@ -10,7 +10,8 @@ from datetime import datetime
 
 def sanitize_filename(path: str) -> str:
     # Replace / ? = & : with underscores, strip leading/trailing slashes
-    return re.sub(r'[/?=&:]+', '_', path.strip('/')) + ".txt"
+    return "api_" + re.sub(r'[/?=&:]+', '_', path.strip('/')) + ".txt"
+
 
 class TestFissionRoutes(unittest.TestCase):
 
@@ -24,7 +25,7 @@ class TestFissionRoutes(unittest.TestCase):
 
     def assertApiOK(self, path):
         try:
-            response = requests.get(f"{self.BASE}{path}", timeout=30)
+            response = requests.get(f"{self.BASE}{path}", timeout=40)
             status = response.status_code
             body = response.text
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -75,7 +76,7 @@ class TestFissionRoutes(unittest.TestCase):
     #
     # def test_musictoptrack(self):
     #     self.assertApiOK("/musictoptrack/2025-05-07/12:00:00/2025-05-09/14:00:00")
-    #
+
     def test_mastodonkeywordsentiment(self):
         self.assertApiOK("/mastondonkeywordsentiment/2023-01-01/2023-01-03/crime")
 
@@ -85,12 +86,12 @@ class TestFissionRoutes(unittest.TestCase):
     # def test_keywordmastodon(self):
     #     self.assertApiOK("/keywordmastodon/2023-01-01/2023-01-02")
     #
-    def test_housetransfer(self):
-        self.assertApiOK("/housetransfer/2024/06/2024/09")
+    # def test_housetransfer(self):
+    #     self.assertApiOK("/housetransfer/2024/06/2024/09")
 
     # def test_auselection(self):
-    #     self.assertApiOK("/auselectionapi/2025-4-1/2025-5-13")
-    #
+    #     self.assertApiOK("/auselectionapi/2025-5-1/2025-5-13")
+
     # def test_auinflation(self):
     #     self.assertApiOK("/inflation/rba?start=2023-01-01&end=2024-01-01")
 

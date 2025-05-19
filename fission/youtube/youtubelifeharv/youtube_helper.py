@@ -1,3 +1,6 @@
+# Team 71
+# Yifu Chen 1609437, Kexing Ma 1697372, Jiejun Xie 1418316, Xinhe Liu 1477404, Anqi Liao 1578312
+
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 import os

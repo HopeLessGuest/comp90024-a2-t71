@@ -1,0 +1,22 @@
+apiVersion: fission.io/v1
+kind: HTTPTrigger
+metadata:
+  creationTimestamp: null
+  name: trafficvolumeapi
+spec:
+  createingress: true
+  functionref:
+    functionweights: null
+    name: trafficvolumeapi
+    type: name
+  host: ""
+  ingressconfig:
+    annotations: null
+    host: '*'
+    path: /trafficvolume/{startdate}/{starttime}/{enddate}/{endtime}
+    tls: ""
+  method: ""
+  methods:
+  - GET
+  prefix: ""
+  relativeurl: /trafficvolume/{startdate}/{starttime}/{enddate}/{endtime}

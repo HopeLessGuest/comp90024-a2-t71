@@ -1,0 +1,22 @@
+apiVersion: fission.io/v1
+kind: HTTPTrigger
+metadata:
+  creationTimestamp: null
+  name: trafficinjury
+spec:
+  createingress: true
+  functionref:
+    functionweights: null
+    name: trafficinjury
+    type: name
+  host: ""
+  ingressconfig:
+    annotations: null
+    host: '*'
+    path: /trafficinjury/{gender}/{year}
+    tls: ""
+  method: ""
+  methods:
+  - GET
+  prefix: ""
+  relativeurl: /trafficinjury/{gender}/{year}

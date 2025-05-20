@@ -1,0 +1,14 @@
+Meeting brief on 15/05/2025
+
+Yifu
+word cloud as a gif
+word cloud with top 10 word frequency
+
+Kexing
+readme
+combine notebook with Yifu
+
+Jiejun & Anqi
+notebook almost done, still need to add texts for friendly interaction
+
+We are less than a week away from the due date now. Still need to tidy up the code, record the video and write the report...

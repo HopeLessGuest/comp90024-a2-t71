@@ -1,3 +1,10 @@
+###Team 71
+###Jiejun Xie 1418316
+###Anqi Liao 1578312
+###Xinhe Liu 1477404
+###Yifu Chen 1609437
+###Kexing Ma 1697372
+
 ## API for traffic and some crime data and mastodon
 
 1. trafficinjury [GET]  /trafficinjury/{gender}/{year}
@@ -137,25 +144,8 @@
         else:
             print(f"Error: {response.status_code} - {response.text}")
 
-8. mastodonhotword [GET] /mastodonhotword/{startdate}/{starttime}/{enddate}/{endtime}
 
-    This API
-
-    Example calling:
-        api_url = "http://localhost:9090/mastodonhotword/2025-05-09/00:00:00/2025-05-10/14:00:00"
-            
-        response = requests.get(api_url)
-
-        if response.status_code == 200:
-            data = response.json().get('Data', [])
-            if data:
-                print(data)
-            else:
-                print("No data returned by the API.")
-        else:
-            print(f"Error: {response.status_code} - {response.text}")
-
-9. keywordmastodon [GET] /keywordmastodon/{startdate}/{enddate}
+8. keywordmastodon [GET] /keywordmastodon/{startdate}/{enddate}
 
     This API
 
@@ -174,7 +164,7 @@
         else:
             print(f"Error: {response.status_code} - {response.text}")
 
-10. housetransfer [GET] /housetransfer/{startyear}/{startmonth}/{endyear}/{endmonth}
+9. housetransfer [GET] /housetransfer/{startyear}/{startmonth}/{endyear}/{endmonth}
 
     This API returns the price of house transfer during a time
 

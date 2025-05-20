@@ -1,0 +1,11 @@
+Meeting brief on 06/05/2025
+
+Next meeting: 11/05/2025
+
+Not enough data currently -- way below the 100gb requirement
+
+Sample plots for transportation status, congestion, word cluster
+
+Transfer the 144gb mastodon data into ES
+
+Explore RestAPI

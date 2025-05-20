@@ -1,0 +1,18 @@
+Meeting brief on 11/05/2025
+
+youtube views could change with time => a popularity score to quantify
+
+144gb mastodon: probably started from Oct 2009 till Apr 2025.
+	We could use this longitudinal data to explore the relationship between sentiments and inflation/crime/house price...
+
+restapi: nginx
+
+handling for errors: redis
+
+word cloud for australian election
+
+inflation reddit posts
+
+inflation posts vs actual inflation
+
+restapi for every data

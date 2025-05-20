@@ -1,0 +1,26 @@
+Meeting brief on 13/05/2025
+
+No public access of jupyter notebook needed. 
+
+RestAPI - youtube (life, election): start date, end date
+	- return all, including like count, title, description, tags, etc.
+	- return video type, publishedAt (time zone?), view count, favorite count, comment count, calculate a popularity score based on the counts with time decay
+	- score1: search popularity at other platforms
+	- score2: calculated popularity for the video
+
+RestAPI - traffic: start date, end date, can draw heat map, bar plot
+	- traffic with coordinate: start date, start time, end date, end time,
+		can draw a geographical plot showing congestion
+	- keyword of mastodon: start date, end date
+	- house transfer: start year month, end year month
+	- offender: gender, age, method
+	- victim: state, method
+
+RestAPI - election: start date, end date
+		keyword cloud plots with animation (might not be able to show without run)
+
+RestAPI - inflation: reddit post, reddit comments
+		topic popularity
+		similarity between topics
+		topic popularity over time
+		discussion heat versus actual inflation data

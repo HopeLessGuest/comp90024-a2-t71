@@ -57,27 +57,27 @@ Due to our groups have multiple fission function and they are deployed in differ
 ### If the cluster is not clean(which means there are already python39 environment inside)
   Run the following  commands in order:
   1. Under fission directory, run  
-    ```
-    fission spec apply --wait --force
-    ```
+        ```
+        fission spec apply --wait --force
+        ```
   
      to set all environment, packages, function of traffic and Australian election(Cuz now there is already an python39 environment exist, but in our deployment file, we have the env deploment)
 
   2. Run 
-    ```
-    cd youtube
-    ```
+        ```
+        cd youtube
+        ```
 
   3. Run 
-    ```
-    fission spec apply --wait
-    ```
+        ```
+        fission spec apply --wait
+        ```
      under this directory to set all youtube related service active.
 
   4. Run 
-    ```
-    cd ..
-    ```
+        ```
+        cd ..
+        ```
 
   5. Run
       ```

@@ -1,0 +1,5 @@
+flask==2.3.3
+elasticsearch==8.10.0
+redis==5.0.0
+beautifulsoup4==4.12.2
+nltk==3.8.1

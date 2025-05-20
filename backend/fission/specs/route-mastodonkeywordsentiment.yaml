@@ -1,0 +1,22 @@
+apiVersion: fission.io/v1
+kind: HTTPTrigger
+metadata:
+  creationTimestamp: null
+  name: mastodonkeywordsentiment
+spec:
+  createingress: true
+  functionref:
+    functionweights: null
+    name: mastodonkeywordsentiment
+    type: name
+  host: ""
+  ingressconfig:
+    annotations: null
+    host: '*'
+    path: /mastondonkeywordsentiment/{startdate}/{enddate}/{keyword}
+    tls: ""
+  method: ""
+  methods:
+  - GET
+  prefix: ""
+  relativeurl: /mastondonkeywordsentiment/{startdate}/{enddate}/{keyword}

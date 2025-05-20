@@ -1,0 +1,22 @@
+apiVersion: fission.io/v1
+kind: HTTPTrigger
+metadata:
+  creationTimestamp: null
+  name: keywordmastodon
+spec:
+  createingress: true
+  functionref:
+    functionweights: null
+    name: keywordmastodon
+    type: name
+  host: ""
+  ingressconfig:
+    annotations: null
+    host: '*'
+    path: /keywordmastodon/{startdate}/{enddate}
+    tls: ""
+  method: ""
+  methods:
+  - GET
+  prefix: ""
+  relativeurl: /keywordmastodon/{startdate}/{enddate}

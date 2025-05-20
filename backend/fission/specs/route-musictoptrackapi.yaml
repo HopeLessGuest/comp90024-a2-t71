@@ -1,0 +1,22 @@
+apiVersion: fission.io/v1
+kind: HTTPTrigger
+metadata:
+  creationTimestamp: null
+  name: musictoptrackapi
+spec:
+  createingress: true
+  functionref:
+    functionweights: null
+    name: musictoptrackapi
+    type: name
+  host: ""
+  ingressconfig:
+    annotations: null
+    host: '*'
+    path: /musictoptrack/{startdate}/{starttime}/{enddate}/{endtime}
+    tls: ""
+  method: ""
+  methods:
+  - GET
+  prefix: ""
+  relativeurl: /musictoptrack/{startdate}/{starttime}/{enddate}/{endtime}

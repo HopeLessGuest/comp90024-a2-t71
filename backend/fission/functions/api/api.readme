@@ -1,0 +1,194 @@
+## API for traffic and some crime data and mastodon
+
+1. trafficinjury [GET]  /trafficinjury/{gender}/{year}
+
+    This API returns traffic injury(include different category injury) data filtered by year and gender
+
+    Example calling:
+
+        api_url = "http://localhost:9090/trafficinjury/Male/2021"
+        
+        response = requests.get(api_url)
+
+        if response.status_code == 200:
+            data = response.json().get('Data', [])
+            if data:
+                print(data)
+            else:
+                print("No data returned by the API.")
+        else:
+            print(f"Error: {response.status_code} - {response.text}")
+
+2. trafficagghour [GET] /trafficagghour/{startdate}/{enddate}
+
+    This API returns traffic density aggregate by hour recently in VIC. startdate and enddate is needed.
+
+    Example calling:
+
+        api_url = "http://localhost:9090/trafficaggbyhour/2025-05-05/2025-05-10"
+
+        response = requests.get(api_url)
+
+        if response.status_code == 200:
+            data = response.json().get('Data', [])
+            if data:
+                df = pd.DataFrame(data)
+                print(f"Total Records: {len(df)}")
+                display(df.head()) 
+            else:
+                print("No data returned by the API.")
+        else:
+            print(f"Error: {response.status_code} - {response.text}")
+
+3. trafficvolumeapi [GET] /trafficvolumeapi/{startdate}/{starttime}/{enddate}/{endtime}
+
+    This API returns traffic volume data including coordinates, density, congestion and speed.
+
+    Example calling:
+
+        api_url = "http://localhost:9090/trafficvolume/2025-05-09/12:00:00/2025-05-09/14:00:00"
+
+        response = requests.get(api_url)
+
+        if response.status_code == 200:
+            data = response.json().get('Data', [])
+            if data:
+                df = pd.DataFrame(data)
+                print(f"Total Records: {len(df)}")
+                display(df.head()) 
+            else:
+                print("No data returned by the API.")
+        else:
+            print(f"Error: {response.status_code} - {response.text}")
+
+4. victim [GET] /victim/{state}/{method}
+
+    This API
+
+    Example calling:
+
+            api_url = "http://localhost:9090/victim/vic/person"
+        
+            response = requests.get(api_url)
+
+            if response.status_code == 200:
+                data = response.json().get('Data', [])
+                if data:
+                    print(data)
+                else:
+                    print("No data returned by the API.")
+            else:
+                print(f"Error: {response.status_code} - {response.text}")
+
+5. offender [GET] /offender/{gender}/{age}/{method}
+
+    This API
+
+    Example calling:
+
+        api_url = "http://localhost:9090/offender/male/-1/person"
+
+        response = requests.get(api_url)
+
+        if response.status_code == 200:
+            data = response.json().get('Data', [])
+            if data:
+                print(data)
+            else:
+                print("No data returned by the API.")
+        else:
+            print(f"Error: {response.status_code} - {response.text}")
+
+6. musictoptrackapi [GET] /musictoptrackapi/{startdate}/{starttime}/{enddate}/{endtime}
+
+    This API will return top 50 songs that are played during a time period every one hour.
+
+    Example calling:
+
+        api_url = "http://localhost:9090/musictoptrack/2025-05-07/12:00:00/2025-05-09/14:00:00"
+    
+        response = requests.get(api_url)
+
+        if response.status_code == 200:
+            data = response.json().get('Data', [])
+            if data:
+                print(data)
+            else:
+                print("No data returned by the API.")
+        else:
+            print(f"Error: {response.status_code} - {response.text}")
+
+7. mastodonkeywordsentiment [GET] /mastodonkeywordsentiment/{startdate}/{enddate}/{keyword}
+
+    This API 
+
+    Example calling:
+
+        api_url = "http://localhost:9090/mastondonkeywordsentiment/2023-01-01/2023-01-03/crime"
+
+        response = requests.get(api_url)
+
+        if response.status_code == 200:
+            data = response.json().get('Data', [])
+            if data:
+                print(data)
+            else:
+                print("No data returned by the API.")
+        else:
+            print(f"Error: {response.status_code} - {response.text}")
+
+8. mastodonhotword [GET] /mastodonhotword/{startdate}/{starttime}/{enddate}/{endtime}
+
+    This API
+
+    Example calling:
+        api_url = "http://localhost:9090/mastodonhotword/2025-05-09/00:00:00/2025-05-10/14:00:00"
+            
+        response = requests.get(api_url)
+
+        if response.status_code == 200:
+            data = response.json().get('Data', [])
+            if data:
+                print(data)
+            else:
+                print("No data returned by the API.")
+        else:
+            print(f"Error: {response.status_code} - {response.text}")
+
+9. keywordmastodon [GET] /keywordmastodon/{startdate}/{enddate}
+
+    This API
+
+    Example calling:
+
+        api_url = "http://localhost:9090/keywordmastodon/2023-01-01/2023-01-02"
+
+        response = requests.get(api_url)
+
+        if response.status_code == 200:
+            data = response.json().get('Data', [])
+            if data:
+                print(data)
+            else:
+                print("No data returned by the API.")
+        else:
+            print(f"Error: {response.status_code} - {response.text}")
+
+10. housetransfer [GET] /housetransfer/{startyear}/{startmonth}/{endyear}/{endmonth}
+
+    This API returns the price of house transfer during a time
+
+    Example calling:
+
+        api_url = "http://localhost:9090/housetransfer/2024/06/2024/09"
+
+        response = requests.get(api_url)
+
+        if response.status_code == 200:
+            data = response.json().get('Data', [])
+            if data:
+                print(data)
+            else:
+                print("No data returned by the API.")
+        else:
+            print(f"Error: {response.status_code} - {response.text}")

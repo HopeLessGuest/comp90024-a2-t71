@@ -10,7 +10,7 @@ spec:
     functionName: youtubelifeharv.main
     packageref:
       name: youtubelifeharv-pkg
-      namespace: default
+      namespace: ""
   InvokeStrategy:
     StrategyType: execution
     ExecutionStrategy:

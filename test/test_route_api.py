@@ -53,47 +53,45 @@ class TestFissionRoutes(unittest.TestCase):
         except Exception as e:
             self.fail(f"{path} raised error: {e}")
 
-    # def test_youtubelifeapi(self):
-    #     self.assertApiOK("/api/youtubelifeapi?start=2025-04-01&end=2025-04-03")
-    #
-    # def test_youtubeelectionapi(self):
-    #     self.assertApiOK("/api/youtubeelectionapi?start=2025-01-01&end=2025-02-01")
-    #
-    # def test_trafficinjury(self):
-    #     self.assertApiOK("/trafficinjury/Male/2021")
-    #
-    # def test_trafficagghour(self):
-    #     self.assertApiOK("/trafficaggbyhour/2025-05-05/2025-05-10")
-    #
-    # def test_trafficvolume(self):
-    #     self.assertApiOK("/trafficvolume/2025-05-09/12:00:00/2025-05-09/14:00:00")
-    #
-    # def test_victim(self):
-    #     self.assertApiOK("/victim/vic/person")
-    #
-    # def test_offender(self):
-    #     self.assertApiOK("/offender/male/-1/person")
-    #
-    # def test_musictoptrack(self):
-    #     self.assertApiOK("/musictoptrack/2025-05-07/12:00:00/2025-05-09/14:00:00")
+    def test_youtubelifeapi(self):
+        self.assertApiOK("/api/youtubelifeapi?start=2025-04-01&end=2025-04-03")
+
+    def test_youtubeelectionapi(self):
+        self.assertApiOK("/api/youtubeelectionapi?start=2025-01-01&end=2025-02-01")
+
+    def test_trafficinjury(self):
+        self.assertApiOK("/trafficinjury/Male/2021")
+
+    def test_trafficagghour(self):
+        self.assertApiOK("/trafficaggbyhour/2025-05-05/2025-05-10")
+
+    def test_trafficvolume(self):
+        self.assertApiOK("/trafficvolume/2025-05-09/12:00:00/2025-05-09/14:00:00")
+
+    def test_victim(self):
+        self.assertApiOK("/victim/vic/person")
+
+    def test_offender(self):
+        self.assertApiOK("/offender/male/-1/person")
+
+    def test_musictoptrack(self):
+        self.assertApiOK("/musictoptrack/2025-05-07/12:00:00/2025-05-09/14:00:00")
 
     def test_mastodonkeywordsentiment(self):
         self.assertApiOK("/mastondonkeywordsentiment/2023-01-01/2023-01-03/crime")
 
-    def test_mastodonhotword(self):
-        self.assertApiOK("/mastodonhotword/2025-05-09/00:00:00/2025-05-10/14:00:00")
 
-    # def test_keywordmastodon(self):
-    #     self.assertApiOK("/keywordmastodon/2023-01-01/2023-01-02")
-    #
-    # def test_housetransfer(self):
-    #     self.assertApiOK("/housetransfer/2024/06/2024/09")
+    def test_keywordmastodon(self):
+        self.assertApiOK("/keywordmastodon/2023-01-01/2023-01-02")
 
-    # def test_auselection(self):
-    #     self.assertApiOK("/auselectionapi/2025-5-1/2025-5-13")
+    def test_housetransfer(self):
+        self.assertApiOK("/housetransfer/2024/06/2024/09")
 
-    # def test_auinflation(self):
-    #     self.assertApiOK("/inflation/rba?start=2023-01-01&end=2024-01-01")
+    def test_auselection(self):
+        self.assertApiOK("/auselectionapi/2025-5-1/2025-5-13")
+
+    def test_auinflation(self):
+        self.assertApiOK("/inflation/rba?start=2023-01-01&end=2024-01-01")
 
 
 if __name__ == "__main__":

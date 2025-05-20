@@ -23,7 +23,7 @@ class TestFissionRoutes(unittest.TestCase):
         cls.log_dir = os.path.join("logs", cls.timestamp)
         os.makedirs(cls.log_dir, exist_ok=True)
 
-    def assertApiOK(self, path):
+    def assertHarvOK(self, path):
         try:
             response = requests.get(f"{self.BASE}{path}", timeout=30)
             status = response.status_code
@@ -54,7 +54,7 @@ class TestFissionRoutes(unittest.TestCase):
             self.fail(f"{path} raised error: {e}")
 
     def test_youtubelifeapi(self):
-        self.assertApiOK("/api/youtubeelectionharv")
+        self.assertHarvOK("/api/youtubeelectionharv")
 
 
 if __name__ == "__main__":

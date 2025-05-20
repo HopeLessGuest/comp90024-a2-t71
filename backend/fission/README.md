@@ -5,15 +5,52 @@ Due to our groups have multiple fission function and they are deployed in differ
 ### From a clean cluster(which means there are no python39 environment inside yet):
 
   Run the following commands in order:
-  1. Under fission directory, run "fission spec apply --wait" to set all packages, function of traffic and Australian election
+  1. Under fission directory, run 
+      ```
+      fission spec apply --wait
+      ```
+     to set all packages, function of traffic and Australian election
 
-  2. Run "cd youtube"
+  2. Run 
+      ```
+      cd youtube
+      ```
+  3. Run  
+      ```
+      fission spec apply --wait
+      ```
+    under this directory to set all youtube relatd service active.
+  4. Run 
+      ```
+      cd ..
+      ```
 
-  3. Run "fission spec apply --wait" under this directory to set all youtube relatd service active.
+  5. Run
+      ```
+      cd inflation 
+      ```
+  6. Run
+      ```
+      cd inflation_api
+      ```
 
-  4. run "cd .."
+  7. Run
+      ```
+      fission spec apply --wait
+      ``` 
+      under this route to get all inflation ReST API.
 
-  5. 
+  8. Run
+      ```
+      cd ..
+      ```
+
+  9. Run
+      ```
+      fission spec apply --wait
+      ```
+    under this route to get all inflation harvesters
+
 
 ### If the cluster is not clean(which means there are already python39 environment inside)
   Run the following  commands in order:
@@ -25,4 +62,28 @@ Due to our groups have multiple fission function and they are deployed in differ
 
   4. Run "cd .."
 
-  5. 
+   5. Run
+      ```
+      cd inflation 
+      ```
+  6. Run
+      ```
+      cd inflation_api
+      ```
+
+  7. Run
+      ```
+      fission spec apply --wait
+      ``` 
+    under this route to get all inflation ReST API.
+
+  8. Run
+      ```
+      cd ..
+      ```
+
+  9. Run
+      ```
+      fission spec apply --wait
+      ```
+      under this route to get all inflation harvesters

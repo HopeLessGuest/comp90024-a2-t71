@@ -4,4 +4,4 @@
 apiVersion: fission.io/v1
 kind: DeploymentConfig
 name: inflation-harvester
-uid: c9782308-8dbd-465a-a954-78e7d80efbee
+uid: 234ff35b-471b-4bb1-b69a-aac557b87851

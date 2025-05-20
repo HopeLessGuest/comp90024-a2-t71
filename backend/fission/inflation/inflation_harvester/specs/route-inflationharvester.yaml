@@ -1,0 +1,23 @@
+apiVersion: fission.io/v1
+kind: HTTPTrigger
+metadata:
+  creationTimestamp: null
+  name: inflationharvester
+spec:
+  createingress: true
+  functionref:
+    functionweights: null
+    name: inflationharvester
+    type: name
+  host: ""
+  ingressconfig:
+    annotations: null
+    host: '*'
+    path: /inflation/harvester
+    tls: ""
+  method: ""
+  methods:
+  - GET
+  - POST
+  prefix: ""
+  relativeurl: /inflation/harvester

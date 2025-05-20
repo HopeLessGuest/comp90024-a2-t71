@@ -5,6 +5,14 @@
 .secrets/
 .ES/
 
+**/__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+.venv
 .python-version
 mkx/*
 pyproject.toml

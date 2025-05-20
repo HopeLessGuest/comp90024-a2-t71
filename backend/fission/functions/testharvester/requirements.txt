@@ -5,4 +5,3 @@ beautifulsoup4==4.12.2
 praw==7.6.0
 textblob==0.15.3
 elasticsearch==8.10.0
-pytz==2023.3

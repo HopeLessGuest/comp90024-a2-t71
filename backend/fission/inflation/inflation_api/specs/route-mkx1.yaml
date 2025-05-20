@@ -1,0 +1,23 @@
+apiVersion: fission.io/v1
+kind: HTTPTrigger
+metadata:
+  creationTimestamp: null
+  name: mkx1
+spec:
+  createingress: true
+  functionref:
+    functionweights: null
+    name: mkx1
+    type: name
+  host: ""
+  ingressconfig:
+    annotations: null
+    host: '*'
+    path: /inflation/{item}
+    tls: ""
+  method: ""
+  methods:
+  - GET
+  - POST
+  prefix: ""
+  relativeurl: /inflation/{item}

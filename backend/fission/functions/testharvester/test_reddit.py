@@ -24,32 +24,27 @@ def main():
         index_name = "reddit_posts"
 
         keywords = [
-        "melbourne travel", "sydney trip", "brisbane visit", "adelaide guide", "perth recommendations", 
-        "tasmania road trip", "cairns itinerary", "darwin travel tips", "hobart travel", "gold coast activities",
-        "australia travel", "australia backpacking", "australia itinerary", "australia travel tips", "australia travel guide",
-        "things to do in melbourne", "must visit in sydney", "great ocean road tour", 
-        "blue mountains hike", "phillip island penguins", "bondi beach surfing", 
-        "best hikes australia", "weekend trips from melbourne", "day trips near sydney",
-        "where to go in australia", "underrated places australia", "hidden gems australia",
-        "best coffee melbourne", "melbourne brunch spots", "cheap eats sydney", 
-        "top restaurants brisbane", "seafood in tasmania", "farmers market australia", 
-        "food in chinatown melbourne", "best dumplings melbourne", "australian snacks to try", 
-        "food trucks in sydney", "night markets melbourne", "what to eat in australia",
-        "how to use myki", "public transport melbourne", "sydney metro vs bus", 
-        "tram not coming", "bike rental melbourne", "car rental australia",
-        "uber in brisbane", "is myki worth it", "australia driving tips", 
-        "interstate trains australia", "airport to city transport", "how bad is traffic in sydney",
-        "is melbourne worth visiting", "traveling solo in australia", 
-        "best time to visit australia", "australia travel budget", "backpacking australia", 
-        "tips for road trips", "how safe is australia", "australia travel scams", 
-        "how many days in sydney", "should I visit cairns or gold coast", "best time to visit melbourne",
-        "van life australia", "working holiday visa", "australia hostels", 
-        "wifi in australia", "australia travel sim card", "melbourne reddit meetup", 
-        "australia vs new zealand travel", "travel photography australia", 
-        "nature photography spots", "sunset point australia", "best beaches in australia"
+            "australia open", "tennis", "jannik sinner", "alexander zverev", "carlos alcaraz",
+            "taylor fritz", "daniil medvedev", "casper ruud", "novak djokovic", "alex de minaur",
+            "andrey rublev", "grigor dimitrov", "stefanos tsitsipas", "tommy paul", "holger rune",
+            "ugo humbert", "jack draper", "lorenzo musetti", "frances tiafoe", "hubert hurkacz",
+            "karen khachanov", "arthur fils", "ben shelton", "sebastian korda", "alejandro tabilo",
+            "jiri lehecka", "alexei popyrin", "tomas machac", "jordan thompson", "sebastian baez",
+            "felix auger-aliassime", "giovanni mpetshi perricard", "francisco cerundolo",
+            "flavio cobolli", "nick kyrgios", "kei nishikori", "pablo carreño busta", "reilly opelka",
+            "jenson brooksby", "dominic stricker", "stan wawrinka", "omar jasika", "james mccabe",
+            "li tu", "tristan schoolkate", "lucas pouille", "kasidit samrej", "nishesh basavareddy",
+            "aryna sabalenka", "iga swiatek", "coco gauff", "jasmine paolini", "qinwen zheng",
+            "elena rybakina", "jessica pegula", "emma navarro", "daria kasatkina", "danielle collins",
+            "paula badosa", "diana shnaider", "anna kalinskaya", "mirra andreeva",
+            "beatriz haddad maia", "jelena ostapenko", "marta kostyuk", "donna vekic", "madison keys",
+            "karolina muchova", "victoria azarenka", "katie boulter", "magdalena frech",
+            "yulia putintseva", "liudmila samsonova", "ekaterina alexandrova",
+            "anastasia pavlyuchenkova", "elina svitolina", "linda noskova", "leylah fernandez",
+            "maria sakkari", "dayana yastremska", "belinda bencic", "caty mcnally"
         ]
 
-        subreddits = ['australia', 'melbourne', 'sydney', 'brisbane', 'perth', 'adelaide', 'canberra', 'goldcoast', 'foodmelbourne',  'melbournefood', 'melbournetrains', 'melbournecycling', 'Geelong', 'Ballarat', 'Bendigo', 'Wodonga', 'unimelb', 'Monash']
+        subreddits = ['australia', 'tennis', 'sports', 'melbourne']
         results = []
         # translator = GoogleTranslator(source='auto', target='en')
 
@@ -57,7 +52,7 @@ def main():
             current_app.logger.info(f"Searching r/{sub}...")
 
             try:
-                posts = reddit.subreddit(sub).top(limit=100, time_filter='day')
+                posts = reddit.subreddit(sub).top(limit=100, time_filter='month')
             except Exception as e:
                 current_app.logger.warning(f"Failed to fetch from {sub}: {e}")
                 continue

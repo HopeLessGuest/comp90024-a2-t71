@@ -1,0 +1,11 @@
+apiVersion: fission.io/v1
+kind: HTTPTrigger
+metadata:
+  name: youtubeelectionapi-route
+spec:
+  functionref:
+    name: youtubeelectionapi
+    type: name
+  methods:
+    - GET
+  relativeurl: /api/youtubeelectionapi

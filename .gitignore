@@ -1,1 +1,6 @@
 .cache
+.idea/
+.ipynb_checkpoints/
+.kube/
+.secrets/
+.ES/

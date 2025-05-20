@@ -1,0 +1,7 @@
+[2025-05-19 18:56:04] /api/youtubeelectionharv | status: 200
+[
+  {
+    "keyword": "australia election",
+    "error": "QuotaExceeded for keyword 'australia election' on 2024-12-09"
+  }
+]

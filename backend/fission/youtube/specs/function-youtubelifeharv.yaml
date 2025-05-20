@@ -1,0 +1,26 @@
+apiVersion: fission.io/v1
+kind: Function
+metadata:
+  name: youtubelifeharv
+spec:
+  environment:
+    name: python39
+    namespace: default
+  package:
+    functionName: youtubelifeharv.main
+    packageref:
+      name: youtubelifeharv-pkg
+      namespace: default
+  InvokeStrategy:
+    StrategyType: execution
+    ExecutionStrategy:
+      ExecutorType: newdeploy
+      MinScale: 1
+      MaxScale: 2
+      Secrets:
+        - name: youtube-api-key
+          mountPath: /secrets/youtube-api-key
+  functionTimeout: 180
+  idletimeout: 180
+  concurrency: 500
+  requestsPerPod: 1

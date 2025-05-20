@@ -48,6 +48,11 @@ Due to our groups have multiple fission function and they are deployed in differ
       ```
 
   9. Run
+        ```
+        cd inflation_harvester
+        ```
+    
+  10. Run
       ```
       fission spec apply --wait
       ```
@@ -98,8 +103,12 @@ Due to our groups have multiple fission function and they are deployed in differ
       ```
       cd ..
       ```
-
   9. Run
+        ```
+        cd inflation_harvester
+        ```
+    
+  10. Run
       ```
       fission spec apply --wait
       ```

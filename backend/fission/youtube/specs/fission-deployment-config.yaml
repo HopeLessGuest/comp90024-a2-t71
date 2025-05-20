@@ -5,3 +5,4 @@ apiVersion: fission.io/v1
 kind: DeploymentConfig
 name: specs
 uid: 47872913-7390-4f14-8000-ece591f50385
+

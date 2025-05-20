@@ -7,10 +7,10 @@ spec:
     name: python39
     namespace: default
   package:
-    functionName: youtubeelectionapi.main
+    functionName: youtubelifeharv.youtubeelectionapi.main
     packageref:
       name: youtubelifeharv-pkg
-      namespace: ""
+      namespace: default
   InvokeStrategy:
     StrategyType: execution
     ExecutionStrategy:

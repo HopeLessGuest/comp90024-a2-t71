@@ -14,13 +14,14 @@ Follow the instructions in /backend/fisson/README.md to deploy our fission envir
 ## Frontend
 
 We use Jupyter Notebook as our frontend, to run it locally, you need to do port-forward first
-    ```
-    kubectl port-forward service/router -n fission 9090:80
-    ```
 
-    ```
-    kubectl port-forward service/elasticsearch-master -n elastic 9200:9200
-    ```
+```
+kubectl port-forward service/router -n fission 9090:80
+```
+
+```
+kubectl port-forward service/elasticsearch-master -n elastic 9200:9200
+```
 
 Then under /frontend directory
 run
@@ -36,13 +37,13 @@ We have several jupyter notebooks include traffic_dashboard.ipynb, Youtube_Elect
 ## Unit test
 
 Make sure you have do port forward in the terminal.
-    ```
-    kubectl port-forward service/router -n fission 9090:80
-    ```
+```
+kubectl port-forward service/router -n fission 9090:80
+```
 
-    ```
-    kubectl port-forward service/elasticsearch-master -n elastic 9200:9200
-    ```
+```ß
+kubectl port-forward service/elasticsearch-master -n elastic 9200:9200
+```
 
 Make sure you are under /test directory
 Then run

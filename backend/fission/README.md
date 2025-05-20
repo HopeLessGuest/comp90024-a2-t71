@@ -56,7 +56,7 @@ Due to our groups have multiple fission function and they are deployed in differ
       ```
       fission spec apply --wait
       ```
-     under this route to get all inflation harvesters
+      under this route to get all inflation harvesters
 
 
 ### If the cluster is not clean(which means there are already python39 environment inside)
@@ -112,4 +112,4 @@ Due to our groups have multiple fission function and they are deployed in differ
       ```
       fission spec apply --wait
       ```
-     under this route to get all inflation harvesters
+      under this route to get all inflation harvesters

@@ -1,0 +1,7 @@
+Meeting brief on 29/04/2025
+
+next meeting: 04/05/2025 1pm
+
+Several problems connecting to Elastic Search
+
+Several new data sources from ABS for housing, transportation and crimes

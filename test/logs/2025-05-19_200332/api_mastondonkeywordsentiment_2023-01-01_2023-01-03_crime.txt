@@ -1,0 +1,2 @@
+[2025-05-19 20:04:59] /mastondonkeywordsentiment/2023-01-01/2023-01-03/crime | status: 200
+{"Data":{"avg_sentiment":-0.06274103874901528,"count":48,"sum_sentiment":-3.0115698599527336},"Status":200}

@@ -53,9 +53,20 @@ class TestFissionRoutes(unittest.TestCase):
         except Exception as e:
             self.fail(f"{path} raised error: {e}")
 
-    def test_youtubelifeapi(self):
+    def test_youtubelifeharv(self):
         self.assertHarvOK("/api/youtubeelectionharv")
 
+    def test_inflationharvester(self):
+        self.assertHarvOK("/inflation/harvester")
+
+    def test_musicharvester(self):
+        self.assertHarvOK("/musicharvester")
+
+    def test_redinit(self):
+        self.assertHarvOK("/redinit")
+
+    def test_vicroadsharvester(self):
+        self.assertHarvOK("/vicroadsharvester")
 
 if __name__ == "__main__":
     unittest.main()

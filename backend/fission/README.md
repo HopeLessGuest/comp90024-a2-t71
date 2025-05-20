@@ -21,7 +21,7 @@ Due to our groups have multiple fission function and they are deployed in differ
       ```
       fission spec apply --wait
       ```
-    under this directory to set all youtube relatd service active.
+     under this directory to set all youtube relatd service active.
   4. Run 
       ```
       cd ..
@@ -40,7 +40,7 @@ Due to our groups have multiple fission function and they are deployed in differ
       ```
       fission spec apply --wait
       ``` 
-      under this route to get all inflation ReST API.
+     under this route to get all inflation ReST API.
 
   8. Run
       ```
@@ -51,7 +51,7 @@ Due to our groups have multiple fission function and they are deployed in differ
       ```
       fission spec apply --wait
       ```
-    under this route to get all inflation harvesters
+     under this route to get all inflation harvesters
 
 
 ### If the cluster is not clean(which means there are already python39 environment inside)
@@ -61,7 +61,7 @@ Due to our groups have multiple fission function and they are deployed in differ
     fission spec apply --wait --force
     ```
   
-    to set all environment, packages, function of traffic and Australian election(Cuz now there is already an python39 environment exist, but in our deployment file, we have the env deploment)
+     to set all environment, packages, function of traffic and Australian election(Cuz now there is already an python39 environment exist, but in our deployment file, we have the env deploment)
 
   2. Run 
     ```
@@ -72,7 +72,7 @@ Due to our groups have multiple fission function and they are deployed in differ
     ```
     fission spec apply --wait
     ```
-    under this directory to set all youtube related service active.
+     under this directory to set all youtube related service active.
 
   4. Run 
     ```
@@ -92,7 +92,7 @@ Due to our groups have multiple fission function and they are deployed in differ
       ```
       fission spec apply --wait
       ``` 
-    under this route to get all inflation ReST API.
+     under this route to get all inflation ReST API.
 
   8. Run
       ```
@@ -103,4 +103,4 @@ Due to our groups have multiple fission function and they are deployed in differ
       ```
       fission spec apply --wait
       ```
-      under this route to get all inflation harvesters
+     under this route to get all inflation harvesters

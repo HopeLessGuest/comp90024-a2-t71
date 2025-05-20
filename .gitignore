@@ -4,3 +4,8 @@
 .kube/
 .secrets/
 .ES/
+
+.python-version
+mkx/*
+pyproject.toml
+uv.lock
